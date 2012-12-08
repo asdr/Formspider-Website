@@ -261,11 +261,16 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .references #content ul li:nth-child(2),.references #content ul li:nth-child(4),.references #content ul li:nth-child(6),.references #content ul li:nth-child(8) { margin-right: 0; }
 .references #content ul li a { display: block; -webkit-transition: opacity .3s; }
 .references #content ul li a:hover { opacity: .4; }
-.references #content ul li img { background: #fff; padding: 9px; border-bottom: 1px solid #f2f2f2; }
+.references #content ul li img { background: #fff; padding: 15px 30px; border-bottom: 1px solid #f2f2f2; box-sizing:border-box;}
 .references #content ul img {}
 .references #content ul h3 { font-size: 21px; font-weight: 600; padding: 10px 0 10px 0; }
 .references #content ul p { font-size: 16px; line-height: 21px; }
 .references #content ul li .readmore { position: absolute; top: 182px; left: 362px; padding: 10px; background: #fff; color: #666; opacity: .7; -webkit-box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, .1); -moz-box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, .1); box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, .1); }
+.references #content #nystate {padding: 0;}
+.references #content #agtransport{padding: 0;}
+.references #content #usairforce{padding: 25px 90px;}
+.references #content #ing{padding: 35px 120px;}
+.references #content #ethiopia{padding: 0;}
 
 /* PRICING page ------------------------------- */
 #columns { margin-top: 30px; }

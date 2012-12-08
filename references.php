@@ -26,13 +26,13 @@
 		
 		<ul>
 			<li>
-				<img src="images/references/ingemeklilik.jpg" width="440" height="200" alt="ING Emeklilik">
-				<h3>ING</h3>
+				<img id="ing" src="images/references/ing.jpg" width="440" height="200" alt="ING Emeklilik">
+				<h3>ING Emeklilik</h3>
 				<p>ING Emeklilik, the ING company in Turkey that operates in the insurance & personal retirement sector plans the weekly schedules of their agents with an application built with Formspider.</p>
 				<a class="readmore" href="#">Read more</a>
 			</li>
 			<li>
-				<img src="images/references/agtransport.jpg" width="440" height="200" alt="AG Transport">
+				<img id="agtransport" src="images/references/agtransport.jpg" width="440" height="200" alt="AG Transport">
 				<h3>AG TRANSPORT</h3>
 				<p>AG TRANSPORT, one of the largest transport and logistics companies in Czech Republic chose Formspider to rebuild their entire software system.</p>
 				<a class="readmore" href="#">Read more</a>
@@ -44,19 +44,19 @@
 				<a class="readmore" href="#">Read more</a>
 			</li>
 			<li>
-				<img src="images/references/newyorkstate.jpg" width="440" height="200" alt="New York State">
+				<img id="nystate" src="images/references/newyorkstate.jpg" width="440" height="200" alt="New York State">
 				<h3>New York State</h3>
 				<p>NY State manages a billion dollar budget with a Formspider application to serve over 110,000 New Yorkers with more than 1550 treatment, prevention and recovery programs for alcohol and drug abuse. </p>
 				<a class="readmore" href="#">Read more</a>
 			</li>
 			<li>
-				<img src="images/references/airforce.jpg" width="440" height="200" alt="Airforce">
+				<img id="usairforce" src="images/references/US_Air_Force_logo2.jpg" width="440" height="200" alt="Airforce">
 				<h3>US Air Force</h3>
 				<p>The active duty and reserve recruiting systems of US Air Force is based on the Formspider technology.</p>
 				<a class="readmore" href="#">Read more</a>
 			</li>
 			<li>
-				<img src="images/references/ethiopia.jpg" width="440" height="200" alt="Ethiopia">
+				<img id="ethiopia" src="images/references/ethiopia3.jpg" width="440" height="200" alt="Ethiopia">
 				<h3>Ethiopia</h3>
 				<p>Ethiopia, one of the fastest growing countries in Africa uses Formspider to build the next version of the budgeting, accounting and financing application which is used at every governmental institution in the country.</p>
 			</li>
