@@ -22,7 +22,7 @@
 	
 	<div id="content">
 		
-		<h2>Demos and examples</h2>
+		<h2>Demos and Examples</h2>
 		<div id="cta-right">Try now for free &rarr; <a href="download.php" id="cloud" class="button silver small">Cloud</a><a href="download.php" id="desktop" class="button silver small">Desktop</a></div>
 			
 		<ul>

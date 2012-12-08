@@ -20,16 +20,25 @@
 	
 	<div id="content" class="clearfix">
 	
-			<h2>The Price of Licence</h2>
-			<p>Depending on the Oracle Database Edition of your Formspider Production Installation:</p>
+			<h2>Free Formspider Development License</h2>
 			
-			<div id="columns">
-				<div class="column">
+			<p>The Free Formspider Development License comes with unlimited developer seats and unlimited number of installations for development and testing. You can build as many applications as you like using the framework.</p>
+			
+			<!--div class="column">
 					<h4>Any <span>Edition</span></h4>
 					<h3>Free <span>for</span> Testing</h3>
 					<p>Unlimited users, development and testing installations <strong>BUT</strong> you’re unable to deploy to production.</p>
 					<div class="cta"><a href="download.php" class="button black">Cloud</a><a href="download.php" class="button black">Desktop</a></div>
-				</div>
+				</div-->
+			<br/><br/>
+			<h2>Formspider Production License</h2>
+			
+			<p>With Formspider, you only pay when your Formspider application is deployed to production.</p>
+			
+			<p>Formspider offers three categories of pricing depending on the Oracle Database you choose to install Formspider in your production environment.</p>
+			
+			<div id="columns">
+				
 				<div id="paid-plans">
 					<div class="column one">
 						<h4>Standard <span>Edition One</span></h4>
@@ -44,9 +53,8 @@
 						<h3><span>$</span>9995</h3>
 					</div>
 					
-					<p>Unlimited users, developer seats, development and testing installations, you’re able to deploy to production and much more.
-					<span>Price above is paid once, every next year you pay only 30% of licence cost for maintenance.</span></p>
-					<div class="cta"><a href="#" data-reveal-id="contact-modal" data-animation="fade" class="button black full-width">Contact us</a></div>
+					<p><br/> First year of maintenance is included in the price. After the first year, one year of maintenance costs 30% of license price.</p>
+					<div class="cta"><a href="#" data-reveal-id="contact-modal" data-animation="fade" class="button orange full-width">Contact us</a></div>
 				</div>
 			</div><!-- /columns -->
 

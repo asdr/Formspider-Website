@@ -276,7 +276,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .column h3 { background: #e39452; color: #fff; font-size: 31px; font-weight: 600; line-height: 27px; text-transform: uppercase; letter-spacing: -1px;  text-shadow: 0 1px 3px #ba783f; }
 .column h3 span { text-transform: lowercase; font-weight: 400; }
 .pricing #columns p { background: #f0f0f0; font-size: 16px; line-height: 21px; }
-.pricing #columns .cta { background: #9b9b9b; -webkit-border-bottom-right-radius: 3px; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-bottomright: 3px; -moz-border-radius-bottomleft: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; }
+.pricing #columns .cta { background: #ddd; -webkit-border-bottom-right-radius: 3px; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-bottomright: 3px; -moz-border-radius-bottomleft: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; }
 
 #paid-plans { float: left; width: 700px; background: #4DB1E5; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
 #paid-plans .column { margin-right: 20px; width: 220px;}
@@ -289,7 +289,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 #paid-plans .column h4 span { color: #95dbff; }
 #paid-plans .column h3 { height: 54px; background: #2f91c4; font-size: 54px; text-align: center; line-height: 56px; font-weight: 700; text-shadow: 0 1px 3px #006397;  }
 #paid-plans p, #paid-plans .cta { float: left; width: 640px; padding: 20px 30px 20px 30px; }
-#paid-plans p { height: 105px; }
+#paid-plans p { height: 90px; }
 #paid-plans .cta { text-align: center; }
 #paid-plans p span { display: block; padding-top: 8px; font-size: 18px; font-weight: 600; }
 
