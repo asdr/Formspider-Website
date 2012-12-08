@@ -37,8 +37,8 @@
 		<div id="benefits" class="clearfix">
 		<ul class="clearfix">
 			<li>
-				<img src="images/index/benefit1.jpg" width="114" height="99" alt="Increased Productivity" />
-				<h4>Increased Productivity</h4>
+				<img src="images/index/benefit1.jpg" width="114" height="99" alt="Higher Productivity" />
+				<h4>Higher Productivity</h4>
 				<p>Leverage your PL/SQL skills to build modern Web applications. Formspider’s only programming language is PL/SQL. There is no need to know or learn any other language. Carry all your experience to Web development instantly.</p>
 			</li>
 			<li>
