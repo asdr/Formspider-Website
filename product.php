@@ -40,7 +40,7 @@
 			
 			<div class="row image-design">
 				<div class="image">
-					<img src="images/product/design.jpg" width="514" height="299" alt="Code">
+					<img src="images/product/great design.jpg" width="450" height="300" alt="Code">
 				</div>
 				<div class="text">
 					<h3>Rich By Design</h3>
@@ -90,7 +90,7 @@
 				<div class="text">
 					<h3>Powerful UI Components and API’s</h3>
 					<h4>Drop dead gorgeous and incredibly functional.</h4>
-					<p>Delight your users with declarative UI components such as tabs, accordions, calendars and trees. Empower them with powerful data grid features such as flexible columns, built-in sorting, search and reporting. Upload or produce Excel sheets from data grids with a single Formspider API call. Declaratively create data driven, visually stunning charts. All Formspider charts are drawn with Javascript so that your users are able to view them on their mobile devices too.</p>
+					<p>Delight your users with declarative UI components such as tabs, accordions, calendars and trees. Empower them with powerful data grid features such as flexible columns, built-in sorting and search. Produce Excel sheets from data grids with a single Formspider API call. Declaratively create data driven, visually stunning HTML5 charts.</p>
 				</div>
 			</div><!-- /row -->
 			
@@ -101,7 +101,7 @@
 					<p>Formspider’s event driven architecture is easy to learn, fun to master. Formspider eliminates the drudgery of the Web but embraces all its beauty. Once you start using it, you will never want to build with anything else.</p>
 				</div>
 				<div class="image">
-					<img src="images/product/intuitive.jpg" width="244" height="160" alt="Intuitive">
+					<img src="images/product/Easy to use.jpg" width="173" height="200" alt="Intuitive">
 				</div>
 			</div><!-- /row -->
 			
@@ -129,7 +129,7 @@
 			
 			<div class="row image-integrated">
 				<div class="image">
-					<img src="images/product/integrated.jpg" width="151" height="159" alt="Integrated">
+					<img src="images/product/Integrated2.jpg" width="254" height="180" alt="Integrated">
 				</div>
 				<div class="text">
 					<h3>Integrated</h3>
