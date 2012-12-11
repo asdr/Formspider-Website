@@ -28,7 +28,6 @@ $(document).ready(function() {
 				return false;
 		});
 
-
 	jQuery(document).ready(function ($) {
 			
 		$('.dropdown.hidden ul').hide();
@@ -55,7 +54,7 @@ $(document).ready(function() {
 				// $('.about-us #list-of-people li div').not($(this.parent().find("div"))).hide();
 				e.preventDefault();
 		});
-		
+	
 		$('.about-us #list-of-people li a div a').click(function() {
 				return false;
 		});
