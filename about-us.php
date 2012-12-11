@@ -43,7 +43,7 @@
 				<h4>Business Development Mgr.</h3></a>
 				<div>Daniel is our new Business Development Manager. After our first meeting, I knew he was the right person for the job. There are very few people who know the Enterprise IT world like he does and we feel very fortunate to have him as part of the team.</div>
 			</li>
-			<li>
+			<li id="sametbasaran">
 				<a><img src="images/about/samet.png" width="70" height="70" alt="Samet Başaran">
 				<h3>Samet Başaran</h3>
 				<h4>Software Engineer, DB</h3></a>
