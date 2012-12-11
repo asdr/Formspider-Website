@@ -66,7 +66,7 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 .index #screenshot { position: absolute; /*right: 0; top: 20px; width: 500px;*/ right: -121px; top: 65px; width: 740px; height: 327px; z-index: 150; background: url('images/screenshot_1.png'); }
 
 /* call to action */
-.index #cta { position: relative; width: 522px; padding: 6px 0px 6px 23px; background: rgba(255, 255, 255, .6); color: #999; font-size: 23px; font-weight: 600; text-transform: uppercase; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; line-height: 30px; color: #2782B2; /*box-shadow: 0 1px 3px 0 #f0f0f0; -webkit-box-shadow: 0 1px 3px 0 #f0f0f0; -moz-box-shadow: 0 1px 3px 0 #f0f0f0;*/ }
+.index #cta { position: relative; width: 528px; padding: 6px 0px 6px 23px; background: rgba(255, 255, 255, .6); color: #999; font-size: 23px; font-weight: 600; text-transform: uppercase; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; line-height: 30px; color: #2782B2; /*box-shadow: 0 1px 3px 0 #f0f0f0; -webkit-box-shadow: 0 1px 3px 0 #f0f0f0; -moz-box-shadow: 0 1px 3px 0 #f0f0f0;*/ }
 /*
 .index #cta #cloud, .index #cta #desktop { position: absolute; color: #fff; font-weight: 700; text-shadow: 0 1px 3px rgba(0,0,0,.4); -webkit-transition: opacity .3s; } 
 .index #cta #cloud:hover, .index #cta #desktop:hover { opacity: .7; } z

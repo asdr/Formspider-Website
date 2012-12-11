@@ -39,7 +39,7 @@
 <?php 
 if ($page == "blog") {
 } else {
-	include '/contactmodal.php';
+	include 'contactmodal.php';
 }
 ?>
 
