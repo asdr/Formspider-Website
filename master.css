@@ -43,8 +43,8 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 
 	/* Nav responsiveness */
 	@media only screen and (max-width: 1320px) { #nav li a { padding: 42px 16px; font-size: 15px; } }
-	@media only screen and (max-width: 1130px) { #nav { width: 790px; } #nav li a { padding: 43px 12px; font-size: 14px; } }
-	@media only screen and (max-width: 1045px) { #nav { width: 720px; } #nav li a { padding: 43px 12px; font-size: 13px; } }
+	@media only screen and (max-width: 1130px) { #nav { width: 790px; margin-right: -3% !important; } #nav li a { padding: 43px 12px; font-size: 14px; } }
+	@media only screen and (max-width: 1045px) { #nav { width: 720px; margin-right: -2% !important; } #nav li a { padding: 43px 12px; font-size: 13px; } }
 	@media only screen and (max-width: 945px) { #nav { float: none !important; width: 910px; } }
 
 #nav { float: right; opacity: .99; margin-right: 4%; font-size: 16px; font-weight: 400; text-transform: uppercase; }
@@ -58,6 +58,9 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 
 #content { padding-top: 45px; position: relative; z-index: 999; }
 
+/* INDEX page ------------------------------- */
+
+.index { overflow-x: hidden; overflow-y: auto; }
 .index #top { position: relative; }
 .index #top h2 { padding-bottom: 20px; font-size: 46px; font-weight: 700; line-height: 44px; letter-spacing: -1px; /*color: #525252;*/ color: #fff; }
 /*.index #top h2 span { font-weight: 500; color: #ccc; }*/
@@ -254,6 +257,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 
 /*.demos iframe#demowindow { width: 100%; height: 100%; position: absolute; z-index: 99999; }
 */
+
 /* REFERENCES page ------------------------------- */
 .references {}
 .references h2 { padding-bottom: 5px; }
