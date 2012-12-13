@@ -119,6 +119,7 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 	#screenshots-fade a.button { width: 306px; margin: 136px auto 0 auto; }
 
 /* PRODUCT page ------------------------------- */
+.product { overflow-x: hidden; overflow-y: auto; }
 .product #content { padding-top: 60px; }
 
 .product #content #top { margin-bottom: 90px; }
