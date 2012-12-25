@@ -34,13 +34,13 @@
 					<p>In Formspider, PL/SQL is the only scripting language. You don’t need to know any other programming languages such as Java or JavaScript. Turn every Web developer green with applications you build just with PL/SQL.</p>
 				</div>
 				<div class="image">
-					<img src="images/product/plsql.jpg" width="537" height="324" alt="Plsql">
+					<img src="images/product/plsql.jpg" width="537" height="324" alt="Pl SQL">
 				</div>
 			</div><!-- /row -->
 			
 			<div class="row image-design">
 				<div class="image">
-					<img src="images/product/great design.jpg" width="450" height="300" alt="Code">
+					<img src="images/product/great-design.png" width="450" height="300" alt="Great Design">
 				</div>
 				<div class="text">
 					<h3>Rich By Design</h3>
@@ -62,7 +62,7 @@
 			
 			<div class="row image-crossbrowser">
 				<div class="image">
-					<img src="images/product/crossbrowser.jpg" width="277" height="268" alt="Crossbrowser">
+					<img src="images/product/crossbrowser.jpg" width="277" height="268" alt="Cross-browser support">
 				</div>
 				<div class="text">
 					<h3>True Cross Browser Compatibility</h3>
@@ -85,7 +85,7 @@
 			
 			<div class="row image-components">
 				<div class="image">
-					<img src="images/product/api.jpg" width="437" height="271" alt="Api">
+					<img src="images/product/api.jpg" width="437" height="271" alt="API">
 				</div>
 				<div class="text">
 					<h3>Powerful UI Components and API’s</h3>
@@ -101,7 +101,7 @@
 					<p>Formspider’s event driven architecture is easy to learn, fun to master. Formspider eliminates the drudgery of the Web but embraces all its beauty. Once you start using it, you will never want to build with anything else.</p>
 				</div>
 				<div class="image">
-					<img src="images/product/Easy to use.jpg" width="173" height="200" alt="Intuitive">
+					<img src="images/product/Easy-to-use.png" width="173" height="173" alt="Intuitive">
 				</div>
 			</div><!-- /row -->
 			
