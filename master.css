@@ -62,7 +62,7 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 
 /* INDEX page ------------------------------- */
 
-@media only screen and (min-width: 960px) { .index { overflow-x: hidden; overflow-y: auto; } }
+@media only screen and (min-width: 960px) { body.index,body.product,body.demos { overflow-x: hidden; overflow-y: auto; } }
 .index #top { position: relative; }
 .index #top h2 { padding-bottom: 20px; font-size: 46px; font-weight: 700; line-height: 44px; letter-spacing: -1px; /*color: #525252;*/ color: #fff; }
 /*.index #top h2 span { font-weight: 500; color: #ccc; }*/
@@ -124,7 +124,6 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 	#screenshots-fade a.button { width: 306px; margin: 136px auto 0 auto; }
 
 /* PRODUCT page ------------------------------- */
-@media only screen and (min-width: 960px) { .product { overflow-x: hidden; overflow-y: auto; } }
 .product #content { padding-top: 60px; }
 
 .product #content #top { margin-bottom: 90px; }
@@ -248,8 +247,9 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 #cta-right #cloud { margin-left: 20px; }
 .demos #content h2 { }
 .demos #content ul { padding-top: 35px; }
-.demos #content ul li {}
-.demos #content ul li a { margin: 0 20px 20px 0; width: 220px; float: left;  min-height: 225px;  display: block; background: #fafafa; -webkit-box-shadow: 0 1px 3px 0px #d4d4d4; -moz-box-shadow: 0 1px 3px 0px #d4d4d4; box-shadow: 0 1px 3px 0px #d4d4d4; }
+.demos #content ul li { margin: 0 26px 26px 0; width: 220px; float: left;  min-height: 225px;  display: block; background: #fafafa; -webkit-box-shadow: 0 1px 3px 0px #d4d4d4; -moz-box-shadow: 0 1px 3px 0px #d4d4d4; box-shadow: 0 1px 3px 0px #d4d4d4; }
+.demos #content ul li a { display: block; }
+.demos #content ul li.last-in-row { margin-right: 0; }
 .demos #content ul li a:hover { /*background: #fafafa; -webkit-box-shadow: 0 1px 3px 0px #d4d4d4; -moz-box-shadow: 0 1px 3px 0px #d4d4d4; box-shadow: 0 1px 3px 0px #d4d4d4; transform: scale(1.1, 1.1); -moz-transform: scale(1.1, 1.1); -ms-transform: scale(1.1, 1.1); -webkit-transform: scale(1.1, 1.1); -o-transform: scale(1.1, 1.1); */}
 .demos #content ul li img { background: #fff; padding: 9px; border-bottom: 1px solid #f2f2f2; }
 .demos #content ul li h4 { padding: 15px 20px 5px 20px; color: #595959; font-size: 18px; font-weight: 600; }
@@ -272,7 +272,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .references #content ul img {}
 .references #content ul h3 { font-size: 21px; font-weight: 600; padding: 10px 0 10px 0; }
 .references #content ul p { font-size: 16px; line-height: 21px; }
-.references #content ul li .readmore { position: absolute; top: 182px; left: 362px; padding: 10px; background: #fff; color: #666; opacity: .7; -webkit-box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, .1); -moz-box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, .1); box-shadow: -2px -2px 2px 0 rgba(0, 0, 0, .1); }
+.references #content ul li .readmore { display: inline;  color: #666; opacity: .7; }
 .references #content #nystate {padding: 0;}
 .references #content #agtransport{padding: 0;}
 .references #content #usairforce{padding: 25px 90px;}
@@ -308,36 +308,40 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 #columns:after, .column:after, #paid-plans:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
 /* LEARN & BLOG page ------------------------------- */
-.blog #posts { float: left; width: 680px; margin-top: 45px;  }
+.blog #posts, .blog #post { float: left; width: 680px; margin-top: 45px;  }
 .blog article { padding: 10px 0; margin-bottom: 5px; color: #959595; }
-.blog article h2, .blog article h3, .blog article h4 { font-family: "proxima-nova", sans-serif; }
 .blog article p, .blog ol, .blog article ul { font-family: "adelle", serif; }
-.blog #posts h2, .blog #posts .entry-title { color: #555; border-bottom: 3px solid #F1F1F1; padding-bottom: 22px; margin-bottom: 19px; }
-.blog .entry-title { margin-top: 10px; }
-.blog h3 { padding-bottom: 10px; color: #666; font-size: 27px; font-weight: 700; line-height: 29px; }
-.blog h4 { color: #555; font-size: 16px; }
-.blog article h2 a { color: #555; }
+.blog .entry-title { margin-top: 10px; padding-top: 0; }
 .blog p { padding: 10px 0; font-size: 17px; line-height: 23px; }
-.blog article ol, .blog article ul { line-height: 21px; }
-.blog article a { color: #666; }
+.blog article ol, .blog article ul { line-height: 21px; list-style-type: circle; list-style-position: inside; }
+.blog article ol { list-style-type: decimal; }
+.blog article #post .entry-content a { color: #666; text-decoration: underline; }
 .blog article img { max-width: 640px; height: auto; border: 10px solid #fff; -webkit-box-shadow: 0 1px 3px 0 #ddd; -moz-box-shadow: 0 1px 3px 0 #ddd; box-shadow: 0 1px 3px 0 #ddd; text-align: left !important; }
 .blog article img.wp-smiley { border: 0; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
 .blog .dd_button { width: 86px !important; }
 .blog .dd_post_share { margin-bottom: 4px !important; }
 
-.blog article .entry h2 { font-size: 21px; font-weight: 600; color: #959595; line-height: 22px; letter-spacing: 0; }
-.blog article .entry h3 { font-size: 18px; font-weight: 600; color: #959595; line-height: 22px; text-transform: uppercase; letter-spacing: 0px; }
-.blog article .entry h5 { font-size: 16px; font-weight: 600; color: #959595; line-height: 22px; letter-spacing: 0; }
+.blog article h2, .blog article h3, .blog article h4, .blog article h5 { font-family: "proxima-nova", sans-serif; }
+.blog article h3, .blog article h4, .blog article h5 { padding-top: 15px; }
+
+/* Blog headlines */
+.blog #posts h2, .blog #post .entry-title { color: #555; border-bottom: 3px solid #f1f1f1; padding-bottom: 22px; margin-bottom: 19px; }
+.blog #post .entry-content h2 { font-size: 21px; font-weight: 600; color: #959595; line-height: 22px; letter-spacing: 0; }
+.blog #post .entry-content h3 { color: #434343; }
+.blog #post .entry-content h3, .blog #posts article h3 { padding-bottom: 10px; font-size: 30px; font-weight: 600; line-height: 30px; letter-spacing: 0px; }
+.blog #posts article h3 a { color: #555; }
+.blog #post .entry-content h4 { font-size: 21px; line-height: 21px; }
+.blog #post .entry-content h5 { font-size: 16px; font-weight: 600; color: #959595; line-height: 22px; letter-spacing: 0; }
+
 .blog article .first-img { margin: 20px 0; }
 .blog article table, .blog article th, .blog article td { border: 1px solid #f1f1f1; }
 .blog article th { font-weight: 500; color: #444; }
 .blog article td { padding: 10px; }
 .blog footer.meta {}
 
-.blog #posts .post .vignette { float: left; width: 201px; height: 155px; -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,.1); box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,.1); -moz-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,.1); }
-.blog #posts .post .vignette img { z-index: -1; position: relative; }
-.blog #posts .post .text { float: right; width: 470px; }
-.blog #posts .post h3 { padding-bottom: 9px; color: #434343; font-size: 30px; font-weight: 600; line-height: 30px; }
+.blog .post .vignette { float: left; width: 201px; height: 155px; -webkit-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,.1); box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,.1); -moz-box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,.1); }
+.blog .post .vignette img { z-index: -1; position: relative; }
+.blog .post .text { float: right; width: 470px; }
 
 .blog .more-link  { display: block; background: #f0f0f0; padding: 10px 14px; margin: 20px 10px 10px 0; color: #6C6C6C; border: 1px solid #ddd; /*-webkit-box-shadow: inset 0 0 10px 0 #676666, 0 1px 5px 0 rgba(0, 0, 0, .2); -moz-box-shadow: inset 0 0 10px 0 #676666, 0 1px 5px 0 rgba(0,0,0,.2);
 box-shadow: inset 0 0 10px 0 #676666, 0 1px 5px 0 rgba(0, 0, 0, .2);*/ text-shadow: 0 1px 2px #fff; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
@@ -499,7 +503,7 @@ textarea { width: 440px; }
 #cta #desktop span { height: 36px; width: 25px; background-position: -6px -50px; position: absolute; top: 9px; left: 18px;}
 #cta .button.silver { margin-bottom: 10px; }
 #cta h2 {}
-#cta div { padding: 10px 0; color: #ccc; text-transform: uppercase; font-size: 18px; }
+#cta div { padding: 10px 0; color: rgba(0, 0, 0, .2); text-transform: uppercase; font-size: 18px; }
 
 .product #bg_clouds, .demos #bg_clouds, .compare #bg_clouds  { -webkit-box-shadow: inset 0 0 190px 150px #f8f8f8; -moz-box-shadow: inset 0 0 190px 150px #f8f8f8; box-shadow: inset 0 0 190px 150px #f8f8f8; top: 3920px; z-index: 9; }
 .demos #bg_clouds { top: 1200px; }

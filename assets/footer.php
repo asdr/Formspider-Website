@@ -8,11 +8,11 @@
 		<ul>
 			<li><a href="references.php">References</a></li>
 			<li><a href="pricing.php">Pricing</a></li>
-			<li><a href="blog.php">Blog</a></li>
+			<li><a href="http://theformspider.com/blog">Blog</a></li>
 		</ul>
 		<ul>
-			<li><a href="learn.php">Learning Center</a></li>
-			<li><a href="qa.php">Questions &amp; Answers</a></li>
+			<li><a href="http://theformspider.com/learningcenter">Learning Center</a></li>
+			<li><a href="http://osqa.theformspider.com/">Questions &amp; Answers</a></li>
 			<li><a href="about.php">About us</a></li>
 		</ul>
 			
@@ -38,7 +38,8 @@
 
 <?php 
 if ($page == "blog") {
-} else {
+} elseif ($page == "learningcenter") {
+} else {	
 	include 'contactmodal.php';
 }
 ?>

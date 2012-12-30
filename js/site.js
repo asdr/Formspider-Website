@@ -22,11 +22,6 @@ $(document).ready(function() {
 		// 	'background-position-y': '0'
 		// }, 40000, 'linear');
 			
-		$('.demos iframe#demowindow').hide();
-		$('.demos #content ul li a').click(function() {
-				$('.demos iframe#demowindow').show();
-				return false;
-		});
 
 	jQuery(document).ready(function ($) {
 			

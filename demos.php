@@ -41,7 +41,7 @@
 				<h4>Master Detail Form</h4>
 				<p>A classical form type, master-detail.</p>
 			</a></li>
-			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoMasterDetailGrids">
+			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoMasterDetailGrids">
 				<img src="images/demos/demo_masterdetailgrid.jpg" width="202" height="90" alt="1">
 				<h4>Master Detail Grids</h4>
 				<p>A master-detail form build with two grids.</p>
@@ -61,7 +61,7 @@
 				<h4>Calendar</h4>
 				<p>Formspider calendar sample.</p>
 			</a></li>
-			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoPanel">
+			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoPanel">
 				<img src="images/demos/demo_panels.jpg" width="202" height="90" alt="1">
 				<h4>Panels</h4>
 				<p>Formspider panel types. Simple, tab, accordion, split panel samples.</p>
@@ -81,7 +81,7 @@
 				<h4>Paging Components</h4>
 				<p>Formspider paging components sample.</p>
 			</a></li>
-			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoExternalMethod">
+			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoExternalMethod">
 				<img src="images/demos/demo_externalmethod.jpg" width="202" height="90" alt="1">
 				<h4>External Method</h4>
 				<p>Implementing "Remember Me" functionality through Formspider External Method.</p>
@@ -101,7 +101,7 @@
 				<h4>Table Layout</h4>
 				<p>An example of a panel managed by Table Layout.</p>
 			</a></li>
-			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoTableLayoutForm">
+			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoTableLayoutForm">
 				<img src="http://placehold.it/202x90" width="202" height="90" alt="1">
 				<h4>Table Layout Form</h4>
 				<p>A form with table layout and validation sample.</p>
