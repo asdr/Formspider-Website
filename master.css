@@ -382,6 +382,10 @@ box-shadow: inset 0 0 10px 0 #676666, 0 1px 5px 0 rgba(0, 0, 0, .2);*/ text-shad
 .blog #sidebar #searchform input { width: 120px; float: left; }
 .blog #sidebar #searchform #searchsubmit { float: right; width: 50px; height: 38px; padding: 9px 0; background: #f8f8f8; font-size: 15px; font-weight: 600; border-radius: 3px; }
 
+
+#sidebar .popular-tags { margin-bottom: 15px; }
+#sidebar .popular-tags ul a { color: #959595; }
+
 .blog #footer { width: 960px; float: left; }
 .blog #container:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
