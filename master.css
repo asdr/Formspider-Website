@@ -320,15 +320,18 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .blog article img.wp-smiley { border: 0; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
 .blog .dd_button { width: 86px !important; }
 .blog .dd_post_share { margin-bottom: 4px !important; }
+.blog .comments-link { color: #959595; }
 
 /* Learning Center */
 .learningcenter .featured-image { float: left; margin: 17px 40px 25px 0; }
+.learningcenter article.even .featured-image { float: right; margin: 17px 0 5px 40px; }
 .learningcenter #posts .first-img { width: 201px; height: 155px; max-width: 201px !important; margin-top: 0; }
 .learningcenter #container #posts article h3 { width: 419px; float: right; font-size: 22px; line-height: 24px; }
-.learningcenter #container .more-link { width: 640px; float: left; margin: 0 !important; line-height: 24px; }
-.learningcenter article p { width: 419px; float: right; margin-bottom: 20px; }
+.learningcenter #container .more-link { width: 646px; float: left; margin: 0 !important; line-height: 24px; }
+.learningcenter #posts article p { width: 419px; float: right; margin-bottom: 20px; }
+
 /* Blog headlines */
-.blog article h2, .blog article h3, .blog article h4, .blog article h5 { font-family: "proxima-nova", sans-serif; }
+.blog article h2, .blog article h3, .blog article h4, .blog article h5, .blog .entry-title { font-family: "proxima-nova", sans-serif; }
 .blog article h3, .blog article h4, .blog article h5 { padding-top: 15px; }
 
 .blog #posts h2, .blog #post .entry-title { color: #555; border-bottom: 3px solid #f1f1f1; padding-bottom: 22px; margin-bottom: 19px; }

@@ -85,6 +85,13 @@ $(document).ready(function() {
 	            $(this).val(default_value);
 	        }
 	    });
+
+	
+		$('.learningcenter #posts').children('article').each(function(index)
+		{
+		    $(this).addClass(index % 2 ? 'even' : 'odd');
+		});
+	
 	
 	// function getDocHeight() {
 	// 	    var D = document;
