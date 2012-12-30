@@ -310,7 +310,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 /* LEARN & BLOG page ------------------------------- */
 .blog #posts, .blog #post { float: left; width: 680px; margin-top: 45px;  }
 .blog article { padding: 10px 0; margin-bottom: 5px; color: #959595; }
-.blog article p, .blog ol, .blog article ul { font-family: "adelle", serif; }
+.blog article, .blog article p, .blog ol, .blog article ul { font-family: Arial, sans-serif; }
 .blog .entry-title { margin-top: 10px; padding-top: 0; }
 .blog p { padding: 10px 0; font-size: 17px; line-height: 23px; }
 .blog article ol, .blog article ul { line-height: 21px; list-style-type: circle; list-style-position: inside; }
@@ -321,10 +321,16 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .blog .dd_button { width: 86px !important; }
 .blog .dd_post_share { margin-bottom: 4px !important; }
 
+/* Learning Center */
+.learningcenter .featured-image { float: left; margin: 17px 40px 25px 0; }
+.learningcenter #posts .first-img { width: 201px; height: 155px; max-width: 201px !important; margin-top: 0; }
+.learningcenter #container #posts article h3 { width: 419px; float: right; font-size: 22px; line-height: 24px; }
+.learningcenter #container .more-link { width: 640px; float: left; margin: 0 !important; line-height: 24px; }
+.learningcenter article p { width: 419px; float: right; margin-bottom: 20px; }
+/* Blog headlines */
 .blog article h2, .blog article h3, .blog article h4, .blog article h5 { font-family: "proxima-nova", sans-serif; }
 .blog article h3, .blog article h4, .blog article h5 { padding-top: 15px; }
 
-/* Blog headlines */
 .blog #posts h2, .blog #post .entry-title { color: #555; border-bottom: 3px solid #f1f1f1; padding-bottom: 22px; margin-bottom: 19px; }
 .blog #post .entry-content h2 { font-size: 21px; font-weight: 600; color: #959595; line-height: 22px; letter-spacing: 0; }
 .blog #post .entry-content h3 { color: #434343; }
@@ -343,7 +349,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .blog .post .vignette img { z-index: -1; position: relative; }
 .blog .post .text { float: right; width: 470px; }
 
-.blog .more-link  { display: block; background: #f0f0f0; padding: 10px 14px; margin: 20px 10px 10px 0; color: #6C6C6C; border: 1px solid #ddd; /*-webkit-box-shadow: inset 0 0 10px 0 #676666, 0 1px 5px 0 rgba(0, 0, 0, .2); -moz-box-shadow: inset 0 0 10px 0 #676666, 0 1px 5px 0 rgba(0,0,0,.2);
+.blog .more-link  { display: block; background: #f0f0f0; padding: 10px 16px; margin: 20px 10px 10px 0; color: #6C6C6C; border: 1px solid #ddd; /*-webkit-box-shadow: inset 0 0 10px 0 #676666, 0 1px 5px 0 rgba(0, 0, 0, .2); -moz-box-shadow: inset 0 0 10px 0 #676666, 0 1px 5px 0 rgba(0,0,0,.2);
 box-shadow: inset 0 0 10px 0 #676666, 0 1px 5px 0 rgba(0, 0, 0, .2);*/ text-shadow: 0 1px 2px #fff; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 .blog .more-link span { position: relative; right: -532px; top: 1px; }
 .blog .more-link:hover { opacity: .7; position: relative; top: 1px; }
