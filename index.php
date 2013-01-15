@@ -28,8 +28,8 @@
 				<h2>Amazing Web Applications <span>with</span> PL/SQL</h2>
 				<p>Formspider is a Web 2.0 framework that lets you build world class Web applications with only PL/SQL. Formspider apps run using 100% AJAX, DHTML and JavaScript without the need to know any of them.</p>
 				<div id="cta">Try now &rarr; &nbsp;&nbsp;
-					<a href="download.php" class="button orange mid-height" id="cloud"><span></span> Cloud</a>
-					<a href="download.php" class="button orange mid-height" id="desktop"><span></span> Desktop</a>
+					<a href="download.php" class="button blue mid-height" id="cloud"><span></span> Cloud </a>
+					<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
 				</div>
 			</div>
 			<div id="screenshot"></div>
