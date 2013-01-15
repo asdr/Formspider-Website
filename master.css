@@ -128,7 +128,7 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 .product #content { padding-top: 60px; }
 
 .product #content #top { margin-bottom: 90px; }
-.product #content #top h2 { text-align: center; font-size: 52px; }
+.product #content #top h2 { text-align: center; font-size: 40px; }
 .product #content #top p { color: #777; text-align: center; font-family: "Ubuntu", sans-serif; font-size: 25px; line-height: 32px; }
 
 .product .row { margin-bottom: 30px; }
@@ -136,7 +136,7 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 .product .row.image-text {}
 .product .row .text, .product .row .image { width: 460px; float: left; position: relative; }
 .product .row .text { z-index: 150; }
-	.product .row h3 { padding-bottom: 11px; color: #555; font-size: 34px; font-weight: 700; line-height: 33px; }
+	.product .row h3 { padding-bottom: 11px; color: #555; font-size: 30px; font-weight: 700; line-height: 33px; }
 	.product .row h4 { padding-bottom: 10px; color: #777; font-size: 21px; font-weight: 500; line-height: 26px; }
 	.product .row p { font-size: 18px; line-height: 26px; }
 	
@@ -491,9 +491,9 @@ textarea { width: 440px; }
 .button.blue:active { box-shadow: inset 0 1px 5px 0px rgba(0,0,0,.2); text-shadow: 0px -1px 2px rgba(0,0,0,.4); }
 .button.blue:hover { box-shadow: inset 0px 0 21px 7px #61a9d0, 0px 1px 4px 0 rgba(0,0,0,.5); }
 
-.button.green { background: #40a040; color: #fff; border-radius: 3px; text-shadow: 0px 1px 2px rgba(0,0,0,.4); text-align: center; font-size: 24px; -webkit-box-shadow: inset 0px 0 21px 7px #80c080, 0px 1px 3px 0 rgba(0,0,0,.25); box-shadow: inset 0px 0px 21px 7px #80c080, 0px 1px 3px 0 rgba(0,0,0,.25); }
+.button.green { background: #40a030; color: #fff; border-radius: 3px; text-shadow: 0px 1px 2px rgba(0,0,0,.4); text-align: center; font-size: 24px; -webkit-box-shadow: inset 0px 0 21px 7px #80c070, 0px 1px 3px 0 rgba(0,0,0,.25); box-shadow: inset 0px 0px 21px 7px #80c070, 0px 1px 3px 0 rgba(0,0,0,.25); }
 .button.green:active { box-shadow: inset 0 1px 5px 0px rgba(0,0,0,.2); text-shadow: 0px -1px 2px rgba(0,0,0,.4); }
-.button.green:hover { box-shadow: inset 0px 0 21px 7px #80c080, 0px 1px 4px 0 rgba(0,0,0,.5); }
+.button.green:hover { box-shadow: inset 0px 0 21px 7px #80c070, 0px 1px 4px 0 rgba(0,0,0,.5); }
 
 .button.red { width: 298px; background: url('images/buttons.png') #c83e45 repeat-x; color: #fff; border: 1px solid #c9343d; border-radius: 3px; text-shadow: 0px 1px 2px #91232a; text-align: center; font-size: 21px; }
 .button.red:active { background: #c83e45; box-shadow: inset 0 2px 5px 0px rgba(0,0,0,.2); border-color: #b3353b; text-shadow: 0px -1px 2px #91232a; color: #ffdee0; }
