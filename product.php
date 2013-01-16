@@ -176,8 +176,8 @@
 				<a class="button silver" href="compare-formspider-with-apex.php">Compare Formspider with Apex</a> 
 				<div>&mdash; or &mdash;</div>
 				
-				<div><h2>Try now for free:</h2></div>
-					<a href="#" id="cloud" class="button blue"><span></span>  Cloud</a> <a href="download.php" id="desktop" class="button blue"><span></span>  Desktop</a></a>
+				<div><h2> Try now </h2></div>
+					<a href="#" id="cloud" class="button blue"><span></span> Cloud </a> <a href="download.php" id="desktop" class="button green"><span></span> Download </a></a>
 			</div>
 
 		</div><!-- /content -->
