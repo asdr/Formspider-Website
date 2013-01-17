@@ -26,7 +26,7 @@
 		<div id="top" class="clearfix">
 			<div id="intro">
 				<h2>Amazing Web Applications <span>with</span> PL/SQL</h2>
-				<p>Formspider is a Web 2.0 framework that lets you build world class Web applications with only PL/SQL. Formspider apps run using 100% AJAX, DHTML and JavaScript without the need to know any of them.</p>
+				<p>Formspider is a framework that lets you build world class applications on a great architecture with PL/SQL. Formspider apps run using 100% AJAX, DHTML and JavaScript without the need to code in any of them.</p>
 				<div id="cta">Try now &rarr; &nbsp;&nbsp;
 					<a href="download.php" class="button blue mid-height" id="cloud"><span></span> Cloud </a>
 					<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
@@ -37,21 +37,35 @@
 		
 		<div id="benefits" class="clearfix">
 		<ul class="clearfix">
+		
 			<li>
 				<img src="images/index/benefit1.jpg" width="114" height="99" alt="Higher Productivity" />
 				<h4>Higher Productivity</h4>
-				<p>Leverage your PL/SQL skills to build modern Web applications. Formspider’s only programming language is PL/SQL. There is no need to know or learn any other language. Carry all your experience to Web development instantly.</p>
+				<!--table><tr> <td>&rarr;</td> <td><a href="#">100% PL/SQL</a> </td> </tr></table>
+				<table><tr> <td>&rarr;</td> <td><a href="#">True Cross Browser Compatibiity</a> </td> </tr></table>
+				<table><tr> <td>&rarr;</td> <td><a href="#">Full Model Layer with Data-Aware UI Components</a> </td> </tr></table-->
+				<p>
+				Leverage your <a href="#">PL/SQL</a> skills for web development. 
+				Easily build truly <a href="#">cross browser</a> applications. 
+				Manage data-aware <a href="#">UI components</a> with PL/SQL API’s and enjoy the productivity of a <a href="#">full model layer</a>.
+				</p>
 			</li>
+			
 			<li>
 				<img src="images/index/benefit2.jpg" width="118" height="99" alt="Higher Quality">
 				<h4>Higher Quality</h4>
-				<p>Design your applications with data driven, beautiful UI components. Run them smoothly in every browser by default. Reuse best practices for performance such tuned Javascript, automatic lazy loading and optimized roundtrips between application layers. Upgrade to the framework that passed audits at organizations with very high securıty requirements.</p>
+				<p>Build with a framework that gives you <a href="#">100% AJAX</a> applications by default. Reuse built-in <a href="#">performance</a> best practices in every application you build. Upgrade to the framework that passed audits at organizations with very high <a href="#">security</a> requirements.</p>
 			</li>
+			
 			<li>
 				<img src="images/index/benefit3.jpg" width="118" height="99" alt="Benefit3">
 				<h4>Lower Cost</h4>
-				<p>Pay only when you are in production with Formspider’s affordable and open pricing policy. Focus on solving business problems rather than technical ones. Build long lasting applications that do not bet on hypes but on good architecture.</p>
+				<p>
+				Pay only when you are in production with Formspider’s affordable and open <a href="#">pricing</a> policy. 
+				Focus on solving business problems rather than technical ones. Build long lasting applications that don't bet on hypes but on <a href="#">good architecture</a>.
+				</p>
 			</li>
+			
 		</ul>
 		</div><!-- /benefits -->
 		
