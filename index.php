@@ -26,7 +26,8 @@
 		<div id="top" class="clearfix">
 			<div id="intro">
 				<h2>Amazing Web Applications <span>with</span> PL/SQL</h2>
-				<p>Formspider is a framework that lets you build world class applications on a great architecture with PL/SQL. Formspider apps run using 100% AJAX, DHTML and JavaScript without the need to code in any of them.</p>
+				<p>Formspider is an Application Development Framework for PL/SQL Developers. 
+				It helps you build 100% AJAX Web Apps using only PL/SQL.</p>
 				<div id="cta">Try now &rarr; &nbsp;&nbsp;
 					<a href="download.php" class="button blue mid-height" id="cloud"><span></span> Cloud </a>
 					<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
@@ -54,7 +55,7 @@
 			<li>
 				<img src="images/index/benefit2.jpg" width="118" height="99" alt="Higher Quality">
 				<h4>Higher Quality</h4>
-				<p>Build with a framework that gives you <a href="#">100% AJAX</a> applications by default. Reuse built-in <a href="#">performance</a> best practices in every application you build. Upgrade to the framework that passed audits at organizations with very high <a href="#">security</a> requirements.</p>
+				<p>Choose the framework that gives you <a href="#">100% AJAX</a> applications by default. Reuse built-in <a href="#">performance</a> best practices in every application you develop. Upgrade to the framework that passed audits at organizations with very high <a href="#">security</a> requirements.</p>
 			</li>
 			
 			<li>

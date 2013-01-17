@@ -67,7 +67,7 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 .index #top { position: relative; }
 .index #top h2 { padding-bottom: 20px; font-size: 40px; font-weight: 700; line-height: 44px; letter-spacing: -1px; /*color: #525252;*/ color: #fff; }
 /*.index #top h2 span { font-weight: 500; color: #ccc; }*/
-.index #top p { width: 440px; margin-bottom: 35px; color: rgba(255,255,255,.8); font-size: 25px; line-height: 32px; }
+.index #top p { width: 440px; margin-bottom: 80px; margin-top:10px; color: rgba(255,255,255,.8); font-size: 25px; line-height: 32px; }
 .index #intro { /*float: left; width: 560px;*/ margin-bottom: 50px; position: relative; z-index: 999; }
 .index #screenshot { position: absolute; /*right: 0; top: 20px; width: 500px;*/ right: -121px; top: 65px; width: 740px; height: 327px; z-index: 150; background: url('images/screenshot_1.png'); }
 
@@ -147,6 +147,9 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 	.product .row h4 { padding-bottom: 10px; color: #777; font-size: 21px; font-weight: 500; line-height: 26px; }
 	.product .row p { font-size: 18px; line-height: 26px; }
 	
+.product .row .text a {color: #136;}
+.product .row .text a:hover {color: #369;}
+	
 .product .row .image { z-index: 149; }
 
 	.product .row.image-code img { margin: -50px 0 0 0;}
@@ -192,7 +195,7 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 	
 	.product .row.image-databinding .text { width: 540px; margin-bottom: 40px; }
 	.product .row.image-databinding .image { width: 420px; }
-	.product .row.image-databinding img { margin: 40px 0 0 30px; }
+	.product .row.image-databinding img { margin: 40px 0 0 10px; }
 	
 	.product .row.image-masterdetail .text { width: 560px; }
 	.product .row.image-masterdetail .image { width: 380px; }
