@@ -12,6 +12,21 @@
 	<script src="js/site.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/reveal/jquery.reveal.js" type="text/javascript" charset="utf-8"></script>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1251493-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>	
+	
 </head>
 <body class="demos">
 	
@@ -24,7 +39,7 @@
 	<div id="content">
 		
 		<h2>Demos and Examples</h2>
-		<div id="cta-right">Try now for free &rarr; <a href="download.php" id="cloud" class="button silver small">Cloud</a><a href="download.php" id="desktop" class="button silver small"> Download </a></div>
+		<div id="cta-right">Try now &rarr; <a href="download.php" id="cloud" class="button silver small">Cloud</a><a href="download.php" id="desktop" class="button silver small"> Download </a></div>
 			
 		<ul>
 		
