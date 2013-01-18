@@ -40,7 +40,7 @@
 		
 		<div id="top" class="clearfix">
 			<div id="intro">
-				<h2>Amazing Web Applications <span>with</span> PL/SQL</h2>
+				<h2>Amazing Web Applications with PL/SQL</h2>
 				<p>Formspider is an Application Development Framework for PL/SQL Developers. 
 				It helps you build 100% AJAX Web Apps using only PL/SQL.</p>
 				<div id="cta">Try now &rarr; &nbsp;&nbsp;

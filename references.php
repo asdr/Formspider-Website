@@ -37,7 +37,7 @@
 	<div id="content" class="clearfix">
 		
 		<h2>References</h2>
-		<p>World's leading organizations user Formspider.</p>
+		<p>World's leading organizations use Formspider.</p>
 		<div id="cta-right">Try now for free &rarr; <a href="download.php" id="cloud" class="button silver small">Cloud</a><a href="download.php" id="desktop" class="button silver small">Desktop</a></div>
 		
 		<ul>

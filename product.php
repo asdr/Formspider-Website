@@ -43,7 +43,7 @@
 				<p>After 2000+ downloads and 1800+ Cloud sign-ups, the message is clear. Formspider is the choice of PL/SQL developers worldwide to build the applications of tomorrow.</p>
 			</div>
 			
-			<div class="row image-code">
+			<div id="plsql" class="row image-code">
 				<div class="text">
 					<h3>100% PL/SQL</h3>
 					<h4>Code in the language you love.</h4>
@@ -60,7 +60,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div class="row image-design">
+			<div id="design" class="row image-design">
 				<div class="image">
 					<img src="images/product/great-design.png" width="450" height="300" alt="Great Design">
 				</div>
@@ -74,7 +74,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div class="row image-security">
+			<div id="security" class="row image-security">
 				<div class="text">
 					<h3>Proven Security</h3>
 					<h4>Build applications with peace of mind.</h4>
@@ -87,7 +87,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div class="row image-crossbrowser">
+			<div id="crossbrowser" class="row image-crossbrowser">
 				<div class="image">
 					<img src="images/product/crossbrowser.jpg" width="277" height="268" alt="Cross-browser support">
 				</div>
@@ -101,7 +101,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div class="row image-performance">
+			<div id="performance" class="row image-performance">
 				<div class="text">
 					<h3>Best Performance</h3>
 					<h4>Great performance, without great effort.</h4>
@@ -116,7 +116,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div class="row image-components">
+			<div id="components" class="row image-components">
 				<div class="image">
 					<img src="images/product/api.jpg" width="437" height="271" alt="API">
 				</div>
@@ -136,7 +136,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div class="row image-intuitive">
+			<div id="intuitive" class="row image-intuitive">
 				<div class="text">
 					<h3>Intuitive</h3>
 					<h4>Focus on your application, not on your development tool.</h4>
@@ -149,7 +149,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div class="row image-cloud">
+			<div id="cloud" class="row image-cloud">
 				<div class="image">
 					<img src="images/product/cloud.jpg" width="366" height="207" alt="Cloud">
 				</div>
@@ -165,7 +165,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div class="row image-technologyindependence">
+			<div id="technologyindependence" class="row image-technologyindependence">
 				<div class="text">
 					<h3>Client Technology Independence</h3>
 					<h4>Don’t bet on hypes. Bet on good architecture.</h4>
@@ -180,7 +180,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div class="row image-integrated">
+			<div id="integrated" class="row image-integrated">
 				<div class="image">
 					<img src="images/product/Integrated2.jpg" width="254" height="180" alt="Integrated">
 				</div>
@@ -192,7 +192,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div class="row image-databinding">
+			<div id="databinding" class="row image-databinding">
 				<div class="text">
 					<h3>Seamless Data Binding</h3>
 					<h4>With data aware components and world class transaction layer, building enterprise applications has never been easier.</h4>
@@ -207,7 +207,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div class="row image-masterdetail">
+			<div id="masterdetail" class="row image-masterdetail">
 				<div class="image">
 					<img src="images/product/masterdetail.jpg" width="369" height="277" alt="Masterdetail">
 				</div>
@@ -220,7 +220,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div class="row image-developmentexperience">
+			<div id="developmentexperience" class="row image-developmentexperience">
 				<div class="text">
 					<h3>Best Development Experience</h3>
 					<h4>An IDE by Developers for Developers.</h4>

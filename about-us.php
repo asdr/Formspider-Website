@@ -58,7 +58,7 @@
 				<h4>VP of Client Services</h4></a>
 				<div>Orhan is the first employee I hired. If you are embarking on a journey with a lot of unknowns ( read: starting a company ) you need someone that you can rely on to cover your back through fog, smoke and chaos. He is THE ONE.</div>
 			</li>
-			<li id="danieltin">
+			<li id="danieltin" class="last-in-row">
 				<a href="#"><img src="images/about/danieltin.jpg" width="70" height="70" alt="Daniel Tin">
 				<h3>Daniel Tin</h3>
 				<h4>Business Development Mgr.</h4></a>
@@ -76,7 +76,7 @@
 				<h4>Product Manager</h4></a>
 				<div>Uğur gets it. He is like Keanu Reeves in the first Matrix movie when he starts beating up the bad guys at the end. He sees the Matrix as it is. During design meetings, I sometimes catch him wondering what the hell we are arguing about when the solution is so obvious.</div>
 			</li>
-			<li id="oskansavli">
+			<li id="oskansavli" class="last-in-row">
 				<a href="#"><img src="images/about/oskan.png" width="70" height="70" alt="Öskan Şavlı">
 				<h3>Öskan Şavlı</h3>
 				<h4>Front-end Engineer</h4></a>
@@ -94,7 +94,7 @@
 				<h4>Software Engineer in Test</h4></a>
 				<div>This is a guy who installs Unix to his iPod. He works with four monitors, three computers, two keyboards and countless hubs and switches around them. He believes anybody not using Unix is a heretic and should be burnt at stake. I don’t know what we would have done without him.</div>
 			</li>
-			<li id="suataaldan">
+			<li id="suataaldan" class="last-in-row">
 				<a href="#"><img src="images/about/suataldan.jpg" width="70" height="70" alt="Suat A. Aldan">
 				<h3>Suat A. Aldan</h3>
 				<h4>Front-end Engineer</h4></a>
