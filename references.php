@@ -44,33 +44,49 @@
 			<li>
 				<img id="ing" src="images/references/ing.jpg" width="440" height="200" alt="ING Emeklilik">
 				<h3>ING Emeklilik</h3>
-				<p>ING Emeklilik, the ING company in Turkey that operates in the insurance & personal retirement sector plans the weekly schedules of their agents with an application built with Formspider. <a class="readmore" href="http://theformspider.com/blog/2012/05/31/ing-uses-formspider/">Read more &rarr;</a></p>
+				<p>ING Emeklilik, the ING company in Turkey that operates in the insurance & personal retirement sector plans the weekly schedules of their agents 
+				with an application built with Formspider. <a class="readmore" href="http://theformspider.com/blog/2012/05/31/ing-uses-formspider/">Read more &rarr;</a></p>
 			</li>
-			<li>
+			<li class="end-of-row">
 				<img id="agtransport" src="images/references/agtransport.jpg" width="440" height="200" alt="AG Transport">
 				<h3>AG TRANSPORT</h3>
-				<p>AG TRANSPORT, one of the largest transport and logistics companies in Czech Republic chose Formspider to rebuild their entire software system. <a class="readmore" href="http://theformspider.com/blog/2012/10/31/ag-transport-uses-formspider/">Read more &rarr;</a></p>
+				<p>AG TRANSPORT, one of the largest transport and logistics companies in Czech Republic chose Formspider to rebuild their entire software system.
+				<a class="readmore" href="http://theformspider.com/blog/2012/10/31/ag-transport-uses-formspider/">Read more &rarr;</a></p>
 			</li>
+			
 			<li>
+				<img id="rhenus" src="images/references/rhenus4_1.jpg" width="440" height="200" alt="Rhenus">
+				<h3>Rhenus</h3>
+				<p><a class="readmore" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Read more &rarr;</a></p>
+			</li>
+			<li class="end-of-row">
 				<img src="images/references/okinternational.jpg" width="440" height="200" alt="OK International">
 				<h3>OK International</h3>
-				<p>OK International, the leading global supplier of soldering tools and equipment for production assembly, chose Formspider to extend its ERP solution. <a class="readmore" href="http://theformspider.com/blog/2012/08/08/ok-international-uses-formspider/">Read more &rarr;</a></p>
+				<p>OK International, the leading global supplier of soldering tools and equipment for production assembly, chose Formspider to extend its ERP solution.
+				<a class="readmore" href="http://theformspider.com/blog/2012/08/08/ok-international-uses-formspider/">Read more &rarr;</a></p>
 			</li>
+			
 			<li>
 				<img id="nystate" src="images/references/newyorkstate.jpg" width="440" height="200" alt="New York State">
 				<h3>New York State</h3>
-				<p>NY State manages a billion dollar budget with a Formspider application to serve over 110,000 New Yorkers with more than 1550 treatment, prevention and recovery programs for alcohol and drug abuse. <a class="readmore" href="#">Read more &rarr;</a></p>
+				<p>NY State manages a billion dollar budget with a Formspider application to serve over 110,000 New Yorkers with more than 1550 treatment, 
+				prevention and recovery programs for alcohol and drug abuse. 
+				<a class="readmore" href="http://theformspider.com/blog/2011/04/21/who-uses-formspider-part-2-the-journey-from-forms-to-formspider/">Read more &rarr;</a></p>
 			</li>
-			<li>
+			<li class="end-of-row">
 				<img id="usairforce" src="images/references/US_Air_Force_logo2.jpg" width="440" height="200" alt="Airforce">
 				<h3>US Air Force</h3>
-				<p>The active duty and reserve recruiting systems of US Air Force is based on the Formspider technology. <a class="readmore" href="#">Read more &rarr;</a></p>
+				<p>The active duty and reserve recruiting systems of US Air Force is based on the Formspider technology. 
+				<a class="readmore" href="http://theformspider.com/blog/2011/03/25/who-uses-formspider-part-1-the-journey-from-java-desktop-to-web-2-0/">Read more &rarr;</a></p>
 			</li>
+			
 			<li>
 				<img id="ethiopia" src="images/references/ethiopia3.jpg" width="440" height="200" alt="Ethiopia">
 				<h3>Ethiopia</h3>
-				<p>Ethiopia, one of the fastest growing countries in Africa uses Formspider to build the next version of the budgeting, accounting and financing application which is used at every governmental institution in the country.</p>
+				<p>Ethiopia, one of the fastest growing countries in Africa uses Formspider to build the next version of the budgeting, 
+				accounting and financing application which is used at every governmental institution in the country.</p>
 			</li>
+			
 		</ul>
 		
 
