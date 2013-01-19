@@ -9,11 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/jquery-ui.css"/>
 	<link href="css/jqueryui.button.css" rel="stylesheet" type="text/css"/>
 	<link href="css/download.css" rel="stylesheet" type="text/css"/>
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<!--script src="http://code.jquery.com/jquery-latest.js"></script-->
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
 
 	
-<!--script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
 <script type="text/javascript" src="js/utilities.js"></script>

@@ -3,12 +3,11 @@
 }
 
 .download #content a, .download #content  .linkSpan  {
-	color: #2060c0;
+	color: #08c;
 	cursor: pointer;
 }
 .download #content a:hover, .download #content .linkSpan:hover {
-	color: #0020a0;
-	border-bottom: 1px solid #a0b0c0;
+	text-decoration: underline;
 }
 
 #downloadDiv {

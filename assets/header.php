@@ -9,7 +9,7 @@
 			<li<? if($page == 'qa'): ?> class="active" <? endif ?>><a href="http://osqa.theformspider.com" target="_blank">Q&A</a></li>
 			<li<? if($page == 'pricing'): ?> class="active"<? endif ?>><a href="pricing.php">Pricing</a></li>
 			<li<? if($page == 'references'): ?> class="active"<? endif ?>><a href="references.php">References</a></li>
-			<li<? if($page == 'blog'): ?> class="active" <? endif ?>><a href="blog">Blog</a></li>
-			<li<? if($page == 'about-us'): ?> class="active"<? endif ?>><a href="about-us.php">About us</a></li>
+			<li<? if($page == 'blog'): ?> class="active" <? endif ?>><a href="blog/index.php">Blog</a></li>
+			<li<? if($page == 'about-us'): ?> class="active"<? endif ?>><a href="aboutus.php">About us</a></li>
 		<ul>
 	</div><!-- /header -->
