@@ -48,6 +48,37 @@
 			<div id="screenshot"></div>
 		</div>
 		
+		<div class="bannerContainer" style="padding-left: 5px; width:900px; height:90px;">
+			<div id="pscroller2" class="rssclass" style="position: relative; overflow: hidden; background-image: url(/images/latestnews4.png); width:100%; height:100%; padding-top:25px;">
+						
+				<div class="innerDiv" style="position: absolute; width: 800px; " id="pscroller12" >
+					<span class="rsstitle" style="font-size: 14px;"></span>
+					<span class="rsstitle"><a style="font-size: 14px; color:Blue; text-decoration: underline;" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Rhenus, world's leading logictics company, uses Formspider</a></span>
+					<br>
+				</div>
+				
+				<!--div class="innerDiv" style="position: absolute; width: 800px; top: 45px;" id="pscroller13" >
+					<span class="rsstitle" style="font-size: 14px;"></span>
+					<span class="rsstitle"><a style="font-size: 14px; color:Blue; text-decoration: underline;" href="http://theformspider.com/blog/2012/08/22/formspider-is-visiting-austria-and-czech-republic/" >Formspider is visiting Austria, Czech Republic and Slovakia</a></span>
+					<br>
+				</div-->
+				
+				
+				<div class="innerDiv" style="position: absolute; width: 800px; top: 45px;" id="pscroller14" >
+					<span class="rsstitle" style="font-size: 14px;"></span>
+					<span class="rsstitle"><a style="font-size: 14px; color:Blue; text-decoration: underline;" href="http://theformspider.com/FormspiderEventInDenmark.php" >Formspider Day in Denmark</a></span>
+					<br>
+				</div>
+				
+				<div class="innerDiv" style="position: absolute; width: 800px; top: 65px;" id="pscroller15">
+					<span class="rsstitle" style="font-size: 14px;"></span>
+					<span class="rsstitle"><a style="font-size: 14px; color:Blue; text-decoration: underline;" href="http://theformspider.com/FormspiderEventInIstanbul.php">Formspider Day in Istanbul</a></span>
+					<br>
+				</div>
+				
+			</div> 	
+		</div>
+		
 		<div id="benefits" class="clearfix">
 		<ul class="clearfix">
 		
@@ -58,24 +89,27 @@
 				<table><tr> <td>&rarr;</td> <td><a href="#">True Cross Browser Compatibiity</a> </td> </tr></table>
 				<table><tr> <td>&rarr;</td> <td><a href="#">Full Model Layer with Data-Aware UI Components</a> </td> </tr></table-->
 				<p>
-				Leverage your <a href="#">PL/SQL</a> skills for web development. 
-				Easily build truly <a href="#">cross browser</a> applications. 
-				Manage data-aware <a href="#">UI components</a> with PL/SQL API’s and enjoy the productivity of a <a href="#">full model layer</a>.
+				Leverage your <a href="product.php#plsql">PL/SQL</a> skills for web development. 
+				Easily build truly <a href="product.php#crossbrowser">cross browser</a> applications. 
+				Manage data-aware <a href="product.php#components">UI components</a> with PL/SQL API’s and enjoy the productivity of a <a href="product.php#databinding">full model layer</a>.
 				</p>
 			</li>
 			
 			<li>
 				<img src="images/index/benefit2.jpg" width="118" height="99" alt="Higher Quality">
 				<h4>Higher Quality</h4>
-				<p>Choose the framework that gives you <a href="#">100% AJAX</a> applications by default. Reuse built-in <a href="#">performance</a> best practices in every application you develop. Upgrade to the framework that passed audits at organizations with very high <a href="#">security</a> requirements.</p>
+				<p>Choose the framework that gives you <a href="product.php#design">100% AJAX</a> applications by default. Reuse built-in 
+				<a href="product.php#performance">performance</a> best practices in every application you develop. 
+				Upgrade to the framework that passed audits at organizations with very high <a href="product.php#security">security</a> requirements.</p>
 			</li>
 			
 			<li>
 				<img src="images/index/benefit3.jpg" width="118" height="99" alt="Benefit3">
 				<h4>Lower Cost</h4>
 				<p>
-				Pay only when you are in production with Formspider’s affordable and open <a href="#">pricing</a> policy. 
-				Focus on solving business problems rather than technical ones. Build long lasting applications that don't bet on hypes but on <a href="#">good architecture</a>.
+				Pay only when you are in production with Formspider’s affordable <a href="pricing.php">pricing</a> policy. 
+				Focus on solving business problems rather than technical ones. 
+				Build long lasting applications that don't bet on hypes but on <a href="product.php#technologyindependence">good architecture</a>.
 				</p>
 			</li>
 			

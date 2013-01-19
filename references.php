@@ -34,8 +34,9 @@
 	<div id="content" class="clearfix">
 		
 		<h2>References</h2>
-		<p>World's leading organizations use Formspider.</p>
-		<div id="cta-right">Try now for free &rarr; <a href="download.php" id="cloud" class="button silver small">Cloud</a><a href="download.php" id="desktop" class="button silver small">Desktop</a></div>
+		<p>After 2000+ downloads and 1800+ Cloud accounts, the message is clear. 
+		Formspider is the choice of Oracle Developers worldwide to build the applications of tomorrow.</p>
+		<!--div id="cta-right">Try now for free &rarr; <a href="download.php" id="cloud" class="button silver small">Cloud</a><a href="download.php" id="desktop" class="button silver small">Desktop</a></div-->
 		
 		<ul>
 			<li>
@@ -45,16 +46,18 @@
 				with an application built with Formspider. <a class="readmore" href="http://theformspider.com/blog/2012/05/31/ing-uses-formspider/">Read more &rarr;</a></p>
 			</li>
 			<li class="end-of-row">
+				<img id="rhenus" src="images/references/rhenus4_1.jpg" width="440" height="200" alt="Rhenus">
+				<h3>Rhenus</h3>
+				<p>Rhenus Netherlands, the Dutch branch of Rhenus International, one the of the leading logistics companies in the world, 
+				chose Formspider over Oracle Apex to modernize its Forms applications.
+				<a class="readmore" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Read more &rarr;</a></p>
+			</li>
+			
+			<li>
 				<img id="agtransport" src="images/references/agtransport.jpg" width="440" height="200" alt="AG Transport">
 				<h3>AG TRANSPORT</h3>
 				<p>AG TRANSPORT, one of the largest transport and logistics companies in Czech Republic chose Formspider to rebuild their entire software system.
 				<a class="readmore" href="http://theformspider.com/blog/2012/10/31/ag-transport-uses-formspider/">Read more &rarr;</a></p>
-			</li>
-			
-			<li>
-				<img id="rhenus" src="images/references/rhenus4_1.jpg" width="440" height="200" alt="Rhenus">
-				<h3>Rhenus</h3>
-				<p><a class="readmore" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Read more &rarr;</a></p>
 			</li>
 			<li class="end-of-row">
 				<img src="images/references/okinternational.jpg" width="440" height="200" alt="OK International">

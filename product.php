@@ -37,7 +37,8 @@
 			
 			<div id="top">
 				<h2>The New Home of PL/SQL Developers</h2>
-				<p>After 2000+ downloads and 1800+ Cloud sign-ups, the message is clear. Formspider is the choice of PL/SQL developers worldwide to build the applications of tomorrow.</p>
+				<!--p>After 2000+ downloads and 1800+ Cloud sign-ups, the message is clear. Formspider is the choice of PL/SQL developers worldwide to build the applications of tomorrow.</p-->
+				<p>Formspider enables you to build world class applications on a great architecture with just PL/SQL. It is incredibly easy to learn for Forms and Apex developers.</p>
 			</div>
 			
 			<div id="plsql" class="row image-code">

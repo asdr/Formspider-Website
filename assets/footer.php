@@ -24,6 +24,7 @@
 
 		<ul class="right clearfix">
 			<li>Connect with us</li>
+			<li class="facebook"><a href="http://www.facebook.com">Facebook</a></li>
 			<li class="linkedin"><a href="http://www.linkedin.com">Linkedin</a></li>
 			<li class="twitter"><a href="http://www.twitter.com/formspider">Twitter</a></li>
 			<li class="email last"><a href="mailto:contact@theformspider.com">E-mail</a></li>
