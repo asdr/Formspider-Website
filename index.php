@@ -48,14 +48,12 @@
 			<div id="screenshot"></div>
 		</div>
 		
-		<div class="bannerContainer" style="padding-left: 5px; width:900px; height:90px;">
-			<div id="pscroller2" class="rssclass" style="position: relative; overflow: hidden; background-image: url(/images/latestnews4.png); width:100%; height:100%; padding-top:25px;">
+		<div class="bannerContainer" style="padding-top:25px;  padding-left: 5px; width:900px; height:100px;">
+			<div id="pscroller2" class="rssclass" style="position: relative; overflow: hidden; background-image: url(images/latestnews4.png); width:100%; height:100%; padding-top:20px;">
 						
-				<div class="innerDiv" style="position: absolute; width: 800px; " id="pscroller12" >
-					<span class="rsstitle" style="font-size: 14px;"></span>
-					<span class="rsstitle"><a style="font-size: 14px; color:Blue; text-decoration: underline;" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Rhenus, world's leading logictics company, uses Formspider</a></span>
+					
+					<a style="" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Rhenus Netherlands chose Formspider over Oracle Apex to modernize its Forms applications </a>
 					<br>
-				</div>
 				
 				<!--div class="innerDiv" style="position: absolute; width: 800px; top: 45px;" id="pscroller13" >
 					<span class="rsstitle" style="font-size: 14px;"></span>
@@ -64,17 +62,12 @@
 				</div-->
 				
 				
-				<div class="innerDiv" style="position: absolute; width: 800px; top: 45px;" id="pscroller14" >
-					<span class="rsstitle" style="font-size: 14px;"></span>
-					<span class="rsstitle"><a style="font-size: 14px; color:Blue; text-decoration: underline;" href="http://theformspider.com/FormspiderEventInDenmark.php" >Formspider Day in Denmark</a></span>
+					
+					<a style="" href="http://theformspider.com/FormspiderEventInDenmark.php" >Formspider Day in Denmark</a>
 					<br>
-				</div>
 				
-				<div class="innerDiv" style="position: absolute; width: 800px; top: 65px;" id="pscroller15">
-					<span class="rsstitle" style="font-size: 14px;"></span>
-					<span class="rsstitle"><a style="font-size: 14px; color:Blue; text-decoration: underline;" href="http://theformspider.com/FormspiderEventInIstanbul.php">Formspider Day in Istanbul</a></span>
+					<a style="" href="http://theformspider.com/FormspiderEventInIstanbul.php">Formspider Day in Istanbul</a>
 					<br>
-				</div>
 				
 			</div> 	
 		</div>

@@ -101,14 +101,23 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
     background-image: url("/images/latestnews.png");
     background-repeat: no-repeat;
     border: 0 solid black;
-    font-style: italic;
+    /*font-style: italic;*/
     height: 40px;
     padding: 20px 10px 0 20px;
     width: 370px;
 }
 
+#pscroller2  a {
+	line-height: 22px;
+	font-size: 16px;
+	color: #08c;
+}
+#pscroller2 a:hover {
+	text-decoration: underline;
+}
+
 /* Benefits ------------------------------- */
-#benefits { padding-top: 50px; }
+#benefits { padding-top: 30px; }
 #benefits,#people { }
 #benefits h3 {}
 #benefits ul {}
