@@ -106,25 +106,7 @@
 				</div>
 			</div><!-- /row -->
 			
-			<div id="performance" class="row image-performance">
-				<div class="text">
-					<h3>Best Performance</h3>
-					<h4>Great performance, without great effort.</h4>
-					<p>Reduce the time you spend on performance tuning. 
-					Formspider only sends the screens in your application the user actually sees and caches them client side. 
-					This way, even the largest applications run smoothly. 
-					<a href="http://theformspider.com/blog/2012/09/14/keys-to-a-fast-web-app-from-steve-souders/"> 
-					Formspider JavaScript library </a> is tuned to run smooth and fast in every browser.</p>
-				</div>
-				<div class="image">
-					<img src="images/product/performance.jpg" width="490" height="274" alt="Performance">
-				</div>
-			</div><!-- /row -->
-			
 			<div id="components" class="row image-components">
-				<div class="image">
-					<img src="images/product/api.jpg" width="437" height="271" alt="API">
-				</div>
 				<div class="text">
 					<h3>Powerful UI Components and API’s</h3>
 					<h4>Drop dead gorgeous and incredibly functional.</h4>
@@ -139,6 +121,25 @@
 					<a href="http://formspideronline.com/formspider/main.html?name=DemoMain#Charts"> Declaratively create data driven, visually stunning charts. </a>
 					All Formspider charts are drawn with Javascript and work on mobile devices.</p>
 				</div>
+				<div class="image">
+					<img src="images/product/api.jpg" width="437" height="271" alt="API">
+				</div>
+			</div><!-- /row -->
+			
+			<div id="performance" class="row image-performance">
+				<div class="image">
+					<img src="images/product/performance.jpg" width="490" height="274" alt="Performance">
+				</div>
+				<div class="text">
+					<h3>Best Performance</h3>
+					<h4>Great performance, without great effort.</h4>
+					<p>Reduce the time you spend on performance tuning. 
+					Formspider only sends the screens in your application the user actually sees and caches them client side. 
+					This way, even the largest applications run smoothly. 
+					<a href="http://theformspider.com/blog/2012/09/14/keys-to-a-fast-web-app-from-steve-souders/"> 
+					Formspider JavaScript library </a> is tuned to run smooth and fast in every browser.</p>
+				</div>
+				
 			</div><!-- /row -->
 			
 			<div id="intuitive" class="row image-intuitive">
@@ -202,7 +203,8 @@
 					<h3>Seamless Data Binding</h3>
 					<h4>With data aware components and world class transaction layer, building enterprise applications has never been easier.</h4>
 					<p><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoBindingForm">
-					Declaratively bind your UI components and database objects. Take a snapshot of your application data </a> 
+					Declaratively bind your UI components and database objects.</a>
+					<a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoSnapshotMechanism"> Take a snapshot of your application data </a> 
 					and rollback to the desired application state at any time. 
 					Issue commits whenever you think is right in your application flow. 
 					Formspider seamlessly does all the plumbing between your application’s UI and the database. </p>
