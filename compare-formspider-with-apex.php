@@ -40,7 +40,7 @@
 				<p>Formspider enables you to build Web 2.0 applications you can only dream in Oracle Apex</p>
 			</div>
 			<div id="cta">Try now &rarr; &nbsp;&nbsp;
-				<a href="download.php" class="button blue mid-height" id="cloud"><span></span> Cloud </a>
+				<a href="http://formspideronline.com" class="button blue mid-height" id="cloud"><span></span> Cloud </a>
 				<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
 			</div>
 			
