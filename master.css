@@ -505,7 +505,7 @@ box-shadow: inset 0 0 10px 0 #676666, 0 1px 5px 0 rgba(0, 0, 0, .2);*/ text-shad
 	#footer ul.right .twitter a { background-position: -80px 0; }
 	#footer ul.right .email a { background-position: -160px 0; }
 	#footer ul.right .facebook {}
-	#footer ul.right .facebook a {background-image:url('images/facebook-icon.png'); background-size: 100% 100%; border-radius:3px;}
+	#footer ul.right .facebook a {background-image:url('images/icon-facebook.png'); background-size: 100% 100%; border-radius:3px;}
 	#footer ul.right a:hover { border-bottom: 0; opacity: .7; position: relative; top: 1px; }
 #footer ul li { padding: 9px 0; }
 #footer ul li a { color: #909090; }
