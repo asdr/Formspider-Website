@@ -36,7 +36,7 @@
 		<div id="content">
 			
 			<div id="top">
-				<h2>Better tools, Better applications</h2>
+				<h2>Better Tools, Better Applications</h2>
 				<p>Formspider enables you to build Web 2.0 applications you can only dream in Oracle Apex</p>
 			</div>
 			<div id="cta">Try now &rarr; &nbsp;&nbsp;
