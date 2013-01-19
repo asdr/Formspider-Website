@@ -276,6 +276,8 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 	color: #607080;
 	font-weight: bold;
 }
+#comparison-table a { color:#08c; }
+#comparison-table a:hover { text-decoration:underline; }
 
 /* PRODUCT page -- not used */
 /*
