@@ -41,7 +41,7 @@
 				<p>Formspider is an Application Development Framework for PL/SQL Developers. 
 				It helps you build 100% AJAX Web Apps using only PL/SQL.</p>
 				<div id="cta">Try now &rarr; &nbsp;&nbsp;
-					<a href="download.php" class="button blue mid-height" id="cloud"><span></span> Cloud </a>
+					<a href="http://formspideronline.com" class="button blue mid-height" id="cloud"><span></span> Cloud </a>
 					<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
 				</div>
 			</div>

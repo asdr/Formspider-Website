@@ -36,7 +36,7 @@
 	<div id="content">
 		
 		<h2>Demos and Examples</h2>
-		<div id="cta-right">Try now &rarr; <a href="download.php" id="cloud" class="button silver small">Cloud</a><a href="download.php" id="desktop" class="button silver small"> Download </a></div>
+		<div id="cta-right">Try now &rarr; <a href="http://formspideronline.com" id="cloud" class="button silver small">Cloud</a><a href="download.php" id="desktop" class="button silver small"> Download </a></div>
 			
 		<ul>
 		
@@ -251,7 +251,7 @@
 			<div>&mdash; or &mdash;</div>
 			
 			<div><h2> Try now </h2></div>
-				<a href="#" id="cloud" class="button blue"><span></span> Cloud </a> <a href="download.php" id="desktop" class="button green"><span></span> Download </a></a>
+				<a href="http://formspideronline.com" id="cloud" class="button blue"><span></span> Cloud </a> <a href="download.php" id="desktop" class="button green"><span></span> Download </a></a>
 		</div>	
 		
 	</div><!-- /content -->

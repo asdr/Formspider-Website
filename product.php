@@ -238,7 +238,7 @@
 				<div>&mdash; or &mdash;</div>
 				
 				<div><h2> Try now </h2></div>
-					<a href="#" id="cloud" class="button blue"><span></span> Cloud </a> <a href="download.php" id="desktop" class="button green"><span></span> Download </a></a>
+					<a href="http://formspideronline.com" id="cloud" class="button blue"><span></span> Cloud </a> <a href="download.php" id="desktop" class="button green"><span></span> Download </a></a>
 			</div>
 
 		</div><!-- /content -->
