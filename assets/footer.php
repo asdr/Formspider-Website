@@ -13,7 +13,7 @@
 		<ul>
 			<li><a href="http://theformspider.com/learningcenter">Learning Center</a></li>
 			<li><a href="http://osqa.theformspider.com/">Questions &amp; Answers</a></li>
-			<li><a href="about.php">About us</a></li>
+			<li><a href="aboutus.php">About us</a></li>
 		</ul>
 			
 		<!-- <ul>
