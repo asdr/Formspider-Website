@@ -3,8 +3,13 @@
 <html>
 <head>
 	<title>Formspider</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="shortcut icon" href="images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="Keywords" content="Formspider, PL/SQL, web applications with pl/sql, web 2.0 framework, Ajax, javascript, charts">
+	<meta name="Title" content="Formspider - Build Amazing Web Applications with PL/SQL"> 
+	<meta name="Description" content="Formspider is a Web 2.0 framework that lets you build applications with only PL/SQL. Formspider applicaitons run using 100% AJAX, DHTML and JavaScript without the need to know any of them."> 
+	<meta name="robots" content="index, follow">
+	<meta name="Language" content="en"> 
+	<link rel="icon" type="image/png" href="images/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="master.css" />
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/site.js" type="text/javascript" charset="utf-8"></script>
