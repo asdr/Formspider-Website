@@ -26,7 +26,8 @@
 			<li>Connect with us</li>
 			<li class="linkedin"><a href="http://www.linkedin.com">Linkedin</a></li>
 			<li class="twitter"><a href="http://www.twitter.com/formspider">Twitter</a></li>
-			<li class="email last"><a data-reveal-id="contact-modal" data-animation="fade">E-mail</a></li>
+			<li class="email last"><a href="mailto:contact@theformspider.com">E-mail</a></li>
+			<!--li class="email last"><a data-reveal-id="contact-modal" data-animation="fade">E-mail</a></li-->
 		</ul>
 	</div>
 	<div class="clearfix copyright">
@@ -40,7 +41,7 @@
 if ($page == "blog") {
 } elseif ($page == "learningcenter") {
 } else {	
-	include 'contactmodal.php';
+	//include 'contactmodal.php';
 }
 ?>
 

@@ -317,7 +317,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 /* PRICING page ------------------------------- */
 #columns { margin-top: 30px; }
 .column { float: left; margin: 0 20px 0 0; width: 240px;  }
-.column h4, .column h3, .column p, .column .cta { width: 180px; padding: 20px 30px 20px 30px; }
+.column h4, .column h3, .column p, .column div, .column .cta { width: 180px; padding: 20px 30px 20px 30px; }
 .column h4:first-child { background: #b7753c; color: #ffd5b1; font-size: 18px; font-weight: 700; text-transform: uppercase; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; -moz-border-radius-topleft: 3px; -moz-border-radius-topright: 3px; border-top-left-radius: 3px; border-top-right-radius: 3px; }
 .column h4 span { color: #f9bd89; font-weight: 500; display: block; }
 .column h3 { background: #e39452; color: #fff; font-size: 31px; font-weight: 600; line-height: 27px; text-transform: uppercase; letter-spacing: -1px;  text-shadow: 0 1px 3px #ba783f; }
@@ -331,14 +331,16 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 #paid-plans div.column.three { margin-right: 0 !important; }
 #paid-plans .column.two h4 { -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
 #paid-plans .column.three h4 { -webkit-border-top-left-radius: 0px; -webkit-border-bottom-left-radius: 0px; -moz-border-radius-topleft: 0px; -moz-border-radius-bottomleft: 0px; border-top-left-radius: 0px; border-bottom-left-radius: 0px; }
-#paid-plans .column h4, #paid-plans .column h3 { width: 160px;}
+#paid-plans .column h4, #paid-plans .column h3, #paid-plans .column div { width: 160px;}
 #paid-plans .column h4 { background: #2782b2; color: #c4ebff; }
 #paid-plans .column h4 span { color: #95dbff; }
-#paid-plans .column h3 { height: 54px; background: #2f91c4; font-size: 54px; text-align: center; line-height: 56px; font-weight: 700; text-shadow: 0 1px 3px #006397;  }
+#paid-plans .column h3 { height: 54px; background: #2f91c4; font-size: 50px; text-align: center; line-height: 56px; font-weight: 700; text-shadow: 0 1px 3px #006397;  }
 #paid-plans p, #paid-plans .cta { float: left; width: 640px; padding: 20px 30px 20px 30px; }
 #paid-plans p { height: 90px; }
 #paid-plans .cta { text-align: center; }
 #paid-plans p span { display: block; padding-top: 8px; font-size: 18px; font-weight: 600; }
+#paid-plans .button.enterprise { *margin: 20px 30px;*/}
+#enterprise-button-wrap { height:54px; background: #2f91c4;}
 
 #columns:after, .column:after, #paid-plans:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 

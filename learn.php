@@ -5,8 +5,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="master.css" />
-	<script type="text/javascript" src="//use.typekit.net/tkf5jau.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body class="learn">
 	
