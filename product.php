@@ -8,6 +8,13 @@
 	<link rel="stylesheet" type="text/css" href="master.css" />
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/site.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/utilities.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var descid = getParameter('descid');
+		if (descid == 'FormspiderVSOracleApex') {
+			window.location.href = "compare-formspider-with-apex.php";
+		}
+	</script>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
 	
 <script type="text/javascript">
