@@ -54,15 +54,15 @@
 				
 				<div id="paid-plans">
 					<div class="column one">
-						<h4>Standard <span>Edition One</span></h4>
+						<h4>STANDARD <span>EDITION One</span></h4>
 						<h3><span>$</span>2900</h3>
 					</div>
 					<div class="column two">
-						<h4>Standard <span>Edition</span></h4>
+						<h4>STANDARD <span>EDITION</span></h4>
 						<h3><span>$</span>9900</h3>
 					</div>
 					<div class="column three">
-						<h4>Enterprise <span>Edition</span></h4>
+						<h4>ENTERPRISE <span>EDITION</span></h4>
 						<div id="enterprise-button-wrap"><a href="mailto:contact@theformspider.com" data-reveal-id="contact-modal" data-animation="fade" class="button green enterprise full-width">Contact us</a></div>
 					</div>
 					

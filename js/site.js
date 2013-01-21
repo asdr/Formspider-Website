@@ -39,8 +39,12 @@ $(document).ready(function() {
 		
 	});
 		
+		$('.about-us').click(function(){
+			$('.about-us #list-of-people div').hide();
+			$('.about-us #list-of-people li').removeClass("active");
+		});
 		
-		$('.about-us #list-of-people li a').click(function() {
+		$('.about-us #list-of-people .person').click(function(e) {
 				$('.about-us #list-of-people div').hide();
 				$('.about-us #list-of-people li').removeClass("active");
 		        $(this).parent().addClass("active");
@@ -48,18 +52,19 @@ $(document).ready(function() {
 				// $('.about-us #list-of-people li').not($(this.parent())).removeClass("active");
 				// $('.about-us #list-of-people li div').not($(this.parent().find("div"))).hide();
 				e.preventDefault();
+				e.stopPropagation();
 		});
 	
 		$('.about-us #list-of-people li a div a').click(function() {
 				return false;
 		});
 		
-		$('.about-us #list-of-people div').click(function() {
+		/*$('.about-us #list-of-people div').click(function() {
 				$(this).parent().removeClass("active");
 				$(this).hide();
-		});
+		});*/
 	
-		$('.about-us #list-of-people a').click(function() {
+		/*$('.about-us #list-of-people a').click(function() {
 				if( $(this).parent().find("div").is(":hidden") ) {
 					
    				}
@@ -67,7 +72,7 @@ $(document).ready(function() {
    				{
 					$(this).parent().find("div").hide();
    				}
-		});
+		});*/
 	
 		/* focus cleaner */
 		

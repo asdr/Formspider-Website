@@ -82,7 +82,7 @@
 		
 			<li>
 				<img src="images/index/benefit1.jpg" width="114" height="99" alt="Higher Productivity" />
-				<h4>Higher Productivity</h4>
+				<h4>HIGHER PRODUCTIVITY</h4>
 				<!--table><tr> <td>&rarr;</td> <td><a href="#">100% PL/SQL</a> </td> </tr></table>
 				<table><tr> <td>&rarr;</td> <td><a href="#">True Cross Browser Compatibiity</a> </td> </tr></table>
 				<table><tr> <td>&rarr;</td> <td><a href="#">Full Model Layer with Data-Aware UI Components</a> </td> </tr></table-->
@@ -95,7 +95,7 @@
 			
 			<li>
 				<img src="images/index/benefit2.jpg" width="118" height="99" alt="Higher Quality">
-				<h4>Higher Quality</h4>
+				<h4>HIGHER QUALITY</h4>
 				<p>Choose the framework that gives you <a href="product.php#design">100% AJAX</a> applications by default. Reuse built-in 
 				<a href="product.php#performance">performance</a> best practices in every application you develop. 
 				Upgrade to the framework that passed audits at organizations with very high <a href="product.php#security">security</a> requirements.</p>
@@ -103,7 +103,7 @@
 			
 			<li>
 				<img src="images/index/benefit3.jpg" width="118" height="99" alt="Benefit3">
-				<h4>Lower Cost</h4>
+				<h4>LOWER COST</h4>
 				<p>
 				Pay only when you are in production with Formspider’s affordable <a href="pricing.php">pricing</a> policy. 
 				Focus on solving business problems rather than technical ones. 
