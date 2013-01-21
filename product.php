@@ -29,10 +29,60 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-</script> 
+</script>
+
+<?php 
+	if (isset($_GET['descid'])) {
+		$no = $_GET['descid'];
+		
+		if($no == "FormspiderVSOracleApex")
+			$showVS = "Descriptions";
+		//else if($no == "OracleFormsConversion")
+			//$showVS = "OFC";
+		else if($no == "Download")
+			$showVS = "Download";
+		else if($no == "Upgrade")
+			$showVS = "Upgrade";
+		else if($no == "RegisterFSEventInBulgaria")
+			$showVS = "RegisterFSEventInBulgaria";
+		else 
+			$showVS = $no;
+		
+	} else {
+		$no = 0;
+		$showVS = "FSvsOA";
+		
+	}
 	
+	$j = ($no == "0") || ($no == "1") ||($no == "2") ||($no == "3") ||($no == "4") ||($no == "5") ||($no == "6") ||($no == "7") || ($no == "8") ||($no == "9")?$no:"0";
+?>
+
 </head>
 <body class="product">
+<?php 
+if($showVS == "Download" || $showVS == "Upgrade" || $showVS == 'RegisterFSEventInDenmark' || $showVS == 'RegisterFSEventInIstanbul') { 
+	$uip = "noip";
+	if ( isset($_SERVER["REMOTE_ADDR"]) )    { 
+		$uip = '' . $_SERVER["REMOTE_ADDR"] . ''; 
+	} else if ( isset($_SERVER["HTTP_X_FORWARDED_FOR"]) )    { 
+		$uip = '' . $_SERVER["HTTP_X_FORWARDED_FOR"] . ''; 
+	} else if ( isset($_SERVER["HTTP_CLIENT_IP"]) )    { 
+		$uip = '' . $_SERVER["HTTP_CLIENT_IP"] . ''; 
+	}  
+
+	$url = "http://formspideronline.com/fs-logging/logger.jsp?";
+	$url = $url . "type=" . $showVS;
+	$url = $url . "&name=" . str_replace(" ", '', $_GET['name']); 
+	$url = $url . "&mail=" . str_replace(" ", '', $_GET['mail']); 
+	$url = $url . "&ip=" . $uip; 
+	$url = $url . "&duration=" . date('Y-m-d/h-i-s');
+	$url = $url . "&version=" . $_GET['version'];
+		
+	$response = @file_get_contents($url);
+    echo '</body></html>';
+	exit;
+}
+?>
 	
 	<?php include 'assets/header.php'; ?>
 	
