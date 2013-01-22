@@ -6,8 +6,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="master.css" />
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="js/site.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/utilities.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		var descid = getParameter('descid');

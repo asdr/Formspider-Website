@@ -6,9 +6,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="master.css" />
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="js/site.js" type="text/javascript" charset="utf-8"></script>
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+	<!--script src="http://code.jquery.com/jquery-latest.js"></script-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="js/about.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <script type="text/javascript">
