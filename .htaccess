@@ -1,0 +1,20 @@
+rewriteengine on
+rewritecond %{HTTP_HOST} ^www.gergerconsulting.com$ [OR]
+rewritecond %{HTTP_HOST} ^gergerconsulting.com$
+rewriterule ^gc\/$ "http\:\/\/gerger\.co\/" [R=301,L] #4e9c2944cc8e2
+rewritecond %{HTTP_HOST} ^www.theformspider.com$ [OR]
+rewritecond %{HTTP_HOST} ^theformspider.com$
+rewritecond %{HTTP_HOST} ^www.theformspider.com$
+rewriterule ^$ "http\:\/\/theformspider\.com" [R=301,L] #4db68490df7e6
+rewritecond %{HTTP_HOST} ^online.theformspider.com$
+rewriterule ^online\/(.*)$ "http\:\/\/184\.168\.112\.35\/formspider\/main\.html?name=FormspiderIDE$1" [R=301,L] #4d147557bcd19
+
+
+DirectoryIndex index.php default.php
+
+
+# cache images/pdf docs for 10 days
+<FilesMatch "\.(ico|pdf|jpg|jpeg|png|gif)$">
+  Header set Cache-Control "max-age=864000, public"
+  Header unset Last-Modified
+</FilesMatch>
