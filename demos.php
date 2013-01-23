@@ -39,12 +39,12 @@
 		<ul>
 		
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoGrid">
-				<img src="images/demos/demo_grid.jpg" width="202" height="90" alt="1">
+				<img src="images/demo/demoGrid.PNG" width="130" height="90" alt="1">
 				<h4>Grid</h4>
 				<p>A databound grid component with paging example.</p>
 			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoRowAndCellLevelGridAttributes">
-				<img src="images/demos/demo_grid.jpg" width="202" height="90" alt="1">
+				<img src="images/demo/demoRowAndCellLevelGridAttributes.PNG" width="130" height="90" alt="1">
 				<h4>Advanced Grid</h4>
 				<p>Row & cell level attributes of the grid component.</p>
 			</a></li>
@@ -115,12 +115,12 @@
 				<p>A form bound to a database table via Formspider Datasource object.</p>
 			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoExcel">
-				<img src="images/demos/demo_excel.jpg" width="202" height="90" alt="1">
+				<img src="images/demo/demoExcel.PNG" width="130" height="90" alt="1">
 				<h4>Exporting Data to Excel</h4>
 				<p>Exporting data to Excel through Formspider grids and datasources.</p>
 			</a></li>
 			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoMap">
-				<img src="images/demos/demo_map.jpg" width="202" height="90" alt="1">
+				<img src="images/demo/demoMap.PNG" width="130" height="90" alt="1">
 				<h4>Map</h4>
 				<p>Formspider map component sample.</p>
 			</a></li>
@@ -132,17 +132,17 @@
 				<p>Formspider paging components sample.</p>
 			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoMasterDetail">
-				<img src="images/demos/demo_masterdetailform.jpg" width="202" height="90" alt="1">
+				<img src="images/demo/masterDetail.png" width="130" height="90" alt="1">
 				<h4>Master Detail Form</h4>
 				<p>A classical form type, master-detail.</p>
 			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoMasterDetailGrids">
-				<img src="images/demos/demo_masterdetailgrid.jpg" width="202" height="90" alt="1">
+				<img src="images/demo/demoMasterDetailGrids.png" width="130" height="90" alt="1">
 				<h4>Master Detail Grids</h4>
 				<p>A master-detail form build with two grids.</p>
 			</a></li>
 			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoJasperReports">
-				<img src="images/demos/demo_jasperreports.jpg" width="202" height="90" alt="1">
+				<img src="images/demo/demoJasperReports.png" width="130" height="90" alt="1">
 				<h4>Jasper Reports</h4>
 				<p>Integrating JasperReports into Formspider.</p>
 			</a></li>
@@ -159,7 +159,7 @@
 				<p>A form bound to a database table via Formspider Datasource object.</p>
 			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoExternalMethod">
-				<img src="images/demos/demo_externalmethod.jpg" width="202" height="90" alt="1">
+				<img src="images/demo/demoExternalMethod.PNG" width="130" height="90" alt="1">
 				<h4>External Method</h4>
 				<p>Implementing "Remember Me" functionality through Formspider External Method.</p>
 			</a></li>
@@ -236,7 +236,7 @@
 			
 			
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoKeyEvents">
-				<img src="./images/demo/demoFileUpload.PNG" width="130" height="90" alt="1">
+				<img src="./images/demo/demoKeyEvents.PNG" width="130" height="90" alt="1">
 				<h4>Key Events</h4>
 				<p>Using Formspider key events.</p>
 			</a></li>
