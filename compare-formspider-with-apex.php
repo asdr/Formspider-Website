@@ -56,15 +56,15 @@
 	<td style="width:120px;"> Programming </td>
 	<td style="width:420px;"> 
 		Formspider’s <a target="_blank" href="http://theformspider.com/blog/2011/09/19/benefits-of-formspider-single-programming-language/">only programmaing language is PL/SQL</a>. 
-		No Java, JavasScript or any other programming language is needed. 
+		No Java, Javascript or any other programming language is needed. 
 	</td>
-	<td style="width:420px;"> PL/SQL and JavaScript. A lot of JavaScript if you want to build Web 2.0 applications. </td>
+	<td style="width:420px;"> PL/SQL and Javascript. A lot of Javascript if you want to build Web 2.0 applications. </td>
 </tr>
 
 <tr>
 	<td> Output </td>
 	<td> <a target="_blank" href="http://theformspider.com/demos.php">Modern Web 2.0 applications</a> that run 100% AJAX out of the box. </td>
-	<td> Old fashioned Web 1.0 pages. Requires a lot of JavaScript and plumbing to build full Web 2.0 application. </td>
+	<td> Old fashioned Web 1.0 pages. Requires a lot of Javascript and plumbing to build full Web 2.0 application. </td>
 </tr>
 
 <tr>
@@ -89,7 +89,7 @@
 		<a target="_blank" href="http://theformspider.com/blog/2011/03/22/true-cross-browser-web-applications/">run in every major browser</a>
 		. Cross browser compatibility is Formspider’s responsibility, not yours.
 	</td>
-	<td> With your first line of HTML or JavaScript in Apex, cross browser support becomes your responsibility. </td>
+	<td> With your first line of HTML or Javascript in Apex, cross browser support becomes your responsibility. </td>
 </tr>
 
 <tr>
@@ -99,13 +99,13 @@
 		<a target="_blank" href="http://theformspider.com/blog/2011/09/20/benefits-of-formspider-single-development-environment-for-all-platforms/">not client side technology dependant</a>
 		. Formspider applications start using new UI technologies by just upgrading the framework.
 	</td>
-	<td> Web pages built by Apex are extremely dependent on HTML and JavaScript. Upgrading legacy technology is your responsibility. </td>
+	<td> Web pages built by Apex are extremely dependent on HTML and Javascript. Upgrading legacy technology is your responsibility. </td>
 </tr>
 
 <tr>
 	<td> Best Practices </td>
 	<td> 
-		Formspider JavaScript and middle tier libraries implement the best security and
+		Formspider Javascript and middle tier libraries implement the best security and
 		<a target="_blank" href="http://theformspider.com/blog/2011/09/22/benefits-of-formspider-great-performance-without-great-effort/">performance</a>
 		practices. Every Formspider application enjoys the benefits of these libraries automatically.
 	</td>
