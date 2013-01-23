@@ -2,7 +2,7 @@
 	<div id="header">
 		<a id="logo" href="index.php"><h1>Formspider</h1></a>
 		<ul id="nav">
-			<li<?php if($page == 'index'): ?> class="active"<?php endif ?>><a href="index.php">HOME</a></li>
+			<li<?php if($page == 'index'): ?> class="active"<?php endif ?>><a href="default.php">HOME</a></li>
 			<li<?php if($page == 'product'): ?> class="active"<?php endif ?>><a href="product.php">PRODUCT</a></li>	
 			<li<?php if($page == 'demos'): ?> class="active"<?php endif ?>><a href="demos.php">DEMOS</a></li>	
 			<li<?php if($page == 'learn'): ?> class="active" <?php endif ?>><a href="learningcenter">LEARN</a></li>

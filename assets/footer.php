@@ -1,7 +1,7 @@
 <div id="footer">
 	<div class="clearfix">
 		<ul>
-			<li><a href="index.php">Home</a></li>
+			<li><a href="default.php">Home</a></li>
 			<li><a href="product.php">Product</a></li>
 			<li><a href="demos.php">Demos</a></li>
 		</ul>
