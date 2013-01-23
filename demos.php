@@ -51,7 +51,7 @@
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#Charts">
 				<img src="./images/demo/charts.png" width="130" height="90" alt="1">
 				<h4>Charts</h4>
-				<p>Chart components in formspider.</p>
+				<p>Chart components in Formspider.</p>
 			</a></li>
 			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.jsp?name=DemoMain#DemoTemplateApplication">
 				<img src="./images/demo/demoTemplateApplication.PNG" width="130" height="90" alt="1">
@@ -60,6 +60,11 @@
 			</a></li>
 			
 			
+			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoInteractiveReport">
+				<img src="./images/demo/demoInteractiveReport.PNG" width="130" height="90" alt="1">
+				<h4>Interactive Report</h4>
+				<p>Building an interactive report with Formspider grid component.</p>
+			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoThreeLevelMasterDetailGrids">
 				<img src="./images/demo/demoThreeLevelMasterDetailGrids.PNG" width="130" height="90" alt="1">
 				<h4>3-Level Master Detail Grids</h4>
@@ -70,18 +75,18 @@
 				<h4>Tree</h4>
 				<p>An example of a tree loaded by multiple datasources.</p>
 			</a></li>
-			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoCalendar">
+			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoCalendar">
 				<img src="./images/demo/demoCalendar.PNG" width="130" height="90" alt="1">
 				<h4>Calendar</h4>
 				<p>Formspider calendar sample.</p>
 			</a></li>
-			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoPanel">
+			
+			
+			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoPanel">
 				<img src="./images/demo/panels.png" width="130" height="90" alt="1">
 				<h4>Panels</h4>
 				<p>Formspider panel types. Simple, tab, accordion, split panel samples.</p>
 			</a></li>
-			
-			
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoDialog">
 				<img src="./images/demo/demoDialog.PNG" width="130" height="90" alt="1">
 				<h4>Dialogs</h4>
@@ -92,15 +97,10 @@
 				<h4>Events & Actions</h4>
 				<p>Formspider event and action sample.</p>
 			</a></li>
-			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoInternationalization">
+			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoInternationalization">
 				<img src="./images/demo/demoInternationalization.PNG" width="130" height="90" alt="1">
 				<h4>Internationalization</h4>
 				<p>Internationalization in Formspider.</p>
-			</a></li>
-			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoKeyEvents">
-				<img src="./images/demo/demoFileUpload.PNG" width="130" height="90" alt="1">
-				<h4>Key Events</h4>
-				<p>Using Formspider key events.</p>
 			</a></li>
 			
 			
@@ -234,6 +234,12 @@
 				<p>Combo box populated dynamically when changing another one.</p>
 			</a></li>
 			
+			
+			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoKeyEvents">
+				<img src="./images/demo/demoFileUpload.PNG" width="130" height="90" alt="1">
+				<h4>Key Events</h4>
+				<p>Using Formspider key events.</p>
+			</a></li>
 			
 			<!--li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoOracleReports">
 				<img src="images/demos/demo_oraclereports.jpg" width="202" height="90" alt="1">
