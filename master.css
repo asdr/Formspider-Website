@@ -518,8 +518,8 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 	#footer ul.right .facebook a {background-image:url('images/icon-facebook.png'); background-size: 100% 100%; border-radius:3px;}
 	#footer ul.right a:hover { border-bottom: 0; opacity: .7; position: relative; top: 1px; }
 #footer ul li { padding: 9px 0; }
-#footer ul li a { color: #909090; }
-#footer ul li a:hover { color: #333; border-bottom: 1px solid #ccc; }
+#footer  a { color: #909090; }
+#footer  a:hover { color: #333; border-bottom: 1px solid #ccc; }
 #footer .copyright { color: #c0c0c0; border-top: 1px solid #f1f1f1; padding: 35px 0; }
 
 /* Forms ------------------------------- */

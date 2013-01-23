@@ -33,7 +33,7 @@
 	</div>
 	<div class="clearfix copyright">
 		<div class="left">&copy; Copyright Gerger 2012</div>
-		<div class="right">Designed and developed by Gerger at Istanbul Technical University ARI Technopark.</div>
+		<div class="right">Designed and developed by <a href="http://www.gerger.co" target="_blank">Gerger</a> at Istanbul Technical University <a href="http://www.ariteknokent.com.tr" target="_blank">ARI Technopark</a>.</div>
 	</div>
 </div>
 </div><!-- /container -->
