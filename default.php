@@ -68,7 +68,7 @@
 				</div-->
 				
 				
-					<a style="" href="http://theformspider.com/FormspiderEventInIstanbul.php">Formspider Day in Istanbul</a>
+					<a style="" href="http://theformspider.com/blog/2012/10/31/ag-transport-uses-formspider/">AG Transport Uses Formspider</a>
 					<br>
 				
 			</div> 	
