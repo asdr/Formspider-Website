@@ -45,7 +45,7 @@
 			    <br/>
 			    <h1 align="left" style="font-size: 15px; font-style: italic; font-weight: bold;"><b>Gerger, Istanbul TR</b></h1>
 			    <br/>
-			  	<p>Address : ITU ARI2 Teknokent A5.6 Maslak Sisli - Istanbul / Turkey</p>
+			  	<p>Address : ITU ARI-1 Teknokent No:15 Maslak Sisli - Istanbul / Turkey</p>
 			  	<p>Phone : +90 212 328 27 75</p>
 			  	<p>Email : info(at)gerger.co</p>
 			  	<br />
@@ -65,7 +65,7 @@
   	    </td>
   	    <td>
   	      <div align="left">
-  	        <iframe width="350" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=tr&amp;msa=0&amp;ll=41.107914,29.034714&amp;spn=0.003327,0.006968&amp;t=h&amp;msid=213710286357073568426.00049cddec7d308551112&amp;output=embed"></iframe>
+  	        <iframe width="350" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/?ie=UTF8&amp;ll=41.105941,29.016175&amp;spn=0.003496,0.006427&amp;t=h&amp;z=18&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/?ie=UTF8&amp;ll=41.105941,29.016175&amp;spn=0.003496,0.006427&amp;t=h&amp;z=18&amp;source=embed"></iframe>			
 	  	    <!--iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=41.108189,29.033614&amp;num=1&amp;t=k&amp;sll=41.107926,29.03421&amp;sspn=0.003327,0.009012&amp;ie=UTF8&amp;ll=41.107926,29.03421&amp;spn=0.001663,0.004506&amp;z=14&amp;output=embed"></iframe>
 	  	    <!--iframe width="350" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?source=s_d&amp;saddr=&amp;daddr=41.108023,29.035728&amp;geocode=&amp;hl=tr&amp;mra=dme&amp;mrcr=0&amp;mrsp=1&amp;sz=17&amp;ie=UTF8&amp;msa=0&amp;msid=218304334541643483322.00049bb1f57b9a5d2837f&amp;ll=41.108338,29.033968&amp;spn=0.00561,0.00912&amp;z=16&amp;output=embed"></iframe><br /><small>Şunu daha büyük bir haritada görüntüle: <a href="http://maps.google.com/maps/ms?source=embed&amp;saddr=&amp;daddr=41.108023,29.035728&amp;geocode=&amp;hl=tr&amp;mra=dme&amp;mrcr=0&amp;mrsp=1&amp;sz=17&amp;ie=UTF8&amp;msa=0&amp;msid=218304334541643483322.00049bb1f57b9a5d2837f&amp;ll=41.108338,29.033968&amp;spn=0.00561,0.00912&amp;z=16" style="color:#0000FF;text-align:left">Başlıksız</a></small-->
 	  	  </div>
