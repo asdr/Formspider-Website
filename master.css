@@ -503,8 +503,9 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 	.reveal-modal .close-reveal-modal { font-size: 22px; line-height: .5; position: absolute; top: 8px; right: 11px; color: #aaa; text-shadow: 0 -1px 1px rbga(0,0,0,.6);	font-weight: bold; cursor: pointer;	}
 		
 /* FOOTER ------------------------------- */
-#footer { margin: 40px 0; padding: 40px 0; border-top: 2px solid #f1f1f1; font-size: 16px; color: #909090; position: relative; z-index: 10; }
-#footer div { margin-bottom: 25px; }
+#footer { margin: 40px 0 80px; padding: 0px 0; font-size: 16px; color: #909090; position: relative; z-index: 10; }
+#footer>div { margin: 15px 0; }
+#footer>div.copyright, #footer>div.clearfix {margin: 25px 0;}
 #footer ul { float: left; width: 165px; }
 /*#footer ul:nth-child(2) { width: 340px; }	*/
 #footer ul.right { float: right; width: 300px; }
@@ -520,7 +521,10 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 #footer ul li { padding: 9px 0; }
 #footer  a { color: #909090; }
 #footer  a:hover { color: #333; border-bottom: 1px solid #ccc; }
-#footer .copyright { color: #c0c0c0; border-top: 1px solid #f1f1f1; padding: 35px 0; }
+#footer .copyright { color: #c0c0c0; }
+#footer .oracle-partner {/}
+#oracle-partner-img {margin: 5px 2px 5px 2px; box-shadow: 0 1px 5px 0 #e0e0e0;}
+.line {height:0px; /*width:100%;*/ border-top:1px solid #e8e8e8; border-bottom:1px solid #fff;}
 
 /* Forms ------------------------------- */
 fieldset { width: 460px; }

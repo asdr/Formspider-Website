@@ -1,4 +1,7 @@
 <div id="footer">
+
+	<div class="line"></div>
+
 	<div class="clearfix">
 		<ul>
 			<li><a href="default.php">Home</a></li>
@@ -31,8 +34,22 @@
 			<!--li class="email last"><a data-reveal-id="contact-modal" data-animation="fade">E-mail</a></li-->
 		</ul>
 	</div>
+	
+	<?php
+		if ($page == 'references' || $page == 'about-us') {
+			echo 
+			'<div class="line"></div>
+			
+			<div class="oracle-partner">
+				<img id="oracle-partner-img" src="images/O_SilverPartner_clr.gif"/>
+			</div>';
+		}
+	?>
+	
+	<div class="line"></div>
+	
 	<div class="clearfix copyright">
-		<div class="left">&copy; Copyright Gerger 2012</div>
+		<div class="left">&copy; Copyright Gerger 2013</div>
 		<div class="right">Designed and developed by <a href="http://www.gerger.co" target="_blank">Gerger</a> at Istanbul Technical University <a href="http://www.ariteknokent.com.tr" target="_blank">ARI Technopark</a>.</div>
 	</div>
 </div>
