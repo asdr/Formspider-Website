@@ -11,6 +11,9 @@
 	<meta name="Language" content="en"> 
 	<link rel="icon" type="image/png" href="images/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="master.css" />
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="master-ie8.css" />
+	<![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
 	
 	

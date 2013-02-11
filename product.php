@@ -6,6 +6,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="master.css" />
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="master-ie8.css" />
+	<![endif]-->
 	<script src="js/utilities.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		var descid = getParameter('descid');
@@ -291,7 +294,7 @@ if($showVS == "Download" || $showVS == "Upgrade" || $showVS == 'RegisterFSEventI
 			</div><!-- /row -->
 
 			<div id="cta">
-				<a class="button silver" href="compare-formspider-with-apex.php">Compare Formspider with Apex</a> 
+				<a class="button silver" href="compare-formspider-with-apex.php">Compare Formspider to Apex</a> 
 				<div>&mdash; or &mdash;</div>
 				
 				<div><h2> Try now </h2></div>

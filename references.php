@@ -6,6 +6,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="master.css" />
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="master-ie8.css" />
+	<![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
 </head>
 

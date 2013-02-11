@@ -6,6 +6,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="master.css" />
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="master-ie8.css" />
+	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/jquery-ui.css"/>
 	<link href="css/jqueryui.button.css" rel="stylesheet" type="text/css"/>
 	<link href="css/download.css" rel="stylesheet" type="text/css"/>
