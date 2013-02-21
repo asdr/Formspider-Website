@@ -70,12 +70,12 @@
 	<h3>Highlights</h3>
 	<p><i><b><a href="http://theformspider.com/learningcenter/tutorial-45-how-to-build-an-interactive-report/" target="_blank">Interactive Reporting features</a> for the Grid component such as column add/remove, functions and custom search criteria.</b></i></p>
 	<p><i><b>Security improvements. Formspider now locks server side resources automatically and rejects any input from UI Components that are not editable by the user in the current application state.</b></i></p>
-	<p><i><b>Gauge Charts.</b></i></p>
+	<p><i><b><a href="http://theformspider.com/learningcenter/tutorial-46-how-to-use-gauge-chart/" target="_blank">Gauge Charts.</a></b></i></p>
 	<p><i><b>Significantly faster middle tier with WebLogic and GlassFish support.</b></i></p>
 	
 	<h3>New Features</h3>
 	<ul style="margin-left:10px;margin-bottom:10px;">
-	  <li>New chart type Gauge is added.</li>
+	  <li>New chart type <a href="http://theformspider.com/learningcenter/tutorial-46-how-to-use-gauge-chart/" target="_blank">Gauge</a> is added.</li>
 	  <li>New "enableColumnSort" attribute is added to Grid component . This attribute affects all columns in Grid component. If users want to make only individual columns sortable, "sortable" attribute on the "column" attribute tag can be used. (columns with CLOB/BLOB datatype, radiobuttons and columns not bound to any datasource column, can not be sortable)</li>
 	  <li>New "click" event is added to PieChart.</li>
 	  <li><a href="http://theformspider.com/learningcenter/tutorial-45-how-to-build-an-interactive-report/" target="_blank">Interactive Reporting features</a> are added to the Grid component. Application users can now hide columns in a grid, apply search criteria to any grid column, apply functions such as sum, count, avg to grid column. Resizing and moving grid columns were already possible. These features can be enabled and disabled by the developer using grid attributes "enableColumnHide", "enableColumnFunctions", "enableColumnFilter". The "columnsResizable" attribute is re-named as "enableColumnResize" and the "columnsMovable" attribute re-named as "enableColumnMove".</li>
