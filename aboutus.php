@@ -53,49 +53,37 @@
 				<div>That would be me. Being surrounded by great teammates makes my job incredibly fun. 
 				If you’d like to follow my adventures, please follow me on Twitter <a target="_blank" href="http://www.twitter.com/yalimgerger">@yalimgerger</a></div>
 			</li>
-			<li>
-				<a class="person"><img src="images/about/orhan.png" width="70" height="70" alt="Orhan Turkoğlu">
-				<h3>Orhan Turkoğlu</h3>
-				<h4>VP of Client Services</h4></a>
-				<div>Orhan is the first employee I hired. If you are embarking on a journey with a lot of unknowns ( read: starting a company ) you need someone that you can rely on to cover your back through fog, smoke and chaos. He is THE ONE.</div>
-			</li>
-			<li id="danieltin" class="last-in-row">
+			<li id="danieltin">
 				<a class="person"><img src="images/about/danieltin.jpg" width="70" height="70" alt="Daniel Tin">
 				<h3>Daniel Tin</h3>
 				<h4>Business Development Mgr.</h4></a>
 				<div>Daniel is our new Business Development Manager. After our first meeting, I knew he was the right person for the job. There are very few people who know the Enterprise IT world like he does and we feel very fortunate to have him as part of the team.</div>
 			</li>
-			<li id="sametbasaran">
+			<li id="sametbasaran" class="last-in-row">
 				<a class="person"><img src="images/about/samet.png" width="70" height="70" alt="Samet Başaran">
 				<h3>Samet Başaran</h3>
 				<h4>Software Engineer, DB</h4></a>
 				<div>No matter how difficult, critical or urgent the problem is, when I hear Samet say “OK, I’ll take care of it”, I stop worrying about it.</div>
 			</li>
-			<li>
-				<a class="person"><img src="images/about/ugur.png" width="70" height="70" alt="Uğur Koçak">
-				<h3>Uğur Koçak</h3>
-				<h4>Product Manager</h4></a>
-				<div>Uğur gets it. He is like Keanu Reeves in the first Matrix movie when he starts beating up the bad guys at the end. He sees the Matrix as it is. During design meetings, I sometimes catch him wondering what the hell we are arguing about when the solution is so obvious.</div>
-			</li>
-			<li id="oskansavli" class="last-in-row">
+			<li id="oskansavli">
 				<a class="person"><img src="images/about/oskan.png" width="70" height="70" alt="Öskan Şavlı">
 				<h3>Öskan Şavlı</h3>
 				<h4>Front-end Engineer</h4></a>
 				<div>Öskan is candid. You’d better listen to him. He is fearless. You’d better fear him. He is brutally right. You’d better accept it. Because there is nothing he can’t do once he sets his mind to it.</div>
 			</li>
-			<li>
+			<li id="ibrahimsandalli">
 				<a class="person"><img src="images/about/ibrahim.png" width="70" height="70" alt="İbrahim Sandallı">
 				<h3>İbrahim Sandallı</h3>
 				<h4>Software Engineer in Test</h4></a>
 				<div>İbrahim enters comments to our bug tracking system that would pass as essays in scientific journals. He started working with us right out of school. After working with him for two years, I thanked him for teaching me so much.</div>
 			</li>
-			<li id="serdargokcen">
+			<li id="serdargokcen" class="last-in-row">
 				<a class="person"><img src="images/about/asdr.png" width="70" height="70" alt="Serdar Gökçen">
 				<h3>Serdar Gökçen</h3>
 				<h4>Software Engineer in Test</h4></a>
 				<div>This is a guy who installs Unix to his iPod. He works with four monitors, three computers, two keyboards and countless hubs and switches around them. He believes anybody not using Unix is a heretic and should be burnt at stake. I don’t know what we would have done without him.</div>
 			</li>
-			<li id="suataaldan" class="last-in-row">
+			<li id="suataaldan">
 				<a class="person"><img src="images/about/suataldan.jpg" width="70" height="70" alt="Suat A. Aldan">
 				<h3>Suat A. Aldan</h3>
 				<h4>Front-end Engineer</h4></a>
@@ -107,7 +95,7 @@
 				<h4>Software Engineer in Test</h4></a>
 				<div>Orhan was such an amazing summer intern that we had to hire him even though he is still at school. We keep throwing him harder challenges and thinking that he’ll ask for help at some point. We’re still waiting...</div>
 			</li>
-			<li>
+			<li id="asligerger" class="last-in-row">
 				<a class="person"><img src="images/about/asli.png" width="70" height="70" alt="Aslı Gerger">
 				<h3>Aslı Gerger</h3>
 				<h4>Administrator</h4></a>
