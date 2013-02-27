@@ -135,7 +135,7 @@ if($showVS == "Download" || $showVS == "Upgrade" || $showVS == 'RegisterFSEventI
 					<h3>Proven Security</h3>
 					<h4>Build applications with peace of mind.</h4>
 					<p>Reuse best security practices in your applications. 
-					Formspider libraries implement solutions for 9 out of Top 10 OWASP security threats among many other security best practices. 
+					<a href="http://theformspider.com/blog/2013/02/27/abour-security-of-formspider-applications/">Formspider implements solutions for 9 out of Top 10 OWASP security threats at the framework level.</a>
 					Applications built with Formspider technology passed audits in organizations with highest security standards such as U.S. Air Force, ING and New York State in record time.</p>
 				</div>
 				<div class="image">
