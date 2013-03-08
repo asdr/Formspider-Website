@@ -58,7 +58,7 @@
 		<div class="bannerContainer" style="padding-top:25px;  padding-left: 5px; width:900px; height:100px;">
 			<div id="pscroller2" class="rssclass" style="position: relative; overflow: hidden; background-image: url(images/latestnews4_1.png); width:100%; height:100%; padding-top:20px;">
 						
-					<a style="" href="http://theformspider.com/blog/2013/01/25/recap-of-formspider-day-denmark/">Recap of Formspider Day Denmark</a>
+					<a style="" href="http://theformspider.com/blog/2013/03/05/georgian-railways-uses-formspider/">Georgian Railways Uses Formspider</a>
 					<br>
 					
 					<a style="" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Rhenus Netherlands chose Formspider over Oracle Apex to modernize its Forms applications </a>
