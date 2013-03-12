@@ -74,20 +74,27 @@
 				<a class="readmore" href="http://theformspider.com/blog/2013/03/05/georgian-railways-uses-formspider/">Read more &rarr;</a></p>
 			</li>
 			<li class="end-of-row">
+				<img id="elmecsport" src="images/references/elmec_logo2_1.jpg" width="440" height="200" alt="Elmec Sport">
+				<h3>Elmec Sport</h3>
+				<p>Elmec, one of the biggest shoe distributors in Greece, uses Formspider.
+				<a class="readmore" href="http://theformspider.com/blog/2013/03/12/elmec-uses-formspider//">Read more &rarr;</a></p>
+			</li>
+			
+			<li>
 				<img id="nystate" src="images/references/newyorkstate.jpg" width="440" height="200" alt="New York State">
 				<h3>New York State</h3>
 				<p>NY State manages a billion dollar budget with a Formspider application to serve over 110,000 New Yorkers with more than 1550 treatment, 
 				prevention and recovery programs for alcohol and drug abuse. 
 				<a class="readmore" href="http://theformspider.com/blog/2011/04/21/who-uses-formspider-part-2-the-journey-from-forms-to-formspider/">Read more &rarr;</a></p>
 			</li>
-			
-			<li>
+			<li class="end-of-row">
 				<img id="usairforce" src="images/references/US_Air_Force_logo2.jpg" width="440" height="200" alt="Airforce">
 				<h3>US Air Force</h3>
 				<p>The active duty and reserve recruiting systems of US Air Force is based on the Formspider technology. 
 				<a class="readmore" href="http://theformspider.com/blog/2011/03/25/who-uses-formspider-part-1-the-journey-from-java-desktop-to-web-2-0/">Read more &rarr;</a></p>
 			</li>
-			<li class="end-of-row">
+			
+			<li>
 				<img id="ethiopia" src="images/references/ethiopia3.jpg" width="440" height="200" alt="Ethiopia">
 				<h3>Ethiopia</h3>
 				<p>Ethiopia, one of the fastest growing countries in Africa uses Formspider to build the next version of the budgeting, 
