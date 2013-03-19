@@ -323,7 +323,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .references #content ul li.end-of-row { margin-right: 0; }
 .references #content ul li a { display: block; -webkit-transition: opacity .3s; }
 .references #content ul li a:hover { opacity: .4; }
-.references #content ul li img { background: #fff; padding: 15px 30px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-shadow: 0 1px 5px 0 #e0e0e0;}
+.references #content ul li img { background: #fff; padding: 15px 30px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-shadow: 0 1px 6px 0 #e0e0e0;}
 .references #content ul img {}
 .references #content ul h3 { font-size: 21px; font-weight: 600; padding: 20px 0 0 0; color: #555; }
 .references #content ul p { font-size: 16px; line-height: 21px; }
@@ -335,6 +335,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .references #content #ethiopia{padding: 0;}
 .references #content #rhenus{padding: 0;}
 .references #content #elmecsport{padding:0;}
+.references #content #maliakoskleidi{padding:0;}
 
 /* PRICING page ------------------------------- */
 #columns { margin-top: 30px; }
