@@ -238,6 +238,11 @@
 			</a></li>
 			
 			
+			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoImage">
+				<img src="./images/demo/demoImage.PNG" width="130" height="90" alt="1">
+				<h4>Image</h4>
+				<p>Displaying images stored in the database using Formspider image component.</p>
+			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoKeyEvents">
 				<img src="./images/demo/demoKeyEvents.PNG" width="130" height="90" alt="1">
 				<h4>Key Events</h4>
