@@ -248,7 +248,11 @@
 				<h4>Key Events</h4>
 				<p>Using Formspider key events.</p>
 			</a></li>
-			
+			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoWebService">
+				<img src="./images/demo/demoWebService.PNG" width="130" height="90" alt="1">
+				<h4>Web Service</h4>
+				<p>Using an external web service in a Formspider application.</p>
+			</a></li>
 			<!--li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoOracleReports">
 				<img src="images/demos/demo_oraclereports.jpg" width="202" height="90" alt="1">
 				<h4>Oracle Reports</h4>
