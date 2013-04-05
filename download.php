@@ -353,6 +353,7 @@
 						<p>
 							<button id="downloadUpgrade" style="width:100%">Download Formspider 1.2.x to 1.3.0 Update Script</button>
 						</p>
+						<p style="text-align:center;"><a href="mailto:contact@theformspider.com">Contact us</a> to update from an earlier version </p>
 						<input type="submit" value="Submit" class="submit" id="downloadFormSubmit" style="display:none" />
 					</form>
 				  
@@ -364,8 +365,7 @@
 			<p style="text-align:center;"><a href="/changeLog.php" target="_blank">View Change Log</a></p>
 			<p style="text-align:center;"><a href="/gettingstarted.php" target="_blank">Installation Guide</a></p>
 			<p style="text-align:center;"><span class="linkSpan" id="opener" style="cursor:pointer;">System Requirements</span> </p>
-			<p style="text-align:center;"><a href="/download/Formspider 1.1.x to 1.2.1 update patch.zip" target="_blank">Download Formspider 1.1.x to 1.2.1 Update Patch</a></p>
-			<p style="text-align:center;"><a href="mailto:contact@theformspider.com">Contact us</a> to update from an earlier version </p>
+			
 			
 		</div>
 				
