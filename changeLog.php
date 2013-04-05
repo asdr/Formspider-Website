@@ -55,6 +55,46 @@
   	<br/>
   	<br/>
 	
+	<h2>Change Log for Formspider 1.3.0<br/>05 April 2013</h2>
+	<h3>New Features</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>Added a null representation attribute "emptyText" for TextField, DateField and TextArea components.</li>
+	  <li>Added ability to download file from BLOB column of the datasource.</li>
+	  <li>Added ability to add Image component to Grid.</li>
+	  <li>New "LOVField" component is added.</li>
+	  <li>The "icon" attribute and "iconClick" event is added to TextField component.</li>
+	</ul>
+	
+	<h3>Behavior Changes</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>Better filtering for combobox. Users may filter the data by typing.</li>
+	  <li>FocusGain, FocusLost and KeyEvents are removed from TextLabel and FileUpload components.</li>
+	  <li>ValueChanged and FocusLost event order changed. ValueChanged fires first.</li>
+	  <li>FocusLost & FocusGain events are not fired when user clicks out of browser.</li>
+	</ul>
+	
+	<h3>Developer APIs</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>New "removePanel" API is aded to API_PANEL which removes a panel without the need to know its parent panel.</li>
+	  <li>Added ability to get focused component in Grid.</li>
+	</ul>
+	
+	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>Fixed FocusGain not firing bug when moving cursor between two Grids.</li>
+	  <li>Fixed the problem between "backgroundColorColumn" attribute and selected row color at the editable TextFields in Grid.</li>
+	  <li>Solved translation problem on LOV search labels.</li>
+	  <li>Solved "API_DATASOURCE.setQuery" and "API_DATASOURCE.setFilterWhereClause" problems on PreQuery event.</li>
+	  <li>Prevented recursive panel inclusion in the IDE.</li>
+	  <li>Fixed calculation of Grid row heights when row height is Dynamic.</li>
+	  <li>Prevented sending unnecessary changes when there is numberMask at uneditable TextField component.</li>
+	  <li>Fixed Grid key navigation issues.</li>
+	  <li>Fixed ComboBox key navigation in Grid.</li>
+	</ul>
+	
+	<br/>
+  	<br/>
+	
 	<h2>Change Log for Formspider 1.2.1<br/>12 December 2012</h2>
 	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
 	<ul style="margin-left:10px;margin-bottom:10px;">
