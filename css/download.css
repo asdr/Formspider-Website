@@ -92,3 +92,10 @@ input:-moz-placeholder {
     color: #999;
     font-style: italic;
 }
+
+#systemRequirementsDialog p {
+	font-size:15px;
+}
+.ui-widget {
+	font-size: 1em;
+}
