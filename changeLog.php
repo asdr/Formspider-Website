@@ -63,6 +63,7 @@
 	  <li>Added ability to add Image component to Grid.</li>
 	  <li>New "LOVField" component is added.</li>
 	  <li>The "icon" attribute and "iconClick" event is added to TextField component.</li>
+	  <li>The "rowHeight" attribute is added to Grid component.</li>
 	</ul>
 	
 	<h3>Behavior Changes</h3>
