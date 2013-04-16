@@ -56,34 +56,33 @@
 				<h4>Charts</h4>
 				<p>Chart components in Formspider.</p>
 			</a></li>
-			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.jsp?name=DemoMain#DemoTemplateApplication">
-				<img src="./images/demo/demoTemplateApplication.PNG" width="130" height="90" alt="1">
-				<h4>Tree Driven Tabbed Application</h4>
-				<p>Building a tree driven tabbed application with Formspider.</p>
+			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO">
+				<img src="./images/demo/srdemo.PNG" width="130" height="90" alt="1">
+				<h4>Reference Application</h4>
+				<p>Formspider reference application: SRDEMO</p>
 			</a></li>
 			
 			
-			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoInteractiveReport">
-				<img src="./images/demo/demoInteractiveReport.PNG" width="130" height="90" alt="1">
-				<h4>Interactive Report</h4>
-				<p>Building an interactive report with Formspider grid component.</p>
+			<li><a href="http://formspideronline.com/formspider/main.jsp?name=DemoMain#DemoTemplateApplication">
+				<img src="./images/demo/demoTemplateApplication.PNG" width="130" height="90" alt="1">
+				<h4>Tree Driven Tabbed Application</h4>
+				<p>Building a tree driven tabbed application.</p>
 			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoThreeLevelMasterDetailGrids">
 				<img src="./images/demo/demoThreeLevelMasterDetailGrids.PNG" width="130" height="90" alt="1">
 				<h4>3-Level Master Detail Grids</h4>
 				<p>A master-detail form build with three grids.</p>
 			</a></li>
-			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoTree">
+			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoInteractiveReport">
+				<img src="./images/demo/demoInteractiveReport.PNG" width="130" height="90" alt="1">
+				<h4>Interactive Report</h4>
+				<p>Building an interactive report with Formspider grid component.</p>
+			</a></li>
+			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoTree">
 				<img src="./images/demo/tree.png" width="130" height="90" alt="1">
 				<h4>Tree</h4>
 				<p>An example of a tree loaded by multiple datasources.</p>
-			</a></li>
-			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoCalendar">
-				<img src="./images/demo/demoCalendar.PNG" width="130" height="90" alt="1">
-				<h4>Calendar</h4>
-				<p>Formspider calendar sample.</p>
-			</a></li>
-			
+			</a></li>			
 			
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoPanel">
 				<img src="./images/demo/panels.png" width="130" height="90" alt="1">
@@ -151,10 +150,10 @@
 			</a></li>
 			
 			
-			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoMovingGridRow">
-				<img src="./images/demo/demoMovingGridRow.png" width="130" height="90" alt="1">
-				<h4>Moving a Grid Row</h4>
-				<p>Changing the order of a row in grid.</p>
+			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoCalendar">
+				<img src="./images/demo/demoCalendar.PNG" width="130" height="90" alt="1">
+				<h4>Calendar</h4>
+				<p>Formspider calendar sample.</p>
 			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoSnapshotMechanism">
 				<img src="./images/demo/demoSnapshotMechanism.PNG" width="130" height="90" alt="1">
@@ -241,7 +240,7 @@
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoImage">
 				<img src="./images/demo/demoImage.PNG" width="130" height="90" alt="1">
 				<h4>Image</h4>
-				<p>Displaying images stored in the database using Formspider image component.</p>
+				<p>Displaying images stored in the database using image component.</p>
 			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoKeyEvents">
 				<img src="./images/demo/demoKeyEvents.PNG" width="130" height="90" alt="1">
@@ -253,11 +252,11 @@
 				<h4>Web Service</h4>
 				<p>Using an external web service in a Formspider application.</p>
 			</a></li>
-			<!--li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoOracleReports">
-				<img src="images/demos/demo_oraclereports.jpg" width="202" height="90" alt="1">
-				<h4>Oracle Reports</h4>
-				<p>Integrating OracleReports into Formspider.</p>
-			</a></li-->
+			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoMovingGridRow">
+				<img src="./images/demo/demoMovingGridRow.png" width="130" height="90" alt="1">
+				<h4>Moving a Grid Row</h4>
+				<p>Changing the order of a row in grid.</p>
+			</a></li>
 			
 			
 		</ul>
