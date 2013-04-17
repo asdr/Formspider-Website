@@ -89,23 +89,23 @@
 				<p>
 				Leverage your <a href="product.php#plsql">PL/SQL</a> skills for web development. 
 				Easily build truly <a href="product.php#crossbrowser">cross browser</a> applications. 
-				Manage data-aware <a href="product.php#components">UI components</a> with PL/SQL API’s and enjoy the productivity of a <a href="product.php#databinding">full model layer</a>.
+				Manage <a href="product.php#components">data-aware UI components</a> with PL/SQL API’s and enjoy the productivity of a <a href="product.php#databinding">full model layer</a>.
 				</p>
 			</li>
 			
 			<li>
 				<img src="images/index/benefit2.jpg" width="118" height="99" alt="Higher Quality">
 				<h4>HIGHER QUALITY</h4>
-				<p>Choose the framework that gives you <a href="product.php#design">100% AJAX</a> applications by default. Reuse built-in 
-				<a href="product.php#performance">performance</a> best practices in every application you develop. 
-				Upgrade to the framework that passed audits at organizations with very high <a href="product.php#security">security</a> requirements.</p>
+				<p>Choose the framework that gives you <a href="product.php#design">100% AJAX</a> applications by default. Reuse 
+				<a href="product.php#performance">built-in performance</a> best practices in every application you develop. 
+				Upgrade to the framework that passed audits at organizations with very <a href="product.php#security">high security</a> requirements.</p>
 			</li>
 			
 			<li>
 				<img src="images/index/benefit3.jpg" width="118" height="99" alt="Benefit3">
 				<h4>LOWER COST</h4>
 				<p>
-				Pay only when you are in production with Formspider’s affordable <a href="pricing.php">pricing</a> policy. 
+				Pay only when you are in production with Formspider’s <a href="pricing.php">affordable pricing</a> policy. 
 				Focus on solving business problems rather than technical ones. 
 				Build long lasting applications that don't bet on hypes but on <a href="product.php#technologyindependence">good architecture</a>.
 				</p>
