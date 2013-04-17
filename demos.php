@@ -42,9 +42,9 @@
 		<ul>
 			
 			<li ><a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO">
-				<img style="border-bottom:0px none;" src="./images/demo/srdemo4.PNG" width="205" height="205" alt="1">
+				<img style="border-bottom:0px none;" src="./images/demo/srdemo4.PNG" width="204" height="212" alt="1">
 			</a></li>
-			<span class="demoText" style="width:660px; min-height:250px; float:left;">
+			<span class="demoText">
 			<h2> Formspider Reference Application </h2>
 			<p>
 				The Reference Application shows the implementation of the most common use cases developers encounter when building applications.
@@ -122,7 +122,7 @@
 			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoExcel">
 				<img src="images/demo/demoExcel.PNG" width="130" height="90" alt="1">
-				<h4>Exporting Data to Excel</h4>
+				<h4>Export Data to Excel</h4>
 				<p>Exporting data to Excel through Formspider grids and datasources.</p>
 			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoMap">
@@ -232,8 +232,8 @@
 			</a></li>
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoDependentComboBoxes">
 				<img src="./images/demo/demoDependentComboBoxes.png" width="130" height="90" alt="1">
-				<h4>Dependent Combo Boxes</h4>
-				<p>Combo box populated dynamically when changing another one.</p>
+				<h4>Dependent ComboBoxes</h4>
+				<p>ComboBox populated dynamically when changing another one.</p>
 			</a></li>
 			<li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoImage">
 				<img src="./images/demo/demoImage.PNG" width="130" height="90" alt="1">
