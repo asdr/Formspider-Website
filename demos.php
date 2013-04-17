@@ -42,7 +42,7 @@
 		<ul>
 			
 			<li ><a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO">
-				<img style="border-bottom:0px none;" src="./images/demo/srdemo4.PNG" width="204" height="212" alt="1">
+				<img style="border-bottom:0px none;" src="./images/demo/srdemo4.png" width="204" height="212" alt="1">
 			</a></li>
 			<span class="demoText">
 			<h2> Formspider Reference Application </h2>
