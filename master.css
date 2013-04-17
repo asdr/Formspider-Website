@@ -309,6 +309,10 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .demos #content ul li img { background: #fff; padding: 8px; border-bottom: 1px solid #f2f2f2; }
 .demos #content ul li h4 { padding: 10px 20px 5px 20px; color: #595959; font-size: 18px; font-weight: 500; }
 .demos #content ul li p { padding: 0 15px 15px 15px; font-size: 15px; line-height: 18px; }
+.demos #content ul .demoText { width:660px; min-height:250px; float:left; }
+.demos #content ul .demoText h2 { font-size:24px; padding-bottom:0;}
+.demos #content ul .demoText a {color:#08c;}
+.demos #content ul .demoText a:hover {text-decoration:underline;}
 
 .demos #content:after, .demos #content ul:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
