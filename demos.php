@@ -41,13 +41,13 @@
 			
 		<ul>
 			
-			<li ><a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO">
+			<li ><a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO" target="_blank">
 				<img style="border-bottom:0px none;" src="./images/demo/srdemo4.png" width="204" height="212" alt="1">
 			</a></li>
 			<span class="demoText">
 			<h2> Formspider Reference Application </h2>
 			<p>
-				The Reference Application shows the implementation of the most common use cases developers encounter when building applications.
+				<a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO" target="_blank">The Reference Application</a> shows the implementation of the most common use cases developers encounter when building applications.
 				<p> <a href="http://theformspider.com/learningcenter/formspider-reference-application/">Download the source code for the Reference Application.</a></p>
 			</p>
 			</span>
