@@ -166,7 +166,9 @@ if($showVS == "Download" || $showVS == "Upgrade" || $showVS == 'RegisterFSEventI
 					accordions, <a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoDialog">dialogs</a>, 
 					<a href="http://formspideronline.com/formspider/main.html?name=DemoCalendar">calendars</a> and 
 					<a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoTree">trees</a>. 
-					Empower them with powerful data grid features such as flexible columns, built-in sorting, search and reporting. 
+					Empower them with 
+					<a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoInteractiveReport">powerful data grid features</a> 
+					such as flexible columns, built-in sorting, search and reporting. 
 					<a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoExcel"> Produce Excel sheets </a> 
 					from data grids with a single Formspider API call. 
 					<a href="http://formspideronline.com/formspider/main.html?name=DemoMain#Charts"> Declaratively create data driven, visually stunning charts. </a>
