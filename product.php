@@ -123,7 +123,7 @@ if($showVS == "Download" || $showVS == "Upgrade" || $showVS == 'RegisterFSEventI
 				<div class="text">
 					<h3>Rich By Design</h3>
 					<h4>Build applications, not web pages</h4>
-					<p>Build single page, fully AJAX applications without managing your own AJAX calls. 
+					<p><a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO">Build single page, fully AJAX applications</a> without managing your own AJAX calls. 
 					Develop at a high level of abstraction than HTML with Formspider’s component based architecture. 
 					Delight your users with applications that provide a superb experience. 
 					</p>
