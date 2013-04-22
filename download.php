@@ -246,80 +246,109 @@
 				<div class="licenseNew">
 					<p style="text-align:center; font-weight:bold;">GERGER FORMSPIDER TRIAL LICENSE</p>
 
-					<p>"We," "us," and "our" refers to Gerger, for and on behalf of itself and its subsidiaries and affiliates under common control. "You" and "your" refers to the individual or entity that wishes to use the programs from Gerger. "Programs" refers to the Gerger software product you wish to download and use and program documentation. "License" refers to your right to use the Programs under the terms of this agreement. This agreement is governed by the substantive and procedural laws of the Republic of Turkey. You and Gerger agree to submit to the exclusive jurisdiction of, and venue in, the courts of the Republic of Turkey in any dispute arising out of or relating to this agreement.
+					<p>This document is a legal agreement (the "Agreement") between Gerger Yazilim ve Danismanlik Hizmetleri Ltd. Sti. and you or the organization on whose behalf you are entering into this agreement.
 					</p>
-					<p>We are willing to license the programs to you only upon the condition that you accept all of the terms contained in this agreement. Read the terms carefully and select the "Accept License Agreement" button to confirm your acceptance. If you are not willing to be bound by these terms, select the "Decline License Agreement" button.
+					<p>"We," "us,", "our" and "Gerger" refers to Gerger Yazilim ve Danismanlik Hizmetleri Ltd. Sti., for and on behalf of itself and its subsidiaries and affiliates under common control.  "You" and "your" refers to the individual or entity that wishes to use the programs from Gerger.  "Software", "Program" or "Programs" refers to the Gerger's software product trademarked as Formspider, registered as GARP (Generic Application Rules Repository) at ITU ARI Teknokent, you wish to use.  "License" refers to your right to use the programs under the terms of this agreement.  This agreement is governed by the substantive and procedural laws of the Republic of Turkey. You and Gerger agree to submit to the exclusive jurisdiction of, and venue in, the courts of the Republic of Turkey in any dispute arising out of or relating to this agreement.
 					</p>
-					<p class="section">License Rights</p>
-					
-					<p>We grant you a nonexclusive, nontransferable limited license to use the Programs only for the purpose of developing, testing, prototyping and demonstrating your application, and not for any other purpose. If you use the application you develop under this license for any internal data processing or for any commercial or production purposes, or you want to use the programs for any purpose other than as permitted under this agreement, you must obtain a production release version of the program by contacting us to obtain the appropriate license. You acknowledge that we may not produce a production release version of the program and any development efforts undertaken by you are at your own risk. We may audit your use of the programs.
+					<p>Rights granted herein apply only to Software for which you've paid the applicable license fee.
 					</p>
-					<p class="section">Ownership and Restrictions</p> 
-					
-					<p>We retain all ownership and intellectual property rights in the programs. The Programs may be installed on one computer only. You may make one copy of the Program for backup purposes.
+					<p>By downloading, installing, copying or otherwise using the Software, you accept the following terms and conditions. If you do not agree with any of the terms or the conditions, do not proceed with the downloading, copying, installation or any other use of the Software or any portion thereof as you have no rights to do so. The Software is protected by the copyright laws of The Republic of Turkey and international copyright laws, as well as other intellectual property laws and treaties. The Software is licensed, not sold. This license agreement describes your rights and restrictions with respect to the Software and its components.
 					</p>
-					<p class="section">You may not:</p> 
+					<p class="section">1. DEFINITIONS</p>
 					
-					<ul style="padding-left:30px; padding-right:15px;">
-					<li>use the Programs for your own internal data processing or for any commercial or production purposes, or use the programs for any purpose except the development of your application;
-					</li>
-					<li>use the application you develop with the Programs for any internal data processing or commercial or production purposes without securing an appropriate license from us;
-					</li>
-					<li>continue to develop your application after you have used it for any internal data processing, commercial or production purpose without securing an appropriate license from us;
-					</li>
-					<li>remove or modify any Program markings or any notice of our proprietary rights;
-					</li>
-					<li>make the Programs available in any manner to any third party;
-					</li>
-					<li>use the Programs to provide third party training;
-					</li>
-					<li>assign this agreement or any rights granted hereunder or give or transfer the Programs or an interest in them to another individual or entity;
-					</li>
-					<li>cause or permit reverse engineering disassembly or decompilation of the programs or use or copy the source code if it is available without decompilation;
-					</li>
-					<li>disclose results of any program benchmark tests without our prior consent.
-					</li>
-					</ul>
-					<br/>
-					<p class="section">No Technical Support</p>
-					
-					<p>Our technical support organization is not obligated in any way to provide technical support, phone support, or updates to you for the programs licensed under this agreement.  
+					<p>"Application" means any software, application, or elements that Your Designated Users develop using the Software or Modifications in accordance with this Agreement; provided that any such Application (i) must have substantially different functionality than the Software, and (ii) must not allow any third party to use the Software or Modifications, or any portion thereof, for software development or application development purposes.
 					</p>
-					<p class="section">End of Agreement</p>
+					<p>"Designated User" shall mean a single distinct person for whom You have purchased a license to use the Software, whether such person is an employee acting within the scope of their employment with You or Your consultant or contractor acting within the scope of the services they provide for You. A Designated User can be replaced with a new Designated User only after being a Designated User for a minimum of six (6) months. 
+					</p>
+					<p>
+					"End User" means an end user of Your Application who acquires a license to such solely for their own internal use and not for distribution, resale, user interface design, or software development purposes.
+					</p>
+					<p>"Modification" means: a) any addition to or deletion from the contents of a file included in the original Software or previous Modifications created by You, and/or b) any new file that leverages any part of the original Software or previous Modifications.
+					</p>
+					<p>"Sample Code" means sample source code included with the Software and designated as "sample code," "samples," "sample application code," and/or "snippets," and/or found in directories labeled "samples" or "examples".
+					</p>
+					<p class="section">2. LICENSE GRANT</p>
 					
-					<p>You may terminate this agreement by destroying all copies of the programs and by informing us of the date of destruction of the Programs. We have the right to terminate your right to use the Programs if you fail to comply with any of the terms of this agreement, in which case you shall destroy all copies of the programs.
+					<p>Subject to the payment of the fee required, and subject to your compliance with all of the terms and conditions of this Agreement, We grant to You a revocable, non-exclusive, non-transferable and non-sublicensable license (i) for Designated User(s) to use the Software to create Modifications and Applications; (ii) for You to distribute the Software and/or Modifications to End Users solely as integrated into the Applications; and (iii) for End Users to use the Software as integrated into Your Applications in accordance with the terms of this Agreement.
+					</p>
+					<p>The Designated User(s) may create one (1) developer account in one installation of the Software to create Applications and Modifications using the Software.
+					</p>
+					<p>In addition to the other terms contained herein, in the event You have downloaded or received beta or pre-release versions of the Software (the "Beta Software") from Us, We grant to You a revocable, non-exclusive, non-transferable and non-sublicensable license to install and use the Beta Software strictly for Your internal evaluation and review purposes and not for production purposes (the "Beta License"). You are explicitly not permitted to distribute the Software to any user outside the Organization on whose behalf you have undertaken this license. Your rights to use the Beta Software will immediately terminate upon the earlier of (i) the expiration of the evaluation period established by Us, or (ii) such time that You purchase a license to a non-evaluation version of the Software. We reserve the right to terminate Your Beta License at any time in Our absolute and sole discretion.
+					</p>
+					<p>You acknowledge that Trial and/or beta Software might place watermarks on output, contain limited functionality, function for a limited period of time, or limit the functionality or time of functioning of any output. Access to and/or use of any files or output created with such software is entirely at your own risk. We are licensing the Software on an "as is" basis at your risk and we disclaim any warranty or liability to you of any kind.
+					</p>
+					<p>You may modify the "Sample Code" solely for the purposes of designing, developing and testing Your own Applications. However, You are permitted to use, copy and redistribute Your modified Sample Code only if all of the following conditions are met: (a) You include Our copyright notice (if any) with Your Application, including every location in which any other copyright notice appears in such Application; and (b) You do not otherwise use Our name, logos or other of Our trademarks to market Your Application, unless otherwise agreed by Us in writing.
+					</p>
+					<p>You may not cause or permit reverse engineering disassembly or decompilation of the programs or use or copy the source code if it is available without decompilation;
+					</p>
+					<p>You may not disclose results of any program benchmark tests without our prior consent.
 					</p>
 					
-					<p class="section">Relationship Between the Parties</p>
+					<p class="section">3. OWNERSHIP</p>
 					
-					<p>The relationship between you and us is that of licensee/licensor. Neither party will represent that it has any authority to assume or create any obligation, express or implied, on behalf of the other party, nor to represent the other party as agent, employee, franchisee, or in any other capacity.
+					<p>This is a license agreement and not an agreement for sale. We reserve ownership of all intellectual property rights inherent in or relating to the Software, which include, but are not limited to, all copyright, patent rights, all rights in relation to registered and unregistered trademarks (including service marks), confidential information (including trade secrets and know-how) and all rights other than those expressly granted by this Agreement.
 					</p>
-					<p class="section">Open Source</p>
-					
-					<p>"Open Source" software - software available without charge for use, modification and distribution - is often licensed under terms that require the user to make the user's modifications to the Open Source software or any software that the user 'combines' with the Open Source software freely available in source code form. If you use Open Source software in conjunction with the programs, you must ensure that your use does not: (i) create, or purport to create, obligations of us with respect to the Gerger Programs; or (ii) grant, or purport to grant, to any third party any rights to or immunities under our intellectual property or proprietary rights in the Gerger Programs. For example, you may not develop a software program using a Gerger Program and an Open Source program where such use results in a program file(s) that contains code from both the Gerger program and the Open Source program (including without limitation libraries) if the Open Source program is licensed under a license that requires any "modifications" be made freely available. You also may not combine the Gerger Program with programs licensed under the GNU General Public License ("GPL") in any manner that could cause, or could be interpreted or asserted to cause, the Gerger Program or any modifications thereto to become subject to the terms of the GPL.
+					<p>While You retain all rights to any original work authored by You as part of the Modifications, We continue to own all copyright and other intellectual property rights in the Software.You must not remove, obscure or interfere with any copyright, acknowledgment, attribution, trademark, warning or disclaimer statement affixed to, incorporated in or otherwise applied in connection with the Software.
 					</p>
-					<p class="section">Entire Agreement</p>
-					
-					<p>You agree that this agreement is the complete agreement for the Programs and licenses, and this agreement supersedes all prior or contemporaneous agreements or representations. If any term of this agreement is found to be invalid or unenforceable, the remaining provisions will remain effective.
+					<p>You will not owe Us any royalties for Your distribution of the Software in accordance with this Agreement.
 					</p>
 					
-					<p class="section">Prohibited Uses</p>
+					<p class="section">4. PROHIBITED USES</p>
 					
-					<p>You may not, without Our prior written consent, redistribute the Software or Modifications and must not allow any third party to use the Software or Modifications, or any portions thereof, for software development purposes. You are explicitly not allowed to redistribute the Software or Modifications as part of any product that can be described as a development toolkit or library or is intended for use by software developers and not end-users. You are not allowed to redistribute any part of the Software documentation. You may not: (a) use any part of the Software or Modifications or Your knowledge of the Software (or any information that You learn as a result of Your use of the Software) to create a product with the same or substantially the same functionality as the Software; (b) transfer, rent, lease, or sublicense the Software or Modifications, or any portions thereof; (c) change or remove the copyright notice from any of the files included in the Software or Modifications; or (d) Sell or offer to sell the software as a subscription based tool on the internet. UNDER NO CIRCUMSTANCES MAY YOU USE THE SOFTWARE (INCLUDING WITHOUT LIMITATION THE SOURCE CODE THEREOF) AS THE BASIS FOR OR IN CONNECTION WITH A PRODUCT THAT CONTAINS THE SAME, OR SUBSTANTIALLY THE SAME, FUNCTIONALITY AS THE SOFTWARE.
+					<p>You may not redistribute the Software or Modifications other than by including the Software or a portion thereof within Your Application. You may not redistribute the Software or Modifications as part of any Application that can be described as a development toolkit or library, an application builder, a website builder or any Application that is intended for use by software, application, or website developers or designers. You may not redistribute any part of the Software documentation. You may not change or remove the copyright notice from any of the files included in the Software or Modifications.
+					</p>
+					<p>Under no circumstances may you use the Software for an application that is intended for software or application development purposes.
+					</p>
+					<p>You are required to ensure that the Software is not reused by or with any applications other than those with which You distribute it as permitted herein. For example, if You install the Software on a customer's server, that customer is not permitted to use the Software independently of Your Application, and must be informed as such.
 					</p>
 					
-					<p class="section">Dispute Resolution
+					<p class="section">5. TERMINATION</p>
+					
+					<p>This Agreement and Your right to use the Software and Modifications will terminate immediately if You fail to comply with any of the terms and conditions of this Agreement. Upon termination, You agree to immediately cease using and destroy the Software or Modifications, including all accompanying documents. The provisions of sections 4, 5, 6, 7, 8, 9, and 11 will survive any termination of this Agreement.
 					</p>
-					<p>Any dispute between the parties hereto arising out of this agreement, the formation of this agreement or any alleged breach of the agreement shall be resolved soley in Turkish Courts. By entering into this agreement, you irrevocably consent to the jurisdiction and venue of the Courts located in Republic of Turkey.
+					
+					<p class="section">6. DISCLAIMER OF WARRANTIES</p>
+					
+					<p>To the maximum extent permitted by applicable law, we and our resellers disclaim all warranties and conditions, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for particular purpose, and title and non-infringement, with regard to the software. We do not guarantee that the operation of the Software or the code it produces will be uninterrupted or error-free, and you acknowledge that it is not technically practicable for us to do so.
 					</p>
-					<p class="section">Disclaimer of Warranty and Exclusive Remedies
+					
+					<p class="section">7. LIMITATION OF LIABILITIES</p>
+					
+					<p>To the maximum extent permitted by applicable law, in no event shall we or our resellers be liable under any legal or equitable theory for any special, incidental, indirect or consequential damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information or any other pecuniary law) arising out of the use or inability to use the Software or the code it produces or any other subject matter relating to this Agreement, even if we or our resellers have been advised of the possibility of such damages. In any case, our entire liability with respect to any subject matter relating to this Agreement shall be limited to the amount actually paid by you for the Software.
 					</p>
-					<p>THE PROGRAMS ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. WE FURTHER DISCLAIM ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT.
+					
+					<p class="section">8. VERIFICATION</p>
+					
+					<p>We or a certified auditor acting on Our behalf, may, upon Our reasonable request and at Our expense, audit You with respect to the use of the Software. Such audit may be conducted by mail, electronic means or through an in-person visit to Your place of business. Any such in-person audit shall be conducted during regular business hours at Your facilities and shall not unreasonably interfere with Your business activities. We shall not remove, copy, or redistribute any electronic material during the course of an audit. If an audit reveals that You are using the Software in a way that is in material violation of the terms of this Agreement, then You shall pay Our reasonable costs of conducting the audit. In the case of a material violation, You agree to pay Us any amounts owing that are attributable to the unauthorized use. In the alternative, We reserve the right, at Our discretion, to terminate the licenses for the Software, in addition to any other remedies available under law. This Section shall survive expiration or termination of this Agreement for a period of two (2) years.
 					</p>
-					<p>IN NO EVENT SHALL WE BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE OR CONSEQUENTIAL DAMAGES, OR DAMAGES FOR LOSS OF PROFITS, REVENUE, DATA OR DATA USE, INCURRED BY YOU OR ANY THIRD PARTY, WHETHER IN AN ACTION IN CONTRACT OR TORT, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. OUR ENTIRE LIABILITY FOR DAMAGES HEREUNDER SHALL IN NO EVENT EXCEED THE AMOUNTS ACTUALLY RECEIVED BY LICENSOR PURSUANT TO THE TERMS OF THIS AGREEMENT
+					
+					<p class="section">9. PAYMENT AND TAXES</p>
+					
+					<p>If credit has been extended to You by Us, all payments under this Agreement are due within thirty (30) days of the date. If We have not extended credit to You, You shall be required to make payment concurrent with the delivery of the Software by Us. Any value added tax, use tax, sales tax or similar tax ("Transaction Taxes") shall be your sole responsibility. Each party shall pay all taxes (including, but not limited to, taxes based upon its income) or levies imposed on it under applicable laws, regulations and tax treaties as a result of this Agreement and any payments made hereunder (including those required to be withheld or deducted from payments); provided that You shall be responsible for all Transactions Taxes and shall pay or reimburse Us for the same upon invoice. Each party shall furnish evidence of such paid taxes as is sufficient to enable the other party to obtain any credits available to it, including original withholding tax certificates. Notwithstanding the foregoing, Software ordered through Our resellers is subject to the fees and payment terms set forth on the applicable reseller invoice.
 					</p>
-					<p class="section">Compliance with the Export Import Laws of the Republic of Turkey</p>
-					<p>If you intend to export or use this software outside the Republic of Turkey, you must ensure that you are in compliance with all export and import laws of the Republic of Turkey. Gerger makes no representations that you may exort or use the Program outside of the Republic of Turkey. You agree to indemnify, defend and hold harmless Gerger, its officers, directors, employees, agents and contractors as a result of any claim, complaint, cause of action, investigation or other matter caused by your failure to comply with all applicable export/import laws of the Republic of Turkey.
+					
+					<p class="section">10. SUPPORT AND UPDATES</p>
+					
+					<p>You are not entitled to any support for the Software under this Agreement. All support must be purchased separately and will be subject to the terms and conditions contained in the Gerger support agreement. You are entitled to receive minor version updates to the Software (i.e. versions identified as follows (X.Y, X.Y+1). You are entitled to receive major version updates (i.e. X.Y, X+1.Y). You are not entitled to receive bug fix updates to the Software (X.Y.Z, X.Y.Z+1), unless purchased independently of this license.
+					</p>
+					
+					<p class="section">11. MISCELLANEOUS</p>
+					
+					<p>The license granted herein applies only to the version of the Software available when purchased in connection with the terms of this Agreement, and to any updates and/or upgrades to which you may be entitled. Any previous or subsequent license granted to You for use of the Software shall be governed by the terms and conditions of the agreement entered in connection with purchase or download of that version of the Software. You agree that you will comply with all applicable laws and regulations with respect to the Software, including without limitation all export and re-export control laws and regulations.
+					</p>
+					<p>While redistributing the Software or Modifications thereof as part of Your Application, You may choose to offer acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this Agreement. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on our behalf. You shall indemnify Us and our resellers, or at Our option, defend Us and our resellers against any claim, suit or proceeding brought against Us or our resellers (i) arising by reason of Your accepting any such support, warranty, indemnity or additional liability; or (ii) arising out of the use, reproduction or distribution of Your Application, except to the extent such claim is solely based on the inclusion of the Software therein. Further, You agree only to distribute the Software pursuant to an enforceable written agreement for Our benefit that includes all the limitations and restrictions of this Agreement and is as protective of Us and Software as is this Agreement. For clarity, for Software for which you have paid a fee, You must purchase Designated User licenses for each contractor or consultant who uses the Software to create an Application on your behalf (including system integrators), whether or not such contractor or consultant has its own license to the Software.
+					</p>
+					<p>You agree to be identified as a customer of ours and You agree that We may refer to You by name, trade name and trademark, if applicable, and may briefly describe Your business in our marketing materials and web site.
+					</p>
+					<p>You may not assign or transfer this Agreement without Our prior written consent. This Agreement may be assigned by Us in whole or part and will inure to the benefit of Our successors and assigns. Notwithstanding the foregoing, in any instance in which You transfer ownership of an Application on a work for hire basis, You may assign licenses for the total Designated Users that have used the Software to develop said Application under this Agreement to another party (Assignee) provided (i) you provide written notice to Us prior to the effective date of such assignment; and (ii) there is a written agreement, wherein the Assignee accepts the terms of this Agreement. Upon any such transfer, the Assignee may appoint new Designated Users.
+					</p>
+					<p>You acknowledge that this Agreement is complete and is the exclusive representation of our agreement. No oral or written information given by Us, Our resellers, or otherwise on Our behalf shall create a warranty or collateral contract, or in any way increase the scope of this Agreement in any way, and You may not rely on any such oral or written information. No term or condition contained in any purchase order shall have any force or effect.
+					</p>
+					<p>There are no implied licenses or other implied rights granted under this Agreement, and all rights, save for those expressly granted hereunder, shall remain with Us and our licensors. In addition, no licenses or immunities are granted to the combination of the Software and/or Modifications, as applicable, with any other software or hardware not delivered by Us or Our resellers to You under this Agreement. Your rights under this Agreement apply only to Software, Modifications, and/or Applications for which all Designated Users are duly licensed hereunder.If any provision in this Agreement shall be determined to be invalid, such provision shall be deemed omitted; the remainder of this Agreement shall continue in full force and effect. If any remedy provided is determined to have failed for its essential purpose, all limitations of liability and exclusions of damages set forth in this Agreement shall remain in effect.
+					</p>
+					<p>This Agreement may be modified only by a written instrument signed by an authorized representative of each party. The failure of either party to enforce any provision of this Agreement may not be deemed a waiver of that or any other provision of this Agreement.
+					</p>
+					<p>This Agreement is governed by the law of the Republic of Turkey (notwithstanding conflicts of laws provisions), and all parties irrevocably submit to the jurisdiction of the courts of the Istanbul Province and further agree to commence any litigation which may arise hereunder in the courts located in the judicial district of Istanbul, Turkey.
 					</p>
 				</div>
 			</div>
@@ -328,7 +357,7 @@
 			<div>
 				<div id="downloadDiv" >
 					
-					<p>Thank you for downloading <a href="changeLog.php" target="_blank">Formspider Release 1.3.0 </a>. Please enter your name and email and accept the license agreement to download the software.</p>
+					<p>Thank you for downloading Formspider 30-Day Trial Version. Please enter your name and email and accept the license agreement to download the software.</p>
 					
 					<form id="downloadForm" class="cmxform" method="get" action="">
 						<p>

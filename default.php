@@ -105,7 +105,7 @@
 				<img src="images/index/benefit3.jpg" width="118" height="99" alt="Benefit3">
 				<h4>LOWER COST</h4>
 				<p>
-				Pay only when you are in production with Formspider’s <a href="pricing.php">affordable pricing</a> policy. 
+				Reduce your license costs with Formspider’s <a href="pricing.php">simple, transparent pricing</a> policy. 
 				Focus on solving business problems rather than technical ones. 
 				Build long lasting applications that don't bet on hypes but on <a href="product.php#technologyindependence">good architecture</a>.
 				</p>
