@@ -55,6 +55,20 @@
   	<br/>
   	<br/>
 	
+	<h2>Change Log for Formspider 1.3.2<br/>30 April 2013</h2>
+	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>Fixed installation problem on Windows platforms having Java 7 Update 21 installed.</li>
+	  <li>Fixed excel file import bug.</li>
+	  <li>Solved excel file export problem in XLSX format.</li>
+	</ul>
+	
+	<h2>Change Log for Formspider 1.3.1<br/>24 April 2013</h2>
+	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>Fixed combobox collapse problem.</li>
+	</ul>
+	
 	<h2>Change Log for Formspider 1.3.0<br/>05 April 2013</h2>
 	<h3>New Features</h3>
 	<ul style="margin-left:10px;margin-bottom:10px;">
