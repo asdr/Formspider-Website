@@ -60,7 +60,7 @@
 						
 					<a style="" href="http://theformspider.com/blog/2013/04/09/formspider-in-brazil/">Formspider in Brazil</a>
 					<br>
-					<a style="" href="http://localhost:81/Formspider-Website/download.php">Formspider 1.3.0 is available for download</a>
+					<a style="" href="http://theformspider.com/download.php">Formspider 1.3.0 is available for download</a>
 					<br>
 					<a style="" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Rhenus Netherlands chose Formspider over Oracle Apex to modernize its Forms applications </a>
 					<br>
