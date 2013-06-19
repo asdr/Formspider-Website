@@ -55,6 +55,32 @@
   	<br/>
   	<br/>
 	
+	<h2>Change Log for Formspider 1.4.0<br/>19 June 2013</h2>
+	<h3>New Features</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>New component <b>MenuButton</b>.</li>
+	  <li>Implemented <b>Column Locking</b> feature for the Grid component. This enables users to view a grid with a a lot of columns without losing context.</li>
+	  <li>Added ability to <b>save, restore Grid State</b>. Developers can now retrieve a grid's state and apply it later.
+          back on to the grid to implement saved custom reports for users.</li>
+	  <li>Added "emptyText" attribute to comboBox component.</li>
+	  <li>Added "autoExpand" attribute to Grid</li>
+	  <li>Added "firstDayOfWeek" attribute to DateField component.</li>
+	</ul>
+	
+	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>Added icons to grid header to indicate the applied function.</li>
+	  <li>Added hover effect for editable cells in grid.</li>
+	  <li>LOV performance enhancements.</li>
+	  <li>Fixed AccordionPanel issues.</li>
+	  <li>Fixed grid column resizing issues</li>
+	  <li>Fixed grid multiSelect issues</li>
+	  <li>Fixed grid first&last row focus issue on key navigation.</li>
+	</ul>
+	
+	<br/>
+	<br/>
+	
 	<h2>Change Log for Formspider 1.3.2<br/>30 April 2013</h2>
 	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
 	<ul style="margin-left:10px;margin-bottom:10px;">
