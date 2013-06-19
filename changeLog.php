@@ -25,7 +25,7 @@
 
 <title>Formspider</title>
 <!--link href="master.css" rel="stylesheet" type="text/css"-->
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/style.css?v=1" rel="stylesheet" type="text/css">
 <link href="css/product.css" rel="stylesheet" type="text/css">
 
 <script type="text/javascript">
