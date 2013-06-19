@@ -24,6 +24,7 @@
 <meta name="Language" content="en"> 
 
 <title>Formspider</title>
+<!--link href="master.css" rel="stylesheet" type="text/css"-->
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/product.css" rel="stylesheet" type="text/css">
 
@@ -44,7 +45,7 @@
 </head>
 <body>
 
-<div class="container">
+<div id="changelog" class="container">
   <div class="header">
   	<?php $link_name= "Getting Started Guide" ?>
   	<?php include ('mainmenu.php'); ?>
@@ -77,7 +78,16 @@
 	  <li>Fixed grid multiSelect issues.</li>
 	  <li>Fixed grid first&last row focus issue on key navigation.</li>
 	</ul>
+
+	<!--a href="download.php" class="download-link" >Download Formspider 1.4.0 &rarr;</a-->
 	
+	<div id="cta"><!--Try now &rarr; &nbsp;&nbsp;
+				<a href="http://formspideronline.com" class="button blue mid-height" id="cloud"><span></span> Cloud </a-->
+				<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
+			</div>
+	
+	<br/>
+	<br/>
 	<br/>
 	<br/>
 	
