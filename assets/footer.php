@@ -26,7 +26,7 @@
 		</ul> -->
 
 		<ul class="right clearfix">
-			<li>Connect with us</li>
+			<li>Connect with us:</li>
 			<li class="facebook"><a href="http://www.facebook.com/pages/Formspider/146550118729391">Facebook</a></li>
 			<li class="linkedin"><a href="http://www.linkedin.com/groups/Formspider-3710847">Linkedin</a></li>
 			<li class="twitter"><a href="http://www.twitter.com/formspider">Twitter</a></li>

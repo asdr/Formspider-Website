@@ -100,12 +100,17 @@
 				<p>The active duty and reserve recruiting systems of US Air Force is based on the Formspider technology. 
 				<a class="readmore" href="http://theformspider.com/blog/2011/03/25/who-uses-formspider-part-1-the-journey-from-java-desktop-to-web-2-0/">Read more &rarr;</a></p>
 			</li>
-			<li class="end-of-row">
-				<img id="ethiopia" src="images/references/ethiopia3.jpg" width="440" height="200" alt="Ethiopia">
-				<h3>Ethiopia</h3>
-				<p>Ethiopia, one of the fastest growing countries in Africa uses Formspider to build the next version of the budgeting, 
-				accounting and financing application which is used at every governmental institution in the country.</p>
-			</li>
+			<li class="end-of-row"></li>
+			
+			<br/>
+			
+			<h3>More References:</h3> <br/><br/>
+			<div id="other-references">
+				<a href="http://www.solver.lt/"><img id="solver" src="images/references/Solver_logo.gif" alt="Solver" title="Solver (Lithuania)"></a>
+				<a href="http://www.xrsystems.de/"><img id="xrsystems" src="images/references/XR.png" alt="XR Systems" title="XR Systems (Germany)"></a>
+				<a href="http://caosys.com/"><img id="caosys" src="images/references/caosys_logo.png" alt="CaoSys" title="CaoSys (United Kingdom)"></a>
+				<img class="end-of-row" id="ethiopia" src="images/references/ethiopia3.jpg" alt="Ethiopia" title="Ethiopia">
+			</div>
 			
 		</ul>
 		
