@@ -63,5 +63,14 @@ if ($page == "blog") {
 }
 ?>
 
+<script type='text/javascript'>
+	var _trackingCode = 'ccl0sgek';
+	(function() {
+	var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+	wa.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'us1-static.8digits.com/automation.js?' + Math.random();
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+	})();
+</script>
+
 </body>
 </html>
