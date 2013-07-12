@@ -14,10 +14,10 @@
 	padding: 10px 30px 20px 30px;
 	margin:auto; 
 	margin-top: 20px;
-	width:600px; 
-	border:1px solid #e0e0e0; 
-	border-radius: 3px;
-	box-shadow: 0 1px 5px 0 #c0c0c0; 
+	width:900px; 
+	/*border:1px solid #e0e0e0; 
+	border-radius: 3px;*/
+	/*box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2); */
 	display:block; 
 	visibility:hidden;
 }
@@ -98,4 +98,35 @@ input:-moz-placeholder {
 }
 .ui-widget {
 	font-size: 1em;
+}
+
+.download-block {
+	width:248px; 
+	height: 440px; 
+	display:block; 
+	float:left; 
+	margin: 0 15px; 
+	padding: 0 10px 10px 10px; 
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
+}
+.download-desktop-image, .download-mobile-image {
+	display: block; 
+	width:250px; 
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.download-desktop-image {
+	background-image: url("../images/product/api.jpg");
+	background-size: 100% 65%;
+
+} 
+.download-mobile-image {
+	background-image: url(../images/teaser.png);
+	background-size: 45% 80%;
+}
+.download-title {
+	text-align: center;
+	font-weight: 600;
 }

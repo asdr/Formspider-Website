@@ -5,13 +5,13 @@
 	<title>Formspider</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="master.css" />
+	<link rel="stylesheet" type="text/css" href="master.css?v=1" />
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" type="text/css" href="master-ie8.css" />
 	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/jquery-ui.css"/>
 	<link href="css/jqueryui.button.css" rel="stylesheet" type="text/css"/>
-	<link href="css/download.css" rel="stylesheet" type="text/css"/>
+	<link href="css/download.css?v=1" rel="stylesheet" type="text/css"/>
 	<!--script src="http://code.jquery.com/jquery-latest.js"></script-->
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
 
@@ -103,14 +103,18 @@
 					$( "#termsCheckbox" ).button("option","icons",{primary:'ui-icon-check'});
 					$( "#downloadWindows" ).button( "option", "disabled", false );
 					$( "#downloadLinux" ).button( "option", "disabled", false );
-					$( "#downloadUpgrade" ).button( "option", "disabled", false );
-					$( "#downloadUpgrade2" ).button( "option", "disabled", false );
+					$( "#downloadWindowsMobile" ).button( "option", "disabled", false );
+					$( "#downloadLinuxMobile" ).button( "option", "disabled", false );
+					/*$( "#downloadUpgrade" ).button( "option", "disabled", false );
+					$( "#downloadUpgrade2" ).button( "option", "disabled", false );*/
 				}else{
 					$( "#termsCheckbox" ).button("option","icons",{primary:'ui-icon-close'});
 					$( "#downloadWindows" ).button( "option", "disabled", true );
 					$( "#downloadLinux" ).button( "option", "disabled", true );
-					$( "#downloadUpgrade" ).button( "option", "disabled", true );
-					$( "#downloadUpgrade2" ).button( "option", "disabled", true );
+					$( "#downloadWindowsMobile" ).button( "option", "disabled", true );
+					$( "#downloadLinuxMobile" ).button( "option", "disabled", true );
+					/*$( "#downloadUpgrade" ).button( "option", "disabled", true );
+					$( "#downloadUpgrade2" ).button( "option", "disabled", true );*/
 				}
 			});
 		
@@ -140,6 +144,32 @@
 				return false;
 			});
 			
+		$( "#downloadWindowsMobile" )
+			.button({
+				disabled: true 
+			})
+			.click(function() {
+				if(checkForm(nameField, emailField)) {
+					downloadURL("http://cdn.theformspider.com/cdn/FSMobile_Beta1.zip");
+					logMobileDownload(nameField.value, emailField.value);
+					_gaq.push(['_trackPageview','/download/FormspiderMobileForWindows']);
+				}
+				return false;
+			});
+			
+		$( "#downloadLinuxMobile" )
+			.button({
+				disabled: true 
+			})
+			.click(function() {
+				if(checkForm(nameField, emailField)) {
+					downloadURL("http://cdn.theformspider.com/cdn/FSMobile_Beta1.jar");
+					logMobileDownload(nameField.value, emailField.value);
+					_gaq.push(['_trackPageview','/download/FormspiderMobileForLinux']);
+				}
+				return false;
+			});
+			
 		$( "#downloadUpgrade" )
 			.button({
 				disabled: true 
@@ -164,6 +194,26 @@
 			  type: "GET",
 			  url: "product.php",
 			  data: "descid=Download&name="+ name +"&mail="+ email+"&version=1.4.0",
+			  async: true,
+			  success: function(data) {
+				//alert('success');
+			  },
+			  error: function(jqXHR, textStatus) {
+				//alert('error: ' + textStatus);
+			  }
+			});
+		}
+		
+		function logMobileDownload(name, email) {
+			
+			var expires = { expires: 3650 };
+			$.cookie("name", name, expires);
+			$.cookie("email", email, expires);
+			
+			$.ajax({
+			  type: "GET",
+			  url: "product.php",
+			  data: "descid=MobileDownload&name="+ name +"&mail="+ email+"&version=beta1",
 			  async: true,
 			  success: function(data) {
 				//alert('success');
@@ -357,32 +407,58 @@
 			<div>
 				<div id="downloadDiv" >
 					
-					<p>Thank you for downloading Formspider 30-Day Trial Version. Please enter your name and email and accept the license agreement to download the software.</p>
+					
 					
 					<form id="downloadForm" class="cmxform" method="get" action="">
-						<p>
-							<label for="name" id="nameLabel">Name</label>
-							<input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all" style="width:100%" placeholder="Name"/>
+						
+						
+						<div style="width: 100%; height:450px;">
+						
+							<div class="download-block" style="border:none; box-shadow:none;">
+								<p style="font-size:16px;" >Please enter your name, email and accept the license agreement to download the software.</p>
+								<p>
+									<label for="name" id="nameLabel">Name</label>
+									<input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all" style="width:100%" placeholder="Name"/>
 
-							<label for="email" id="emailLabel">Email (Required)</label>
-							<input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all" style="width:100%" placeholder="Email (Required)"/>
-						</p>
+									<label for="email" id="emailLabel">Email (Required)</label>
+									<input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all" style="width:100%" placeholder="Email (Required)"/>
+								</p>
+								
+								<p style="height:60px; ">
+									<input type="checkbox" id="termsCheckbox" /><label for="termsCheckbox" id="termsCheckboxLabel">Yes</label>
+									<span>I accept </span><span class="linkSpan" id="termsSpan">the terms and conditions</span><span>.</span>
+								</p>
+							</div>
 						
-						<p>
-							<input type="checkbox" id="termsCheckbox" /><label for="termsCheckbox" id="termsCheckboxLabel">Yes</label>
-							<span>I accept </span><span class="linkSpan" id="termsSpan">the terms and conditions</span><span>.</span>
-						</p>
+							<div class="download-block">
+								<p class="download-title"> Formspider Desktop 1.4.0</p>
+								<p style="text-align:center;">30 Day Trial</p>
+								<div class="download-desktop-image" style=" ">&nbsp;</div>
+								<p>
+									<button id="downloadWindows" style="width:100%">Download for Windows</button>
+								</p>
+								<p>
+									<button id="downloadLinux" style="width:100%">Download for Linux & MacOSX</button>
+								</p>
+							</div>
+							
+							<div class="download-block">
+								<p class="download-title"> Formspider Mobile Beta 1 </p>
+								<p>&nbsp;</p>
+								<div class="download-mobile-image">&nbsp;</div>
+								<p>
+									<button id="downloadWindowsMobile" style="width:100%">Download for Windows</button>
+								</p>
+								<p>
+									<button id="downloadLinuxMobile" style="width:100%">Download for Linux & MacOSX</button>
+								</p>
+							</div>
 						
-						<p>
-							<button id="downloadWindows" style="width:100%">Download Formspider for Windows</button>
-						</p>
-						<p>
-							<button id="downloadLinux" style="width:100%">Download Formspider for Linux & MacOSX</button>
-						</p>
+						</div>
+						
 						<!--p>
 							<button id="downloadUpgrade" style="width:100%">Download Formspider 1.2.x to 1.3.0 Update Script</button>
 						</p-->
-						<p style="text-align:center;"><a href="mailto:contact@theformspider.com">Contact us</a> to update from an earlier version </p>
 						<input type="submit" value="Submit" class="submit" id="downloadFormSubmit" style="display:none" />
 					</form>
 				  

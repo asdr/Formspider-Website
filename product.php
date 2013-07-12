@@ -42,6 +42,8 @@
 			//$showVS = "OFC";
 		else if($no == "Download")
 			$showVS = "Download";
+		else if($no == "MobileDownload")
+			$showVS = "MobileDownload";
 		else if($no == "Upgrade")
 			$showVS = "Upgrade";
 		else if($no == "RegisterFSEventInBulgaria")
@@ -61,7 +63,7 @@
 </head>
 <body class="product">
 <?php 
-if($showVS == "Download" || $showVS == "Upgrade" || $showVS == 'RegisterFSEventInDenmark' || $showVS == 'RegisterFSEventInIstanbul') { 
+if($showVS == "Download" || $showVS == "MobileDownload" || $showVS == "Upgrade" || $showVS == 'RegisterFSEventInDenmark' || $showVS == 'RegisterFSEventInIstanbul') { 
 	$uip = "noip";
 	if ( isset($_SERVER["REMOTE_ADDR"]) )    { 
 		$uip = '' . $_SERVER["REMOTE_ADDR"] . ''; 
@@ -78,6 +80,7 @@ if($showVS == "Download" || $showVS == "Upgrade" || $showVS == 'RegisterFSEventI
 	$url = $url . "&ip=" . $uip; 
 	$url = $url . "&duration=" . date('Y-m-d/h-i-s');
 	$url = $url . "&version=" . $_GET['version'];
+	echo $url;
 		
 	$response = @file_get_contents($url);
     echo '</body></html>';

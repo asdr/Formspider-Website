@@ -10,11 +10,12 @@
 	<meta name="robots" content="index, follow">
 	<meta name="Language" content="en"> 
 	<link rel="icon" type="image/png" href="images/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="master.css" />
+	<link rel="stylesheet" type="text/css" href="master.css?v=1" />
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" type="text/css" href="master-ie8.css" />
 	<![endif]-->
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 	
 	
 <script type="text/javascript">
@@ -51,14 +52,21 @@
 					<a href="http://formspideronline.com" class="button blue mid-height" id="cloud"><span></span> Cloud </a>
 					<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
 				</div>
+				
 			</div>
 			<div id="screenshot"></div>
+			<div class="mobile-teaser" style="">
+				<a class="mobile-download-link" href="download.php" style="">&nbsp;</a>
+				<p style="position:absolute; left:-30px; top:30px; font-family:'Shadows Into Light', cursive">New Mobile Version! &rarr;</p>
+			</div>
 		</div>
+		
+		
 		
 		<div class="bannerContainer" style="padding-top:25px;  padding-left: 5px; width:900px; height:100px;">
 			<div id="pscroller2" class="rssclass" style="position: relative; overflow: hidden; background-image: url(images/latestnews4_1.png); width:100%; height:100%; padding-top:20px;">
 					
-					<a style="" href="http://theformspider.com/download.php">Formspider 1.4.0 is available for download</a>
+					<a style="" href="http://theformspider.com/download.php">Formspider Mobile Beta is available for download</a>
 					<br>
 					<a style="" href="http://theformspider.com/blog/2013/04/09/formspider-in-brazil/">Formspider in Brazil</a>
 					<br>
