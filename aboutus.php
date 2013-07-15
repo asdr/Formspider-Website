@@ -39,7 +39,7 @@
 		
 		<h2>The Team</h2>
 		<p>We believe:</p>
-		<p style="margin-left:30px;">Yesterday’s framework’s built for a wired, single OS, single device world 
+		<p style="margin-left:30px;">Yesterday’s frameworks built for a wired, single OS, single device world 
 		can’t solve the problems of the wireless, multi platform, multi device world of today.</p>
 		<p style="margin-left:30px;">A framework is a product in and of itself that is worth to design.</p>
 		<p style="margin-left:30px;">Complexity should not be in the tools we use but in the things we build using them.</p>
