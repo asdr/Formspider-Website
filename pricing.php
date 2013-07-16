@@ -62,7 +62,7 @@
 				
 				<div id="paid-plans">
 					<div class="column one">
-						<h4>SINGLE<span>Developer License</span></h4>
+						<h4>SINGLE<span>Developer License</span><span style="font-size:90%; font-weight:400; padding-top:2px;">(Desktop & Mobile)</span></h4>
 						<h3><span class="superscript">just $</span>599</h3>
 					</div>
 					<div class="column paypal">
