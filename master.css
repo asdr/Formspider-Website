@@ -343,8 +343,9 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .references #content #elmecsport{padding:0;}
 .references #content #maliakoskleidi{padding:0;}
 .references #content #caosys{padding: 0;}
-.references #other-references img {width: 220px; height:100px; padding: 10px 60px; margin-right:20px;}
-.references #other-references a {outline:none;}
+.references #content #zaminbank{padding: 20px;}
+.references #other-references img {width: 220px; height:100px; padding: 10px 60px; margin-right:20px; margin-bottom: 30px;}
+.references #other-references a {outline:none; }
 
 /* PRICING page ------------------------------- */
 #columns { margin-top: 30px; }

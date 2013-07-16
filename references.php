@@ -108,8 +108,10 @@
 			<div id="other-references">
 				<a href="http://www.solver.lt/"><img id="solver" src="images/references/Solver_logo.gif" alt="Solver" title="Solver (Lithuania)"></a>
 				<a href="http://www.xrsystems.de/"><img id="xrsystems" src="images/references/XR.png" alt="XR Systems" title="XR Systems (Germany)"></a>
-				<a href="http://caosys.com/"><img id="caosys" src="images/references/caosys_logo.png" alt="CaoSys" title="CaoSys (United Kingdom)"></a>
-				<img class="end-of-row" id="ethiopia" src="images/references/ethiopia3.jpg" alt="Ethiopia" title="Ethiopia">
+				<a class="end-of-row" href="http://caosys.com/"><img id="caosys" src="images/references/caosys_logo.png" alt="CaoSys" title="CaoSys (United Kingdom)"></a>
+				
+				<img  id="ethiopia" src="images/references/ethiopia3.jpg" alt="Ethiopia" title="Ethiopia">
+				<a href="http://www.zaminbank.az/"><img id="zaminbank" src="images/references/zaminbank_logo.png" alt="Zamin Bank" title="Zamin Bank (Azerbaijan)"></a>
 			</div>
 			
 		</ul>
