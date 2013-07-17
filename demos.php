@@ -5,7 +5,7 @@
 	<title>Formspider</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="master.css" />
+	<link rel="stylesheet" type="text/css" href="master.css?v=1" />
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" type="text/css" href="master-ie8.css" />
 	<![endif]-->
