@@ -41,16 +41,23 @@
 			
 		<ul>
 			
-			<li ><a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO" target="_blank">
-				<img style="border-bottom:0px none;" src="./images/demo/srdemo4.png" width="204" height="212" alt="1">
-			</a></li>
-			<span class="demoText">
-			<h2> Formspider Reference Application </h2>
-			<p>
-				<a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO" target="_blank">The Reference Application</a> shows the implementation of the most common use cases developers encounter when building applications.
-				<p> <a href="http://theformspider.com/learningcenter/formspider-reference-application/">Download the source code for the Reference Application.</a></p>
-			</p>
-			</span>
+			<li class="large-demo">
+				<a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO" target="_blank">
+					<img src="./images/demo/srdemo4.png" width="204px" height="212" alt="1"/>
+				</a>
+				<h4>Desktop Example</h4>
+				<p><a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO">View</a> or 
+					<a href="http://theformspider.com/learningcenter/formspider-reference-application/">install</a> the reference app for desktop.</p>
+			</li>
+			
+			<li class="large-demo last-in-row">
+				<a href="http://formspideronline.com/formspider/mobile/main.html?name=SRMobile" target="_blank">
+					<img src="./images/demo/tutorial5pic.png" width="204" height="212" alt="1"/>
+				</a>
+				<h4>Mobile Example</h4>
+				<p><a href="http://formspideronline.com/formspider/mobile/main.html?name=SRMobile">View</a> or 
+					<a href="http://theformspider.com/learningcenter/installing-formspider-mobile-reference-application/">install</a> the reference app for mobile.</p>
+			</li>
 			
 			<li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoGrid">
 				<img src="images/demo/demoGrid.PNG" width="130" height="90" alt="1">

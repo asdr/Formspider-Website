@@ -303,12 +303,16 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 #cta-right #cloud { margin-left: 20px; }
 .demos #content h2 { }
 .demos #content ul { padding-top: 35px; }
-.demos #content ul li { margin: 0 26px 26px 0; width: 220px; float: left;  min-height: 230px;  display: block; background: #fafafa; -webkit-box-shadow: 0 1px 3px 0px #d4d4d4; box-shadow: 0 1px 3px 0px #d4d4d4; }
+.demos #content ul li { margin: 0 26px 26px 0; width: 220px; float: left;  min-height: 230px;  display: block; background: #fafafa; -webkit-box-shadow: 0 1px 3px 0px #d4d4d4; box-shadow: 0 1px 3px 0px #d4d4d4; text-align:center;}
 .demos #content ul li:hover { box-shadow: 0 1px 5px 0px #c0c0c0; }
-.demos #content ul li a { display: block; text-align: center;}
+.demos #content ul li.large-demo {width:466px; min-height:288px; }
+.demos #content ul li.large-demo p a {color: #08c; line-height:24px; font-size:18px;}
+.demos #content ul li.large-demo p a:hover {text-decoration: underline;}
+.demos #content ul li > a { display: block; text-align: center;}
 .demos #content ul li.last-in-row { margin-right: 0; }
 .demos #content ul li a:hover { /*background: #fafafa; -webkit-box-shadow: 0 1px 3px 0px #d4d4d4; -moz-box-shadow: 0 1px 3px 0px #d4d4d4; box-shadow: 0 1px 3px 0px #d4d4d4; transform: scale(1.1, 1.1); -moz-transform: scale(1.1, 1.1); -ms-transform: scale(1.1, 1.1); -webkit-transform: scale(1.1, 1.1); -o-transform: scale(1.1, 1.1); */}
 .demos #content ul li img { background: #fff; padding: 8px; border-bottom: 1px solid #f2f2f2; }
+.demos #content ul li.large-demo img {padding: 8px 128px;}
 .demos #content ul li h4 { padding: 10px 20px 5px 20px; color: #595959; font-size: 18px; font-weight: 500; }
 .demos #content ul li p { padding: 0 15px 15px 15px; font-size: 15px; line-height: 18px; }
 .demos #content ul .demoText { width:660px; min-height:260px; float:left; }
