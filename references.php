@@ -112,6 +112,7 @@
 				
 				<img  id="ethiopia" src="images/references/ethiopia3.jpg" alt="Ethiopia" title="Ethiopia">
 				<a href="http://www.zaminbank.az/"><img id="zaminbank" src="images/references/zaminbank_logo.png" alt="Zamin Bank" title="Zamin Bank (Azerbaijan)"></a>
+				<a class="end-of-row" href="http://www.linkedin.com/company/azerfon"><img id="azerfon" src="images/references/azerfon.jpg" alt="Azerfon" title="Azerfon (Azerbaijan)"></a>
 			</div>
 			
 		</ul>
