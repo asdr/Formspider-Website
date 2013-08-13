@@ -52,9 +52,36 @@
   </div>
  
   <div class="content">  	
-  	<img src="/images/line.png" alt="line" />
+  	<img src="images/line.png" alt="line" />
   	<br/>
   	<br/>
+	
+	
+	<h2>Change Log for Formspider 1.5.0<br/>14 Aug 2013</h2>
+
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <br/><li>Implemented <b>Team Coding</b> feature.</li><br/>
+	  <li>Fixed column order problem on setGridState api.</li>
+	  <li>Fixed focus traversal problem of panels with line component.</li>
+	  <li>Fixed a percentage column width bug in Grid.</li>
+	  <li>Fixed ComboBox filter bug about space character.</li>
+	  <li>Fixed XYChart refresh bug.</li>
+	  <li>Fixed panel disableAll bug on IE.</li>
+	</ul>
+	
+	<br/>
+	<br/>
+
+	<!--a href="download.php" class="download-link" >Download Formspider 1.4.0 &rarr;</a-->
+	<div id="cta"><!--Try now &rarr; &nbsp;&nbsp;
+		<a href="http://formspideronline.com" class="button blue mid-height" id="cloud"><span></span> Cloud </a-->
+		<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
+	</div>
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
 	
 	<h2>Change Log for Formspider 1.4.0<br/>19 June 2013</h2>
 	<h3>New Features</h3>
@@ -79,13 +106,6 @@
 	  <li>Fixed grid first&last row focus issue on key navigation.</li>
 	</ul>
 
-	<!--a href="download.php" class="download-link" >Download Formspider 1.4.0 &rarr;</a-->
-	
-	<div id="cta"><!--Try now &rarr; &nbsp;&nbsp;
-				<a href="http://formspideronline.com" class="button blue mid-height" id="cloud"><span></span> Cloud </a-->
-				<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
-			</div>
-	
 	<br/>
 	<br/>
 	<br/>
