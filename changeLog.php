@@ -57,17 +57,20 @@
   	<br/>
 	
 	
-	<h2>Change Log for Formspider 1.5.0<br/>14 Aug 2013</h2>
-
+	<h2>Change Log for Formspider 1.5.0<br/>15 Aug 2013</h2>
+	<h3>New Features</h3>
 	<ul style="margin-left:10px;margin-bottom:10px;">
-	  <br/><li>Implemented <b>Team Coding</b> feature.</li><br/>
-	  <li>Fixed column order problem on setGridState API.</li>
+	  <li>Implemented <b>Team Coding</b>.</li>
+	</ul>
+	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>Fixed column order problem on "API_COMPONENT.setGridState" API.</li>
 	  <li>Fixed focus traversal problem of panels with line component.</li>
 	  <li>Fixed a percentage column width bug in Grid.</li>
 	  <li>Fixed ComboBox filter bug about space character.</li>
 	  <li>Fixed XYChart refresh bug.</li>
 	  <li>Fixed panel disableAll bug on IE.</li>
-	  <li>Fixed multilingual grid header label problem on api_component.printToExcel API.</li>
+	  <li>Fixed multilingual grid header label problem on "API_COMPONENT.printToExcel" API.</li>
 	</ul>
 	
 	<br/>
