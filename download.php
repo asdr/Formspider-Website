@@ -124,7 +124,7 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
-					downloadURL("download/Formspider_1.5.0.zip");
+					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.5.0.zip");
 					logDownload(nameField.value, emailField.value);
 					_gaq.push(['_trackPageview','/download/FormspiderForWindows']);
 				}
@@ -137,7 +137,7 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
-					downloadURL("http://download/Formspider_1.5.0.jar");
+					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.5.0.jar");
 					logDownload(nameField.value, emailField.value);
 					_gaq.push(['_trackPageview','/download/FormspiderForLinux']);
 				}
