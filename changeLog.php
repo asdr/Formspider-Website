@@ -61,12 +61,13 @@
 
 	<ul style="margin-left:10px;margin-bottom:10px;">
 	  <br/><li>Implemented <b>Team Coding</b> feature.</li><br/>
-	  <li>Fixed column order problem on setGridState api.</li>
+	  <li>Fixed column order problem on setGridState API.</li>
 	  <li>Fixed focus traversal problem of panels with line component.</li>
 	  <li>Fixed a percentage column width bug in Grid.</li>
 	  <li>Fixed ComboBox filter bug about space character.</li>
 	  <li>Fixed XYChart refresh bug.</li>
 	  <li>Fixed panel disableAll bug on IE.</li>
+	  <li>Fixed multilingual grid header label problem on api_component.printToExcel API.</li>
 	</ul>
 	
 	<br/>
