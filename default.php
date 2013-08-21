@@ -66,7 +66,7 @@
 		<div class="bannerContainer" style="padding-top:25px;  padding-left: 5px; width:900px; height:100px;">
 			<div id="pscroller2" class="rssclass" style="position: relative; overflow: hidden; background-image: url(images/latestnews4_1.png); width:100%; height:100%; padding-top:20px;">
 					
-					<a style="" href="http://theformspider.com/download.php">Formspider Mobile Beta is available for download</a>
+					<a style="" href="http://theformspider.com/download.php">Formspider 1.5.0 is available for download</a>
 					<br>
 					<a style="" href="http://theformspider.com/blog/2013/04/09/formspider-in-brazil/">Formspider in Brazil</a>
 					<br>
