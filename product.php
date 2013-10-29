@@ -171,7 +171,7 @@ if($showVS == "Download" || $showVS == "MobileDownload" || $showVS == "Upgrade" 
 					<a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoTree">trees</a>. 
 					Empower them with 
 					<a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoInteractiveReport">powerful data grid features</a> 
-					such as flexible columns, built-in sorting, search and reporting. 
+					such as flexible columns, built-in sorting, search, reporting and infinite scroll. 
 					<a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoExcel"> Produce Excel sheets </a> 
 					from data grids with a single Formspider API call. 
 					<a href="http://formspideronline.com/formspider/main.html?name=DemoMain#Charts"> Declaratively create data driven, visually stunning charts. </a>
