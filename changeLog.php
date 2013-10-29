@@ -56,6 +56,34 @@
   	<br/>
   	<br/>
 	
+	<h2>Change Log for Formspider 1.6.0<br/>29 Oct 2013</h2>
+	<h3>New Features</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>Implemented <b>Infinite Scroll</b> for the datasources.</li>
+	  <li>Added "sortBy" attribute to Grid Column.</li>
+	</ul>
+	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>Added ability to retrieve the key combination through "API_APPLICATION.getEvent" API.</li>
+	  <li>Solved null value representation problem of date values in LOV.</li>
+	  <li>Fixed grid row focus issue on key navigation.</li>
+	  <li>Fixed grid header display issue caused by "API_COMPONENT.setGridState" API on IE.</li>
+	</ul>
+	
+	<br/>
+	<br/>
+
+	<!--a href="download.php" class="download-link" >Download Formspider 1.4.0 &rarr;</a-->
+	<div id="cta"><!--Try now &rarr; &nbsp;&nbsp;
+		<a href="http://formspideronline.com" class="button blue mid-height" id="cloud"><span></span> Cloud </a-->
+		<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
+	</div>
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	
 	
 	<h2>Change Log for Formspider 1.5.0<br/>15 Aug 2013</h2>
 	<h3>New Features</h3>
@@ -73,17 +101,6 @@
 	  <li>Fixed multilingual grid header label problem on "API_COMPONENT.printToExcel" API.</li>
 	</ul>
 	
-	<br/>
-	<br/>
-
-	<!--a href="download.php" class="download-link" >Download Formspider 1.4.0 &rarr;</a-->
-	<div id="cta"><!--Try now &rarr; &nbsp;&nbsp;
-		<a href="http://formspideronline.com" class="button blue mid-height" id="cloud"><span></span> Cloud </a-->
-		<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
-	</div>
-	
-	<br/>
-	<br/>
 	<br/>
 	<br/>
 	
