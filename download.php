@@ -150,7 +150,7 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
-					downloadURL("http://cdn.theformspider.com/cdn/FSMobile_Beta1.zip");
+					downloadURL("http://cdn.theformspider.com/cdn/FSMobile_Beta2.zip");
 					logMobileDownload(nameField.value, emailField.value);
 					_gaq.push(['_trackPageview','/download/FormspiderMobileForWindows']);
 				}
@@ -163,7 +163,7 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
-					downloadURL("http://cdn.theformspider.com/cdn/FSMobile_Beta1.jar");
+					downloadURL("http://cdn.theformspider.com/cdn/FSMobile_Beta2.jar");
 					logMobileDownload(nameField.value, emailField.value);
 					_gaq.push(['_trackPageview','/download/FormspiderMobileForLinux']);
 				}
