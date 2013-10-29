@@ -68,7 +68,7 @@
 					
 					<a style="" href="http://theformspider.com/download.php">Formspider 1.6.0 is available for download</a>
 					<br>
-					<a style="" href="http://theformspider.com/blog/2013/04/09/formspider-in-brazil/">Formspider in Brazil</a>
+					<a style="" href="http://theformspider.com/blog/2013/08/20/ing-modernized-its-forms-application-with-formspider/">ING modernized its Forms application with Formspider</a>
 					<br>
 					<a style="" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Rhenus Netherlands chose Formspider over Oracle Apex to modernize its Forms applications </a>
 					<br>

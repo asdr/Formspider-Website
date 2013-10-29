@@ -467,9 +467,21 @@
 			
 			<br>
 			
-			<p style="text-align:center;"><a href="changeLog.php" target="_blank">View Change Log</a></p>
-			<p style="text-align:center;"><a href="gettingstarted.php" target="_blank">Installation Guide</a></p>
-			<p style="text-align:center;"><span class="linkSpan" id="opener" style="cursor:pointer;">System Requirements</span> </p>
+						<table style="width: 960px;">
+                          <tbody>
+<tr>
+<td width="33%">&nbsp;</td><td><p style="text-align:center;"><a href="changeLog.php" target="_blank">View Change Log</a></p></td>
+<td width="30%" rowspan="3" style="text-align: center;">Download FS Mobile Previewer<br><br><a target="_blank" href="https://itunes.apple.com/us/app/formspider-mobile-previewer/id679575069?ls=1&mt=8"><img style="width: 45px; height: 45px; border-radius: 10px;" src="images/fslogo175x175"> <img style="height: 45px; border-radius: 10px;" src="images/appstore.png"></a></td>
+<td  width="4%">&nbsp;</td>
+</tr>
+<tr>
+<td width="33%">&nbsp;</td><td><p style="text-align:center;"><a href="gettingstarted.php" target="_blank">Installation Guide</a></p></td>
+</tr>
+<tr>
+<td width="33%">&nbsp;</td><td><p style="text-align:center;"><span class="linkSpan" id="opener" style="cursor:pointer;">System Requirements</span> </p></td>
+</tr>
+
+</tbody></table>
 			
 			
 		</div>
