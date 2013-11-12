@@ -471,7 +471,7 @@
                           <tbody>
 <tr>
 <td width="33%">&nbsp;</td><td><p style="text-align:center;"><a href="changeLog.php" target="_blank">View Change Log</a></p></td>
-<td width="30%" rowspan="3" style="text-align: center;">Download FS Mobile Previewer<br><br><a target="_blank" href="https://itunes.apple.com/us/app/formspider-mobile-previewer/id679575069?ls=1&mt=8"><img style="width: 45px; height: 45px; border-radius: 10px;" src="images/fslogo175x175"> <img style="height: 45px; border-radius: 10px;" src="images/appstore.png"></a></td>
+<td width="30%" rowspan="3" style="text-align: center;">Download FS Mobile Previewer<br><br><a target="_blank" href="https://itunes.apple.com/us/app/formspider-mobile-previewer/id679575069?ls=1&mt=8"><img style="width: 45px; height: 45px; border-radius: 10px;" src="images/fslogo175x175.jpg"> <img style="height: 45px; border-radius: 10px;" src="images/appstore.png"></a></td>
 <td  width="4%">&nbsp;</td>
 </tr>
 <tr>

@@ -5,7 +5,7 @@
 	<title>Formspider</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="master.css?v=2" />
+	<link rel="stylesheet" type="text/css" href="master.css?v=3" />
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" type="text/css" href="master-ie8.css" />
 	<![endif]-->
@@ -35,7 +35,7 @@
 	<div id="content" class="clearfix">
 		
 		<h2>References</h2>
-		<p>After 2000+ downloads and 1800+ Cloud accounts, the message is clear. 
+		<p>After 3000+ downloads and 2500+ Cloud accounts, the message is clear. 
 		Formspider is the choice of Oracle Developers worldwide to build the applications of tomorrow.</p>
 		<!--div id="cta-right">Try now for free &rarr; <a href="download.php" id="cloud" class="button silver small">Cloud</a><a href="download.php" id="desktop" class="button silver small">Desktop</a></div-->
 		
@@ -104,15 +104,18 @@
 			
 			<br/>
 			
-			<h3>More References:</h3> <br/><br/>
+			<h3>More Customers:</h3> <br/><br/>
 			<div id="other-references">
-				<a href="http://www.solver.lt/"><img id="solver" src="images/references/Solver_logo.gif" alt="Solver" title="Solver (Lithuania)"></a>
-				<a href="http://www.xrsystems.de/"><img id="xrsystems" src="images/references/XR.png" alt="XR Systems" title="XR Systems (Germany)"></a>
-				<a class="end-of-row" href="http://caosys.com/"><img id="caosys" src="images/references/CaoSys265.png" alt="CaoSys" title="CaoSys (United Kingdom)"></a>
+				<a href="http://www.solver.lt" target="_blank"><img id="solver" src="images/references/Solver_logo.gif" alt="Solver" title="Solver (Lithuania)"></a>
+				<a href="http://www.xrsystems.de"  target="_blank"><img id="xrsystems" src="images/references/XR.png" alt="XR Systems" title="XR Systems (Germany)"></a>
+				<a class="end-of-row" href="http://caosys.com" target="_blank"><img id="caosys" src="images/references/CaoSys265.png" alt="CaoSys" title="CaoSys (United Kingdom)"></a>
 				
-				<img  id="ethiopia" src="images/references/ethiopia3.jpg" alt="Ethiopia" title="Ethiopia">
-				<a href="http://www.zaminbank.az/"><img id="zaminbank" src="images/references/zaminbank_logo.png" alt="Zamin Bank" title="Zamin Bank (Azerbaijan)"></a>
-				<a class="end-of-row" href="http://www.linkedin.com/company/azerfon"><img id="azerfon" src="images/references/azerfon.jpg" alt="Azerfon" title="Azerfon (Azerbaijan)"></a>
+				<a href="http://www.arsinform.it" target="_blank"><img  id="arsinform" src="images/references/arsinform_logo.png" alt="ARSinform" title="ARSinform (Italy)"></a>
+				<a href="http://www.zaminbank.az" target="_blank"><img id="zaminbank" src="images/references/zaminbank_logo.png" alt="Zamin Bank" title="Zamin Bank (Azerbaijan)"></a>
+				<a class="end-of-row" href="http://www.linkedin.com/company/azerfon" target="_blank"><img id="azerfon" src="images/references/azerfon.jpg" alt="Azerfon" title="Azerfon (Azerbaijan)"></a>
+				
+				<a href="http://www.aps.si/?lang=en" target="_blank"><img  id="aps" src="images/references/APS2_napis1.png" alt="APS" title="APS (Slovenia)"></a>
+				<a class="end-of-row" href="http://www.celsaarmeringsstaal.com" target="_blank"><img id="celsanordic" src="images/references/celsanordic_ar_logo.png" alt="Celsa Armeringsstal" title="Celsa Armeringsstal (Norway)"></a>
 			</div>
 			
 		</ul>
