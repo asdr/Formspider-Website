@@ -85,7 +85,7 @@
             </a></li>
             <li><a href="http://formspideronline.com/fs_1_6_0/main.jsp?name=DemoInfiniteScroll" target="_blank">
                 <img src="./images/demo/demoInfiniteScroll.PNG" width="130" height="90" alt="1">
-                <h4>Infinite Scroll</h4>
+                <h4>Infinite Scroll Grid</h4>
                 <p>Infinite Scroll grid example.</p>
             </a></li>
             <li class="last-in-row"><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#Charts" target="_blank">
