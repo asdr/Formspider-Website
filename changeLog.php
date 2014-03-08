@@ -59,14 +59,14 @@
 	<h2>Change Log for Formspider 1.7.0<br/>08 March 2014</h2>
 	<h3>New Features</h3>
 	<ul style="margin-left:10px;margin-bottom:10px;">
-	  <li>Implemented <b>Security Repository</b>.</li>
+	  <li>Implemented <b><a href="http://theformspider.com/blog/2014/03/08/formspider-desktop-1-7-is-available/" target="_blank">Security Repository</a></b>.</li>
 	  <li>Added ability to invalidate browser cache for multilingual key files through Formspider IDE.</li>
 	</ul>
 	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
 	<ul style="margin-left:10px;margin-bottom:10px;">
 	  <li>Fixed infinite scroll issues.</li>
-	  <li>Solved LOV column display problem on "API_LOV.setColumnVisible" API.</li>
-	  <li>Fixed label refresh issue for labelColumn bound hyperlinks.</li>
+	  <li>Solved LOV column display problem when using the "API_LOV.setColumnVisible" API.</li>
+	  <li>Fixed hyperlink component label refresh issue.</li>
 	</ul>
 	
 	
