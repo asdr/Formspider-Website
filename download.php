@@ -66,7 +66,7 @@
 			.html('<br><h3>Oracle Database Requirements</h3><p>Formspider supports Oracle Database Release 10.2.0.1 or higher (Standard Edition One, Standard Edition and Enterprise Edition) and Oracle Database XE 10g as well as 11g.</p><br><h3>Browser Requirements</h3><p>Formspider supports following browsers:</p><ul style="margin-left:35px;margin-bottom:10px;"><li>Microsoft Internet Explorer 7.0 or higher</li><li>Mozilla Firefox 3.6 or higher</li><li>Google Chrome</li><li>Safari</li></ul><h3>Java Requirements</h3><p>The application server must have Java 1.5 or higher installed.<p><em>P.S. Currently, we only support Oracle Java on Linux machines (GNU Java will be supported in following releases.)</em></p> </p><h3>HTTP Server Requirements</h3><p>Formspider requires a Servlet Container, like Apache Tomcat, in order to operate. You can install Formspider to an existing Apache Tomcat (version 5 or higher) or let Formspider install its own Tomcat (version 6.0.29).</p><p>Formspider also supports OC4J, Oracle WebLogic 10g and above and Oracle GlassFish 3 and above.</p><br><h3>Disk Space Requirements</h3><p>Formspider Installer file is ~48 MB. Its free disk space requirements are as follows:</p><ul style="margin-left:35px;margin-bottom:10px;"><li>52 MB free space to install new Apache Tomcat. Apache Tomcat installation is optional. You may use an existing Tomcat installation.</li><li>128 MB free space in specified tablespace. </li></ul>')
 			.dialog({
 				autoOpen: false,
-				title: 'Formspider 1.6.0 Installation Requirements',
+				title: 'Formspider 1.7.0 Installation Requirements',
 				width:600
 			});
  
@@ -124,7 +124,7 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
-					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.6.0.zip");
+					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.7.0.zip");
 					logDownload(nameField.value, emailField.value);
 					_gaq.push(['_trackPageview','/download/FormspiderForWindows']);
 				}
@@ -137,7 +137,7 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
-					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.6.0.jar");
+					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.7.0.jar");
 					logDownload(nameField.value, emailField.value);
 					_gaq.push(['_trackPageview','/download/FormspiderForLinux']);
 				}
@@ -193,7 +193,7 @@
 			$.ajax({
 			  type: "GET",
 			  url: "product.php",
-			  data: "descid=Download&name="+ name +"&mail="+ email+"&version=1.6.0",
+			  data: "descid=Download&name="+ name +"&mail="+ email+"&version=1.7.0",
 			  async: true,
 			  success: function(data) {
 				//alert('success');
@@ -431,7 +431,7 @@
 							</div>
 						
 							<div class="download-block">
-								<p class="download-title"> Formspider Desktop 1.6.0</p>
+								<p class="download-title"> Formspider Desktop 1.7.0</p>
 								<p style="text-align:center;">30 Day Trial</p>
 								<div class="download-desktop-image" style=" ">&nbsp;</div>
 								<p>
