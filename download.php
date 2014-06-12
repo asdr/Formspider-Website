@@ -124,7 +124,7 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
-					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.7.0.zip");
+					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.7.0.2.zip");
 					logDownload(nameField.value, emailField.value);
 					_gaq.push(['_trackPageview','/download/FormspiderForWindows']);
 				}
@@ -137,7 +137,7 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
-					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.7.0.jar");
+					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.7.0.2.jar");
 					logDownload(nameField.value, emailField.value);
 					_gaq.push(['_trackPageview','/download/FormspiderForLinux']);
 				}
@@ -193,7 +193,7 @@
 			$.ajax({
 			  type: "GET",
 			  url: "product.php",
-			  data: "descid=Download&name="+ name +"&mail="+ email+"&version=1.7.0",
+			  data: "descid=Download&name="+ name +"&mail="+ email+"&version=1.7.0.2",
 			  async: true,
 			  success: function(data) {
 				//alert('success');
