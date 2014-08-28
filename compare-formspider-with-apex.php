@@ -77,6 +77,14 @@
 </tr>
 
 <tr>
+	<td> Version Control </td>
+	<td> 
+		<a href="http://theformspider.com/blog/?p=1247">Formspider integrates with Git seamlessly.</a> 
+	</td>
+	<td> Good luck. </td>
+</tr>
+
+<tr>
 	<td> Master-Detail Screens </td>
 	<td> 
 		Formspider makes it very easy to implement

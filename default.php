@@ -56,8 +56,8 @@
 			</div>
 			<div id="screenshot"></div>
 			<div class="mobile-teaser" style="">
-				<a class="mobile-download-link" href="download.php" style="">&nbsp;</a>
-				<p style="position:absolute; left:-30px; top:30px; font-family:'Shadows Into Light', cursive">New Mobile Version! &rarr;</p>
+				<a class="git-integration-download-link" href="http://theformspider.com/blog/?p=1247" style="">&nbsp;</a>
+				<p style="position:absolute; left:-50px; top:20px; font-family:'Shadows Into Light', cursive">Now with Git Integration &rarr;</p>
 			</div>
 		</div>
 		
@@ -66,7 +66,7 @@
 		<div class="bannerContainer" style="padding-top:25px;  padding-left: 5px; width:900px; height:100px;">
 			<div id="pscroller2" class="rssclass" style="position: relative; overflow: hidden; background-image: url(images/latestnews4_1.png); width:100%; height:100%; padding-top:20px;">
 					
-					<a style="" href="http://theformspider.com/download.php">Formspider 1.7.0 is available for download</a>
+					<a style="" href="http://theformspider.com/download.php">Formspider 1.8.0 is available for download</a>
 					<br>
 					<a style="" href="http://theformspider.com/blog/2013/08/20/ing-modernized-its-forms-application-with-formspider/">ING modernized its Forms application with Formspider</a>
 					<br>

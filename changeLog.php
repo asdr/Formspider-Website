@@ -56,17 +56,23 @@
   	<br/>
   	<br/>
 	
-	<h2>Change Log for Formspider 1.7.0<br/>08 March 2014</h2>
+	<h2>Change Log for Formspider 1.8.0<br/>28 August 2014</h2>
 	<h3>New Features</h3>
 	<ul style="margin-left:10px;margin-bottom:10px;">
-	  <li>Implemented <b><a href="http://theformspider.com/blog/2014/03/08/formspider-desktop-1-7-is-available/" target="_blank">Security Repository</a></b>.</li>
-	  <li>Added ability to invalidate browser cache for multilingual key files through Formspider IDE.</li>
+	  <li>Implemented <b><a href="http://theformspider.com/blog/?p=1247" target="_blank">Version Control</a></b>.</li>
+	</ul>
+	<h3>Developer APIs</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>New API "API_VERSIONCONTROL" is added.</li>
 	</ul>
 	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
 	<ul style="margin-left:10px;margin-bottom:10px;">
-	  <li>Fixed infinite scroll issues.</li>
-	  <li>Solved LOV column display problem when using the "API_LOV.setColumnVisible" API.</li>
-	  <li>Fixed hyperlink component label refresh issue.</li>
+	  <li>Fixed button group component import problem when database NLS_DATE_FORMAT is DD/MM/RR.</li>
+	  <li>Solved null value problem on textField component having case transform enabled domain.</li>
+	  <li>Fixed list component empty display issue.</li>
+	  <li>DB engine performance enhancements.</li>
+	  <li>Fixed Formspider IDE XML Editor "r" character issue on Google Chrome. </li>
+	  <li>Solved decimal separator issue when changing application's language at runtime.</li>
 	</ul>
 	
 	
@@ -82,6 +88,25 @@
 	<br/>
 	<br/>
 	<br/>
+
+	<h2>Change Log for Formspider 1.7.0<br/>08 March 2014</h2>
+	<h3>New Features</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>Implemented <b><a href="http://theformspider.com/blog/2014/03/08/formspider-desktop-1-7-is-available/" target="_blank">Security Repository</a></b>.</li>
+	  <li>Added ability to invalidate browser cache for multilingual key files through Formspider IDE.</li>
+	</ul>
+	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>Fixed infinite scroll issues.</li>
+	  <li>Solved LOV column display problem when using the "API_LOV.setColumnVisible" API.</li>
+	  <li>Fixed hyperlink component label refresh issue.</li>
+	</ul>
+	
+	
+	<br/>
+	<br/>
+
+
 	
 	<h2>Change Log for Formspider 1.6.0<br/>29 Oct 2013</h2>
 	<h3>New Features</h3>
