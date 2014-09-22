@@ -53,12 +53,6 @@
 				<div>That would be me. Being surrounded by great teammates makes my job incredibly fun. 
 				If you’d like to follow my adventures, please follow me on Twitter <a target="_blank" href="http://www.twitter.com/yalimgerger">@yalimgerger</a></div>
 			</li>
-			<li id="danieltin">
-				<a class="person"><img src="images/about/danieltin.jpg" width="70" height="70" alt="Daniel Tin">
-				<h3>Daniel Tin</h3>
-				<h4>Business Development Mgr.</h4></a>
-				<div>Daniel is our new Business Development Manager. After our first meeting, I knew he was the right person for the job. There are very few people who know the Enterprise IT world like he does and we feel very fortunate to have him as part of the team.</div>
-			</li>
 			<li id="sametbasaran" class="last-in-row">
 				<a class="person"><img src="images/about/samet.png" width="70" height="70" alt="Samet Başaran">
 				<h3>Samet Başaran</h3>

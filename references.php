@@ -35,8 +35,7 @@
 	<div id="content" class="clearfix">
 		
 		<h2>References</h2>
-		<p>After 3000+ downloads and 2500+ Cloud accounts, the message is clear. 
-		Formspider is the choice of Oracle Developers worldwide to build the applications of tomorrow.</p>
+		<p>With customers in 24 countries, Formspider is the choice of Oracle Developers worldwide to build the applications of tomorrow.</p>
 		<!--div id="cta-right">Try now for free &rarr; <a href="download.php" id="cloud" class="button silver small">Cloud</a><a href="download.php" id="desktop" class="button silver small">Desktop</a></div-->
 		
 		<ul>
@@ -104,7 +103,7 @@
 			
 			<br/>
 			
-			<h3>More Customers:</h3> <br/><br/>
+			<h3>Some of our other customers:</h3> <br/><br/>
 			<div id="other-references">
 				<a href="http://www.solver.lt" target="_blank"><img id="solver" src="images/references/Solver_logo.gif" alt="Solver" title="Solver (Lithuania)"></a>
 				<a href="http://www.xrsystems.de"  target="_blank"><img id="xrsystems" src="images/references/XR.png" alt="XR Systems" title="XR Systems (Germany)"></a>
@@ -115,7 +114,13 @@
 				<a class="end-of-row" href="http://www.linkedin.com/company/azerfon" target="_blank"><img id="azerfon" src="images/references/azerfon.jpg" alt="Azerfon" title="Azerfon (Azerbaijan)"></a>
 				
 				<a href="http://www.aps.si/?lang=en" target="_blank"><img  id="aps" src="images/references/APS2_napis1.png" alt="APS" title="APS (Slovenia)"></a>
-				<a class="end-of-row" href="http://www.celsaarmeringsstaal.com" target="_blank"><img id="celsanordic" src="images/references/celsanordic_ar_logo.png" alt="Celsa Armeringsstal" title="Celsa Armeringsstal (Norway)"></a>
+				<a href="http://www.celsaarmeringsstaal.com" target="_blank"><img id="celsanordic" src="images/references/celsanordic_ar_logo.png" alt="Celsa Armeringsstal" title="Celsa Armeringsstal (Norway)"></a>
+				<a class="end-of-row" href="http://www.i-spiral.com/1/" target="_blank"><img  id="ispiral" src="images/references/ispiral_logo.png" alt="iSpiral" title="iSpiral (Cyprus)"></a>
+
+				<a href="http://www.follifollie.com" target="_blank"><img id="follifollie" src="images/references/follifollie_logo.png" alt="Folli Follie" title="Folli Follie (Greece)"></a>
+				<a href="http://www.mediametrie.fr" target="_blank"><img id="mediametrie" src="images/references/mediametrie_logo.gif" alt="MediaMetrie" title="MediaMetrie (France)"></a>
+				<a class="end-of-row" href="http://www.team-pb.de" target="_blank"><img id="teampb" src="images/references/teampb_logo.jpg" alt="TeamPB" title="TeamPB (Germany)"></a>
+			</di
 			</div>
 			
 		</ul>

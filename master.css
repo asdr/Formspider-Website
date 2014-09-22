@@ -344,7 +344,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .references #content #usairforce{padding: 25px 90px;}
 .references #content #ing{padding: 35px 120px;}
 .references #content #ethiopia{padding: 0;}
-.references #content #arsinform{padding: 0;}
+.references #content #arsinform{padding: 0; height: 90px;}
 .references #content #rhenus{padding: 0;}
 .references #content #elmecsport{padding:0;}
 .references #content #maliakoskleidi{padding:0;}
@@ -352,7 +352,11 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .references #content #zaminbank{padding: 20px;}
 .references #content #celsanordic{height: 70px; padding: 0; width: 340px;}
 .references #content #aps{height: 70px; padding: 10px 0 0 0;}
-.references #other-references img {width: 220px; height:100px; padding: 10px 60px; margin-right:20px; margin-bottom: 30px;}
+.references #content #ispiral{height: 70px; padding: 0;}
+.references #content #follifollie{height: 90px; padding: 10px 0 0 0;}
+.references #content #mediametrie{height: 90px; padding: 0 0 0 0;}
+.references #content #teampb{height:90px; padding: 0 0 0 0;}
+.references #other-references img {/*width: 220px;*/ height:100px; padding: 10px 60px; margin-right:20px; margin-bottom: 30px;}
 .references #other-references a {outline:none; }
 
 /* PRICING page ------------------------------- */
