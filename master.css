@@ -495,7 +495,10 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 }
 
 .about-us #list-of-people { margin: 30px auto; position: absolute; width: 960px; /*left: -100px;*/ }
-.about-us #footer { margin-top: 400px; }
+.about-us #footer { margin-top: 100px; }
+.about-us #fsmap { position: absolute; right: 0; margin-top: 60px; z-index: 1000;}
+.about-us #content a, a:active, a:visited { color: #08c; }
+.about-us #content a:hover { color: #08c; text-decoration: underline; }
 #list-of-people li { position: relative; background: #fff; width: 280px; float: left; margin: 0 60px 15px 0px; -webkit-box-shadow: 0 1px 3px 0 #e0e0e0; box-shadow: 0 1px 3px 0 #e0e0e0; }
 #list-of-people li.last-in-row {margin-right:0;}
 #list-of-people li:hover {box-shadow: 0 1px 5px 0px #d0d0d0;}

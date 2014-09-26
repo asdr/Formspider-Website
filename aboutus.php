@@ -36,68 +36,30 @@
 	
 	<div id="container">
 	
+    <div id="fsmap">
+        <a href="https://www.google.com/maps/@41.105941,29.016175,421m/data=!3m1!1e3" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?center=41.105941,29.016175&zoom=13&markers=color:orange%7Clabel:Formspider%7C41.105941,29.016175&size=250x250" /></a>
+    </div>
+
 	<div id="content" class="clearfix">
-		
-		<h2>The Team</h2>
-		<p>We believe:</p>
-		<p style="margin-left:30px;">Yesterday’s frameworks built for a wired, single OS, single device world 
-		can’t solve the problems of the wireless, multi platform, multi device world of today.</p>
-		<p style="margin-left:30px;">A framework is a product in and of itself that is worth to design.</p>
-		<p style="margin-left:30px;">Complexity should not be in the tools we use but in the things we build using them.</p>
-		<p style="margin-top:15px;"> Yalim K. Gerger <br> Founder </p>
-		
-		<ul id="list-of-people">
-			<li>
-				<a class="person"><img src="images/about/yalim.png" width="70" height="70" alt="Yalim Gerger">
-				<h3>Yalim Gerger</h3>
-				<h4>Founder/CEO</h4></a>
-				<div>That would be me. Being surrounded by great teammates makes my job incredibly fun. 
-				If you’d like to follow my adventures, please follow me on Twitter <a target="_blank" href="http://www.twitter.com/yalimgerger">@yalimgerger</a></div>
-			</li>
-			<li id="sametbasaran" class="last-in-row">
-				<a class="person"><img src="images/about/samet.png" width="70" height="70" alt="Samet Başaran">
-				<h3>Samet Başaran</h3>
-				<h4>Software Engineer, DB</h4></a>
-				<div>No matter how difficult, critical or urgent the problem is, when I hear Samet say “OK, I’ll take care of it”, I stop worrying about it.</div>
-			</li>
-			<li id="oskansavli">
-				<a class="person"><img src="images/about/oskan.png" width="70" height="70" alt="Öskan Şavlı">
-				<h3>Öskan Şavlı</h3>
-				<h4>Front-end Engineer</h4></a>
-				<div>Öskan is candid. You’d better listen to him. He is fearless. You’d better fear him. He is brutally right. You’d better accept it. Because there is nothing he can’t do once he sets his mind to it.</div>
-			</li>
-			<li id="ibrahimsandalli">
-				<a class="person"><img src="images/about/ibrahim.png" width="70" height="70" alt="İbrahim Sandallı">
-				<h3>İbrahim Sandallı</h3>
-				<h4>Software Engineer in Test</h4></a>
-				<div>İbrahim enters comments to our bug tracking system that would pass as essays in scientific journals. He started working with us right out of school. After working with him for two years, I thanked him for teaching me so much.</div>
-			</li>
-			<li id="serdargokcen" class="last-in-row">
-				<a class="person"><img src="images/about/asdr.png" width="70" height="70" alt="Serdar Gökçen">
-				<h3>Serdar Gökçen</h3>
-				<h4>Software Engineer in Test</h4></a>
-				<div>This is a guy who installs Unix to his iPod. He works with four monitors, three computers, two keyboards and countless hubs and switches around them. He believes anybody not using Unix is a heretic and should be burnt at stake. I don’t know what we would have done without him.</div>
-			</li>
-			<li id="suataaldan">
-				<a class="person"><img src="images/about/suataldan.jpg" width="70" height="70" alt="Suat A. Aldan">
-				<h3>Suat A. Aldan</h3>
-				<h4>Front-end Engineer</h4></a>
-				<div>Suat is one of the newest and youngest members of our team. In the short time he’s been with us, he has impressed everyone in the company. With this guy, sky is the limit.</div>
-			</li>
-			<li id="orhanarikan">
-				<a class="person"><img src="images/about/orhanarikan.jpg" width="70" height="70" alt="Orhan Arıkan">
-				<h3>Orhan Arıkan</h3>
-				<h4>Software Engineer in Test</h4></a>
-				<div>Orhan was such an amazing summer intern that we had to hire him even though he is still at school. We keep throwing him harder challenges and thinking that he’ll ask for help at some point. We’re still waiting...</div>
-			</li>
-			<li id="asligerger" class="last-in-row">
-				<a class="person"><img src="images/about/asli.png" width="70" height="70" alt="Aslı Gerger">
-				<h3>Aslı Gerger</h3>
-				<h4>Administrator</h4></a>
-				<div>She is caring and compassionate. Even though she spends not more than an hour in the office every month, her presence can be felt in every little detail in it. She manages everything other than the software so that we can focus on the software.</div>
-			</li>
-		</ul>
+	
+		<p style="margin-right: 255px;">Formspider is lovingly made in Istanbul, Turkey by Gerger. Gerger is founded in 2005 and specializes in application design and development with the Oracle Database. Our office is in ITU ARI Technopark.</p>
+        <br/>
+        <br/>
+        <h2>Story of Formspider</h2>
+
+        <p style="margin-right: 255px;">Did you know that virtually every development framework commonly used in building business applications (.NET, ADF, Apex) is created more than a decade ago in an era where wired networks, a single OS (Windows), a single browser (IE) and a single computing device (PC) dominated. </p>
+
+        <p>All these frameworks were conceived in a world where Mobile and Cloud did not exist. Chrome and Firefox browsers did not exist, either. Heck even AJAX came about around 2005. Yet, we continue to use these tools to build applications for a world that they were not intended for. We pay the price in lower developer productivity, lower application quality and higher project cost.</p>
+
+        <p>We wanted to use a product that is designed for today’s wireless, multi platform, multi device world. We could not find any. So we asked ourselves: What would a development tool be like if we build it today?...</p>
+
+        <p>The answer to this question is Formspider.</p>
+
+        <p>We’d love to hear from you. Send us an <a href="mailto:contact@theformspider.com" target="_blank">email</a>, follow us on <a href="http://www.twitter.com/formspider" target="_blank">Twitter</a>, join the Formspider <a href="http://www.linkedin.com/groups/Formspider-3710847" target="_blank">LinkedIn Group</a> or like our page on <a href="http://www.facebook.com/pages/Formspider/146550118729391" target="_blank">Facebook</a>. </p>
+
+        <p style="margin-top:15px;"> Yalim K. Gerger <br> Founder </p>
+        <div style="margin-top: -40px; margin-left: 135px;"><a href="https://www.linkedin.com/in/yalimgerger" target="_blank"><img src="images/connectwithmeonlinkedin1.gif"/></a></div>
+        
 
 	</div><!-- /content -->
-		
 	<?php include 'assets/footer.php'; ?>
