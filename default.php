@@ -65,7 +65,7 @@
 		
 		
 		<div class="bannerContainer" style="padding-top:25px;  padding-left: 5px; width:900px; height:100px;">
-			<div id="pscroller2" class="rssclass" style="position: relative; overflow: hidden; background-image: url(images/latestnews4_1.png); width:100%; height:100%; padding-top:20px;">
+			<!-- div id="pscroller2" class="rssclass" style="position: relative; overflow: hidden; background-image: url(images/latestnews4_1.png); width:100%; height:100%; padding-top:20px;">
 					
 					<a style="" href="http://theformspider.com/download.php">Formspider 1.8.1 is available for download</a>
 					<br>
@@ -74,17 +74,17 @@
 					<a style="" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Rhenus Netherlands chose Formspider over Oracle Apex to modernize its Forms applications </a>
 					<br>
 				
-				<!-- div class="innerDiv" style="position: absolute; width: 800px; top: 45px;" id="pscroller13" >
+				<*** div class="innerDiv" style="position: absolute; width: 800px; top: 45px;" id="pscroller13" >
 					<span class="rsstitle" style="font-size: 14px;"></span>
 					<span class="rsstitle"><a style="font-size: 14px; color:Blue; text-decoration: underline;" href="http://theformspider.com/blog/2012/08/22/formspider-is-visiting-austria-and-czech-republic/" >Formspider is visiting Austria, Czech Republic and Slovakia</a></span>
 					<br>
-				</div -->
+				</div **>
 				
 				
 					
 				
-			</div>
-			<!-- a href="https://attendee.gotowebinar.com/register/3424512888903880193" target="_blank"><img src="images/banner_webinar.png" /></a --> 	
+			</div -->
+			<a href="https://attendee.gotowebinar.com/register/381899232945618946" target="_blank"><img src="images/banner_webinar_Oct21.png" /></a> 	
 		</div>
 		
 		<div id="benefits" class="clearfix">
