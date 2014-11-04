@@ -1,0 +1,847 @@
+@charset "utf-8";
+
+/** 8c9fbc **/
+body {
+	font: 12px /*"Lucida Console", Monaco, monospace; */Verdana, Arial, Helvetica, sans-serif;
+	background: #FFF;
+	margin: 0;
+	padding: 0;
+	color: #362a36;
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl {
+	/* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family:Georgia;
+	font-style:italic;
+	color: #a17045;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0; /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */;
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img {
+	/* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+.slink:link {
+	text-decoration: none;
+}
+a:visited {
+	color: #42413C;
+	text-decoration: underline;
+}
+.slink:visited {
+	text-decoration: none;
+	}
+
+a:hover, a:active, a:focus {
+	/* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+/* ~~ This fixed width container surrounds all other divs ~~ */
+.container {
+	width: 900px;
+	/*background: #FFFFFF;*/
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+/* ~~ The header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo. ~~ */
+.header {
+	width: 900px;
+	height: 50px;
+}
+.header .menu {
+	width: 678px;
+	float: right;
+	margin-top: 25px;
+}
+.header .menu li {
+	float: left;
+	list-style: none;
+}
+.header .menu li a {
+	margin: auto 10px;
+	font-size: 12px;
+	color: #42413C;
+	padding:0;
+}
+.header .menu li a {
+	margin: auto 10px;
+	font-size: 12px;
+	text-decoration: none;
+}
+.header .menu li a:hover, .header .menu li a:active{
+	text-decoration: underline;
+}
+.header .menu li .active {
+	font-weight: bold;
+}
+/* ~~ These are the columns for the layout. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the divs. The elements within these divs have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+2) No margin has been given to the columns since they are all floated. If you must add margin, avoid placing it on the side you're floating toward (for example: a right margin on a div set to float right). Many times, padding can be used instead. For divs where this rule must be broken, you should add a "display:inline" declaration to the div's rule to tame a bug where some versions of Internet Explorer double the margin.
+
+3) Since classes can be used multiple times in a document (and an element can also have multiple classes applied), the columns have been assigned class names instead of IDs. For example, two sidebar divs could be stacked if necessary. These can very easily be changed to IDs if that's your preference, as long as you'll only be using them once per document.
+
+4) If you prefer your nav on the right instead of the left, simply float these columns the opposite direction (all right instead of all left) and they'll render in reverse order. There's no need to move the divs around in the HTML source.
+
+*/
+.content {
+	/*padding-top: 10px;*/
+	width: 900px;
+	float: left;
+}
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol {
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav {
+	list-style: none;
+/* this removes the list marker */border-top: 1px solid #666;
+/* this creates the top border for the links - all others are placed using a bottom border on the LI */margin-bottom: 15px; /* this creates the space between the navigation on the content below */
+}
+ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+ul.nav a, ul.nav a:visited {
+	/* grouping these selectors makes sure that your links retain their button look even after being visited */
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the anchor block properties so it fills out the whole LI that contains it so that the entire area reacts to a mouse click. */;
+	width: 160px; /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */;
+	text-decoration: none;
+	background: #C6D580;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+	/* this changes the background and text color for both mouse and keyboard navigators */
+	background: #ADB96E;
+	color: #FFF;
+}
+.shareLinks, .shareLinks a:link, .shareLinks a:visited{
+	position:relative;
+	font-size: 13px;
+	text-decoration: none;
+	vertical-align: middle;
+	font-weight: Bold;
+}
+/* ~~ The footer styles ~~ */
+.footer {
+	padding: 10px 0;
+	position: relative;/* this gives IE6 hasLayout to properly clear */;
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */;
+	font-size: 10px;
+	text-align: center;
+}
+/* ~~ Miscellaneous float/clear classes ~~ */
+.fltrt {
+	/* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	/* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	/* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the .container) if the .footer is removed or taken out of the .container */
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.main-image {
+  height:400px;
+  width:900px;
+  margin-top:10px;
+  margin-bottom:15px;
+}
+
+.sloganContainer {
+	width: 900px;
+	margin: 5px auto;
+  height:200px;
+  /*padding-top:10px;*/
+}
+
+.sloganContainer a:hover a:visited a:focus a:link{
+	text-decoration: none;
+}
+
+.slogan {
+	position: relative;
+	width: 280px;
+	height: 180px; /*padding:5px 5px 5px 5px;*/;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	margin: auto auto auto auto;
+	float: left;
+	background-image: url(/images/bs.png);
+	font-size: 11px;
+	color: #385479;
+}
+.title {
+	font-size: 15px;
+	color: #a17045;
+	font-style: italic;
+	font-weight: bold;
+}
+.imageDetails {
+	position: absolute;
+	top: 75px;
+	margin: 0px auto auto;
+	font-size: 40px;
+	/*color: #fee4c3;*/
+	color:white;
+	opacity: 0.8;
+	font-family:Georgia;
+	font-style:italic;
+	text-shadow: #009 1px 1px 1px;
+  padding-left:25px;
+}
+.imageSubDetails {
+	position: absolute;
+	top: 185px;
+	margin: 0px auto auto;
+	font-size: 16px;
+	/*color: #fee4c3;*/
+	color:white;
+	opacity: 0.85;
+	font-family:Georgia;
+	font-style:italic;
+	/*text-shadow: #009 1px 1px 1px;*/
+	width: 500px;
+	padding-left: 50px;
+	line-height: 140%;
+}
+.download {
+	position: absolute;
+	top: 410px;
+	display: block;
+	float: left;
+	width: 600px;
+	z-index:10;
+  font-size: 18px;
+  color: white;
+	font-weight: 400;
+	line-height: 14px;
+	text-align:center;
+	text-decoration: none;
+	text-shadow: rgba(0, 0, 0, 0.554688) 0px 1px 0px;
+  margin-left: 35px;
+  font-family: Trebuchet MS
+}
+
+.links {
+	position: absolute;
+	top: 425px;
+	display: block;
+	z-index:9;
+	width: 900px;
+}
+
+.insider {
+	background:#72b246;
+  width:120px;
+}
+
+.demos {
+  background:#ff7f0d;
+  width:100px;
+}
+
+.onlinos {
+	background: #7cbff3;
+  width:120px;
+}
+
+.download div {
+  float:left;
+	/*width:120px;*/
+	margin-left: 15px;
+  /*border: solid black 1px;*/
+	height:28px;
+  opacity:0.86;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-bottomright: 5px;
+}
+
+.download .pclass {
+	margin-top: 7px;
+	color: white;
+	float: none;
+	margin-left: auto;
+}
+
+.download div:hover, .download div:active, .download div:focus {
+  opacity:1;
+}
+
+.download a, .download a:visited{
+	text-decoration: none;
+}
+
+.download a:hover, .download a:active, .download a:focus {
+	text-decoration: none;
+}
+
+.download:hover, .download:active, .download:focus {
+	text-decoration: none;
+}
+
+.topPhrase {
+	text-align:center;
+	color:#3b5375;
+	
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 24px;
+	text-shadow: #999 1px 1px 1px;
+}
+
+.steps {
+	margin-left:20px;
+	margin-top:10px;
+	width:880px;
+	display:block;
+}
+
+.steps p {
+	line-height: 180%;	
+}
+
+.lcsteps {
+	margin-left:20px;
+	margin-top:10px;
+	margin-right:20px;
+	width:660px;
+	display:block;
+	/*font-family:'Times New Roman';
+	font-size:14px;*/
+}
+/*
+.lcsteps em {
+	background-color:yellow;
+}
+
+.lcsteps p em {
+	background-color:yellow;
+}*/
+
+.lcsteps .leftImageContainer {
+	float:left;
+}
+.lcsteps .leftImageContainer img{
+	border: 2px black groove;
+}
+.lcsteps .leftImageContainer p{
+	margin-top:5px;
+	font-size:12px;
+	color:navy;
+	font-style:italic;
+}
+
+
+.lcsteps .rightImageContainer {
+	float:right;
+}
+.lcsteps .rightImageContainer img{
+	border: 2px black groove;
+}
+.lcsteps .rightImageContainer p{
+	margin-top:5px;
+	font-size:10px;
+	color:navy;
+	font-style:italic;
+}
+
+
+.lcsteps .centerImageContainer {
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:15px;
+
+}
+.lcsteps .centerImageContainer img{
+	border: 1px black groove;
+}
+.lcsteps .centerImageContainer p{
+	margin-top:5px;
+	font-size:12px;
+	color:navy;
+	font-style:italic;
+}
+
+.lcsteps .codeContainer {	
+	background-color:#F8FAFC;
+	border:1px solid #369;
+	font-family:monospace;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.lcsteps .codeContainer p{	
+	margin:5px 10px 5px 10px;
+}
+
+.lcsteps p {
+	line-height: 180%;	
+}
+
+.lcdetails {
+	/*background-image:url('/images/top.png') ;*/
+	/*background: url('/images/top.png') no-repeat top;
+	background: url('/images/bot.png') no-repeat bottom;*/
+	width:200px;
+	position:relative;
+	float:right;
+	top:0px;
+	/*margin-top:0px;*/
+	text-align:center;
+	/*background-color:#ffa82d;*/
+}
+.lcdetails .lccontent {
+	background-color:#ffa82d;
+	margin: 0px 0px 0px 0px;
+}
+
+.steps .stepImg {
+	float:left;
+	margin:-5px 10px 10px 0px;
+}
+
+.videoContainer {
+	text-align:center;
+	margin:20px 20px 20px 20px;
+	width:250px;
+}
+
+.videoContainer img{
+	margin:10px 10px 10px 10px;
+	border:thin black solid;
+}
+
+.videoContainer p{
+	width:250px;
+	color: #385479;
+	font-style:italic;
+	text-align:center;
+}
+
+.tutorialContainer {
+	text-align:center;
+	margin:2px 2px 2px 2px;
+	float:left;
+}
+
+.tutorialContainer img{
+	/*margin:10px 10px 10px 10px;
+	border:thin black solid;*/
+	border:2px black groove;
+}
+
+.tutorialContainer p{
+	/*width:250px;*/
+	color: #385479;
+	font-style:italic;
+	font-size:11px;
+	/*text-align:center;*/
+}
+
+/*
+.license-scroll {
+	text-align:justify;
+	border-style:groove;
+	height:400px;
+	width:650px;
+	overflow:hidden;
+	margin-right:10px;
+}
+
+.license {
+	height:2000px;	
+}
+.license .section {
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+#content-slider {
+	height:390px;
+	width:6px;
+	margin: 5px;
+	background: #BBBBBB;
+  	position: relative;
+  	float:right;
+}
+.ui-slider-handle {
+  width: 10px;
+  height: 8px;
+  position: absolute;
+  top: -4px;
+  background: #478AFF;
+  border: solid 1px black;
+}
+*/
+.steps2 {
+	/*margin-left:auto;
+	margin-top:10px;*/
+	margin:0 auto;
+	width:680px;
+	display:block;
+	line-height: 180%;	
+}
+
+.steps3 {
+	/*margin-left:auto;
+	margin-top:10px;*/
+	margin:0 auto;
+	width:900px;
+	display:block;
+	line-height: 180%;	
+}
+
+.license {
+	overflow:auto;
+	/*width:650px;*/
+	height:500px;
+	text-align:justify;
+	/*border-style:groove;*/
+}
+
+.license .section {
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.licenseNew {
+	overflow:auto;
+	/*width:650px;*/
+	/*height:500px;*/
+	text-align:justify;
+	/*border-style:groove;*/
+}
+
+.licenseNew .section {
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.learnTable {
+	width:720px;
+	text-align:center;	
+}
+.learnTable tr td {
+	vertical-align: top;
+	
+}
+
+.learnTable tr td a img{
+	margin:8px 8px 8px 8px;
+	border:2px black groove;
+}
+.learnTable tr th {
+	text-align:left;
+}
+
+.tutorialHeader, .tutorialHeader:link, .tutorialHeader:visited, .tutorialHeader:hover, .tutorialHeader:active {
+	/*text-decoration: none;*/
+	font-style: italic;
+	/*color:#FFA82D;*/
+	/*color:black;	*/
+	color: #a17045;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+.tutorialHeaderContainer {
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+hr {
+  	color: black;
+	background-color: #FFA82D;
+	height: 2px;
+}
+
+.aboutTable {
+	width:900px;
+	text-align:left;
+	line-height: 150%;	
+}
+
+.aboutTable tr td {
+	vertical-align: top;
+	margin: 10px 10px 10px 10px;
+	border:2px #FFA82D groove;
+	background-color: #d7dee8;
+}
+
+.aboutTable tr td img{
+	margin:8px 8px 2px 8px;
+	float: left;
+}
+.person {
+	font-style: italic;
+	color:black;	
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px #ffa82d groove;
+	margin: 10px 10px 10px 10px;
+}
+
+.person .twitter, .person .twitter a, .person .twitter a:hover, .person .twitter a:link, .person .twitter a:visited{
+	float: right;	
+	font-family: Arial,"Helvetica Neue",sans-serif;
+	color: #0084B4;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+.priceTable {
+	background-color: #d7dee8;
+	border: 1px #ffa82d groove;
+	margin-left: 15px;
+}
+.priceTable td {
+	/*border: 1px #ffa82d groove;*/
+}	
+
+.priceTable th {
+	text-align: left;
+}
+.priceTable .secCol {
+	text-align: center;
+	font-weight: bold;
+}
+
+.bannerContainer {
+	width: 880px;
+	height: 80px;
+	margin: 0 auto;
+	padding:10px 10px 0 10px;
+	/*background-color: red;*/
+}
+
+#pscroller1{
+width: 450px;
+height: 1.2em;
+border: 1px dashed black;
+padding: 5px;
+background-color: lightyellow;
+}
+
+#pscroller2{
+width: 370px;
+height: 40px;
+border: 0px solid black;
+padding: 20px 10px 0px 20px;
+font-style: italic;
+background-image: url(/images/latestnews.png);
+background-repeat:no-repeat;
+
+}
+
+.rssclass .rsstitle{
+font-weight: bold;
+}
+
+.rssclass .rssdate{
+font-size: 75%;
+}
+
+.rssclass a, .rssclass a:link{
+text-decoration: none;
+color:#555;
+font-size: 95%;
+}
+
+.submenu {
+	width: 900px;
+	
+	height: 28px;
+	/*background-color: #e9edf4;*/
+	background-color: #ffe2b9;/*#ffb955;*/
+	font-size: 14px;
+
+	color: #3B5375;
+	/*-o-transition: width 0.3s ease-in-out;
+	-ms-transition: width 0.3s ease-in-out;
+	-moz-transition: width 0.3s ease-in-out;
+	-webkit-transition: width 0.3s ease-in-out;*/
+	
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	-moz-border-bottom-left-radius: 10px 10px;
+	-moz-border-bottom-right-radius: 10px 10px;
+	-ms-border-bottom-left-radius: 10px 10px;
+	-ms-border-bottom-right-radius: 10px 10px;
+margin-top:0; 
+}
+
+.submenu a, .submenu a:hover, .submenu a:visited, .submenu a:link {
+	float:left;
+	text-decoration: none;
+	color: #3B5375;
+	font-size: 14px;
+	font-family: Georgia;
+	font-style: italic;
+	padding-right: 15px;
+	padding-left: 15px;	
+}
+
+.submenuElement {
+	padding-top: 3px;
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	-moz-border-bottom-left-radius: 10px 10px;
+	-moz-border-bottom-right-radius: 10px 10px;
+	-ms-border-bottom-left-radius: 10px 10px;
+	-ms-border-bottom-right-radius: 10px 10px;
+	margin:0;
+	height:25px;
+	color: #3B5375;
+	
+}
+
+.activeSubmenuElement {
+	padding-top: 3px;
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	-moz-border-bottom-left-radius: 10px 10px;
+	-moz-border-bottom-right-radius: 10px 10px;
+	margin:0;
+	height:25px;
+	/*background-color: #d3d9e5;*/
+	background-color: #ffb955;
+	color: #3B5375;
+	font-weight: Bold;
+}
+
+.vsTable {
+	font-size: 14px;
+	background-color: #FFF;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	-moz-border-bottom-left-radius: 10px 10px;
+	-moz-border-bottom-right-radius: 10px 10px;
+	-moz-border-top-left-radius: 10px 10px;
+	-moz-border-top-right-radius: 10px 10px;
+	color: #333;
+	text-align: center;
+}
+.titleCell {
+	border-bottom:1px solid #DDD;
+	font-size: 18px;
+	font-weight: Bold;
+	/*color:#333;*/
+	text-align: center;
+	color: #e12712;
+	
+	font-family: "Trajan Pro - Regular";
+}
+.rowHeaderCell {
+	font-size: 15px;
+	font-weight: Bold;	
+	color: #A17045;
+} 
+
+#promoIMG{
+	/*background:url('/images/foa.png') no-repeat;*/
+	/*height:790px;*/
+	/*margin-bottom:15px;*/
+	text-align:center;
+}
+
+#promoIMG img{
+	/*margin-top:80px;
+	margin-bottom:150px;*/
+}
+
+.navlist
+{
+margin-left: 0;
+padding-left: 0;
+list-style: none;
+}
+
+.navlist li 
+{
+padding-left: 0px;
+background-image: url("/images/check.png");
+background-repeat: no-repeat;
+background-position: 0px;
+}
+
+#thanks {
+	border: 1px solid #FFB90F;
+	background-color: #FFEC8B;
+	padding: 5px 5px 5px 5px;
+	width: 150px;
+	text-align: center;
+	margin:0 auto;
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	-moz-border-bottom-left-radius: 10px 10px;
+	-moz-border-bottom-right-radius: 10px 10px;
+	-moz-border-top-left-radius: 10px 10px;
+	-moz-border-top-right-radius: 10px 10px;
+	font-weight: Bold;
+	color:Blue;
+}
+
+.upperRightBanner {
+	position: absolute;
+	top: 85px;
+	display: block;
+	z-index:9;
+	width: 900px;
+}
+
+.uBanner {
+	width:120px; 
+	margin-right:10px; 
+	float:right;
+	border: 2px solid black;
+}
+
+.uBanner:hover {
+	border: 2px solid pink;
+}
+#changelog .button { vertical-align: middle; display: inline-block; font-size: 15px; font-weight: 500; opacity: .999; -webkit-transition: all .1s; padding: 17px 20px 17px 20px; margin-left:100px; text-decoration:none; font-family:Ubuntu, Arial, sans-serif; font-weight:600;}
+#changelog #cta #desktop { margin-left: 34px; padding-left: 48px; position: relative; }
+#changelog #cta #cloud span, #cta #desktop span { display: inline-block; background: url('../images/index/cta_icons.png') no-repeat; }
+#changelog #cta #desktop span { height: 36px; width: 25px; background-position: -6px -50px; position: absolute; top: 9px; left: 15px;}
+#changelog .button.mid-height { padding-top: 14px; padding-bottom: 14px;  }
+#changelog .button.green { background: #40a030; color: #fff; border-radius: 3px; text-shadow: 0px 1px 2px rgba(0,0,0,.4); text-align: center; font-size: 24px; -webkit-box-shadow: inset 0px 0 21px 7px #80c070, 0px 1px 3px 0 rgba(0,0,0,.25); box-shadow: inset 0px 0px 20px 5px #80c070, 0px 1px 3px 0 rgba(0,0,0,.25); }
+#changelog .button.green:active { box-shadow: inset 0 1px 5px 0px rgba(0,0,0,.2); text-shadow: 0px -1px 2px rgba(0,0,0,.4); }
+#changelog .button.green:hover { box-shadow: inset 0px 0 20px 5px #80c070, 0px 1px 5px 0 rgba(0,0,0,.5); }
+
+/* top right bottom left  */

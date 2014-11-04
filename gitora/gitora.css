@@ -1,0 +1,130 @@
+#gitora_logo { float: left; width: 220px; height: 54px; margin: 14px 0 0 5%; background: url('images/logo1.png') no-repeat; text-indent: -9999px; }
+
+.download h2 {
+    text-align: center;
+}
+
+.download #content a, .download #content  .linkSpan  {
+    color: #08c;
+    cursor: pointer;
+}
+.download #content a:hover, .download #content .linkSpan:hover {
+    text-decoration: underline;
+}
+
+#downloadDiv {
+    padding: 10px 30px 20px 30px;
+    margin:auto; 
+    margin-top: 20px;
+    width:900px; 
+    /*border:1px solid #e0e0e0; 
+    border-radius: 3px;*/
+    /*box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2); */
+    display:block; 
+    visibility:hidden;
+}
+
+/*.download p {
+    padding: 0;
+}*/
+
+#downloadForm {
+    /*padding: 20px;*/
+    margin: 0;
+    display:block
+}
+
+#downloadForm input {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#downloadForm .ui-button {
+    font-size: 16px;
+}
+
+#downloadForm span {
+    /*vertical-align: 10px;*/
+    /*display:inline-block;*/
+    vertical-align: middle;
+}
+
+#emailLabel, #nameLabel {
+    margin: 10px 0 0 0;
+}
+
+#termsCheckboxLabel {
+    margin-right: 10px;
+    margin-top: -3px;
+    background: white;
+}
+
+#termsCheckboxLabel span {
+  opacity: 0;
+  
+}
+#termsCheckboxLabel.ui-state-active span{
+  opacity: 1;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active {
+  background: #E6E6E6/*{bgColorDefault}*/ url(images/ui-bg_glass_75_e6e6e6_1x400.png)/*{bgImgUrlDefault}*/ 0/*{bgDefaultXPos}*/ 50%/*{bgDefaultYPos}*/ repeat-x/*{bgDefaultRepeat}*/;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus{
+   background: #DADADA/*{bgColorHover}*/ url(images/ui-bg_glass_75_dadada_1x400.png)/*{bgImgUrlHover}*/ 0/*{bgHoverXPos}*/ 50%/*{bgHoverYPos}*/ repeat-x/*{bgHoverRepeat}*/;
+}
+
+input:focus {
+outline: 5px auto -webkit-focus-ring-color;
+outline-style: auto;
+outline-width: 5px;
+outline-color: -webkit-focus-ring-color;
+}
+
+input:-webkit-input-placeholder {
+    color: #999;
+    font-style: italic;
+}
+input:-moz-placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+#systemRequirementsDialog p {
+    font-size:15px;
+}
+.ui-widget {
+    font-size: 1em;
+}
+
+.download-block {
+    width:500px; 
+    text-align: left;
+    /*border: 1px solid #ddd;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);*/
+}
+.download-desktop-image, .download-mobile-image {
+    display: block; 
+    width:250px; 
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.download-desktop-image {
+    background-image: url("../images/product/api.jpg");
+    background-size: 100% 65%;
+
+} 
+.download-mobile-image {
+    background-image: url(../images/teaser.png);
+    background-size: 45% 80%;
+}
+.download-title {
+    text-align: center;
+    font-weight: 600;
+}
