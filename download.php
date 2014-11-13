@@ -53,8 +53,10 @@
 			return true;
 		}
 		
+		var downloadForm = document.getElementById("downloadForm");
 		var nameField = document.getElementById("name");
 		var emailField = document.getElementById("email");
+		var choiceField = document.getElementById("choice");
 		var downloadURLVar;
 		
 		if (getParameter("name"))
@@ -125,9 +127,13 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
+					/*
 					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.8.1.zip");
 					logDownload(nameField.value, emailField.value);
 					_gaq.push(['_trackPageview','/download/FormspiderForWindows']);
+					*/
+					choiceField.value = "win";
+					downloadForm.submit();
 				}
 				return false;
 			});
@@ -138,9 +144,13 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
+					/*
 					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.8.1.jar");
 					logDownload(nameField.value, emailField.value);
 					_gaq.push(['_trackPageview','/download/FormspiderForLinux']);
+					*/
+					choiceField.value = "other";
+					downloadForm.submit();
 				}
 				return false;
 			});
@@ -151,9 +161,13 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
+					/*
 					downloadURL("http://cdn.theformspider.com/cdn/FSMobile_Beta2.zip");
 					logMobileDownload(nameField.value, emailField.value);
 					_gaq.push(['_trackPageview','/download/FormspiderMobileForWindows']);
+					*/
+					choiceField.value = "winMobile";
+					downloadForm.submit();
 				}
 				return false;
 			});
@@ -164,13 +178,18 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
+					/*
 					downloadURL("http://cdn.theformspider.com/cdn/FSMobile_Beta2.jar");
 					logMobileDownload(nameField.value, emailField.value);
 					_gaq.push(['_trackPageview','/download/FormspiderMobileForLinux']);
+					*/
+					choiceField.value = "otherMobile";
+					downloadForm.submit();
 				}
 				return false;
 			});
 			
+		/*
 		$( "#downloadUpgrade" )
 			.button({
 				disabled: true 
@@ -183,8 +202,9 @@
 				}
 				return false;
 			});
+		*/
 		
-		
+		/*
 		function logDownload(name, email) {
 			
 			var expires = { expires: 3650 };
@@ -244,6 +264,7 @@
 			  }
 			});
 		}
+		*/
 		
 		if (Modernizr.input.placeholder) {
 			document.getElementById("nameLabel").style.display = "none";
@@ -410,8 +431,8 @@
 					
 					
 					
-					<form id="downloadForm" class="cmxform" method="get" action="">
-						
+					<form id="downloadForm" class="cmxform" method="post" action="begindownload.php">
+						<input type="hidden" name="choice" id="choice" value="" />
 						
 						<div style="width: 100%; height:450px;">
 						
