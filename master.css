@@ -281,6 +281,17 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 #comparison-table a { color:#08c; }
 #comparison-table a:hover { text-decoration:underline; }
 
+.compare #container #content div.banner_webinar {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.compare #container #content img.banner_webinar {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
 /* PRODUCT page -- not used */
 /*
 .product #sidenav { float: left; width: 300px; margin-top: 40px; background: #f8f8f8; border-radius: 3px; -webkit-border-radius: 3px;  -moz-border-radius: 3px; border: 1px solid #f1f1f1; }
