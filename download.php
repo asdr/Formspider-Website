@@ -454,7 +454,7 @@
 						
 							<div class="download-block">
 								<p class="download-title"> Formspider Desktop 1.8.1</p>
-								<p style="text-align:center;">30 Day Trial</p>
+								<p style="text-align:center;">Trial version with full functionality. Expires on March 29th.</p>
 								<div class="download-desktop-image" style=" ">&nbsp;</div>
 								<p>
 									<button id="downloadWindows" style="width:100%">Download for Windows</button>
@@ -464,7 +464,7 @@
 								</p>
 							</div>
 							
-							<div class="download-block">
+							<div class="download-block" style="height: 440px;">
 								<p class="download-title"> Formspider Mobile Beta 2 </p>
 								<p>&nbsp;</p>
 								<div class="download-mobile-image">&nbsp;</div>
