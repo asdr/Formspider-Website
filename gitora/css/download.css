@@ -1,6 +1,18 @@
 .download h2 {
 	text-align: center;
 }
+.download h3 {
+	text-align: center;
+	padding-bottom: 15px; 
+	color: #555; 
+	font-size: 27px; 
+	font-weight: 700; 
+	line-height: 36px; 
+	letter-spacing: -1px;
+}
+
+.download p.small { font-size: 14px; font-family: "Ubuntu", sans-serif; color: #777; line-height: 23px; padding-top: 10px; }
+
 
 .download #content a, .download #content  .linkSpan  {
 	color: #08c;
@@ -102,7 +114,7 @@ input:-moz-placeholder {
 
 .download-block {
 	width:248px; 
-	height: 440px; 
+	height: 480px; 
 	display:block; 
 	float:left; 
 	margin: 0 15px; 

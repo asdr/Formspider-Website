@@ -22,7 +22,7 @@
             $url = "http://formspideronline.com/fs-logging/logger.jsp?";
             $url = $url . "type=new";
             $url = $url . "&log=" . str_replace(" ", '', $body ); 
-            $url = $url . "&comment=" . str_replace(" ", "*", $subject);
+            $url = $url . "&comment=Gitora*" . str_replace(" ", "*", $subject);
             $url = $url . "&ip=" . $uip; 
             $url = $url . "&duration=" . date('Y-m-d/h-i-s'); 
             
@@ -120,7 +120,7 @@ div#content p{
         $url = $url . "&name=" . str_replace(" ", '', $_POST['name']); 
         $url = $url . "&mail=" . str_replace(" ", '', $_POST['emailaddress']); 
         $url = $url . "&reinstall=" . str_replace(" ", "-", $_POST['company']); 
-        $url = $url . "&comment=" . str_replace(" ", "*", $_POST['comments']);
+        $url = $url . "&comment=Gitora*" . str_replace(" ", "*", $_POST['comments']);
         $url = $url . "&ip=" . $uip; 
         $url = $url . "&duration=" . date('Y-m-d/h-i-s'); 
         //echo($url);
@@ -131,15 +131,15 @@ div#content p{
 ?> 
         <div id="container">
             <div id="content">
-                <div class="thanks">Thank you for installing Formspider.</div>
-                <div><a href="http://theformspider.com"><img class="big_logo" src="images/logo_720_200.png" /></a></div>
+                <div class="thanks">Thank you for installing Gitora.</div>
+                <div><a href="http://www.gitora.com"><img class="big_logo" src="images/GitoraLogo.png" /></a></div>
                 <span style="font-weight:Bold;font-style:italic;">Please fill out this <span id="button" style="background:#9eff69;" onClick="_gaq.push(['_trackPageview','/ofc/popupopened']);">form</span> so that we can know you better.</span>
             </div>
             <div id="popupContact">
                 <a id="popupContactClose">x</a>
                 <h1>Thank you very much!</h1>
-                <p style="text-align:justify;">You successfully installed Formspider. Please fill out this form so that we can know you better.</p>
-                <form name="ThankYouForm" action="/thankyou.php" method="post" onSubmit="_gaq.push(['_trackPageview','/thankyou/signuppressed']);return checkMail();">
+                <p style="text-align:justify;">You successfully installed Gitora. Please fill out this form so that we can know you better.</p>
+                <form name="ThankYouForm" action="/gitora/thankyou.php" method="post" onSubmit="_gaq.push(['_trackPageview','/thankyou/signuppressed']);return checkMail();">
                     <p id="contactArea" style="text-align:left;">
                         <br><br>
                         &nbsp;Name:<br></span><input size="45" type="text" name="name" />

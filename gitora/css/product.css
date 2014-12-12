@@ -1,0 +1,177 @@
+/*--Main Image Preview--*/
+
+.center_image {
+	width: 249px; height: 400px;
+	float: right;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+	color: #000;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+
+.main_image {
+	width: 400px; height: 400px;
+	float: right;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+	color: #000;
+}
+.main_image h2 {
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 0 5px;	padding: 10px;
+}
+.main_image p {
+	font-size: 12px;
+	padding: 10px;	margin: 0;
+	line-height: 1.6em;
+}
+.block small { 
+	padding: 0 0 0 20px; 
+	font-size: 14px; 
+}
+.main_image .block small {margin-left: 10px;}
+.main_image .desc{
+	position: absolute;
+	top: 0;	left: 0;
+	width: 100%;
+	/*display: none;*/
+}
+.main_image .block{
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #000;
+	text-align:justify;
+	margin-top:0px;
+}
+.main_image a.collapse {
+	background: url(btn_collapse.gif) no-repeat left top;
+	height: 27px; width: 93px;
+	text-indent: -99999px;
+	position: absolute; 
+	top: -27px; right: 20px; 
+}
+.main_image a.show {background-position: left bottom;} 
+ 
+ 
+.image_thumb {
+	float: left;
+	width: 240px;
+	background: #f0f0f0;
+	border-right: 1px solid #fff;
+	border-top: 1px solid #ccc;
+	position:absolute;
+}
+.image_thumb img {
+	/*border: 1px solid #ccc; */
+	/*padding: 5px; */
+	/*background: #fff; */
+	float: right;
+}
+.image_thumb ul {
+	margin: 0; padding: 0;
+	list-style: none;
+}
+.image_thumb ul li{
+	margin: 0; padding: 3px 5px;
+	/*background: #418ad9;*/
+	width: 230px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	text-align:right;
+	background:url('/images/buttonbacky2.png') repeat-y; 	
+	height: 27px;
+}
+
+.image_thumb ul li a {
+	font-size: 13px;
+	color: #a17045;
+	font-style: italic;
+	font-weight: bold;	
+	text-decoration: none;
+	margin: 0;
+	padding-top: 7px; 
+	display: block; width: 100%; height: 100%;
+	vertical-align: bottom;
+}
+	
+.image_thumb ul li:hover {
+	/*background: #fee4c3;*/
+	background:url('/images/buttonbacky4.png') repeat-y; 
+	/*cursor: pointer;*/
+}
+.image_thumb ul li.active {
+	/*background: #fee4c3;*/
+	/*background:#FFA82D;*/
+	/*cursor: default;*/
+	background:url('/images/buttonbacky3.png') repeat-y; 
+}
+html .image_thumb ul li h2 {
+	font-size: 14px; 
+	margin: 5px 0; padding: 0;
+}
+
+/* Pop up */
+#backgroundPopup {   
+display:none;  
+position:fixed;  
+_position:absolute; /* hack for internet explorer 6*/  
+height:100%;  
+width:100%;  
+top:0;  
+left:0;  
+background:#000000;  
+border:1px solid #cecece;  
+z-index:1;  
+}  
+#popupContact{  
+display:none;  
+position:fixed;  
+_position:absolute; /* hack for internet explorer 6*/  
+height:414px;  
+width:408px;  
+background:#FFFFFF;  
+border:2px solid #cecece;  
+z-index:2;  
+padding:12px;  
+font-size:13px;  
+}  
+#popupContact h1{  
+text-align:left;  
+/*color:#6FA5FD; */ 
+font-size:22px;  
+font-weight:700;
+border-bottom:1px dotted #D3D3D3;  
+padding-bottom:2px;  
+margin-bottom:20px;  
+}  
+#popupContactClose{  
+font-size:14px;  
+line-height:14px;  
+right:6px;  
+top:4px;  
+position:absolute;  
+color:#6fa5fd;  
+font-weight:700;  
+display:block;  
+cursor: pointer;
+}  
+#button{  
+	text-align:center;  
+ 	color: #42413C;
+	text-decoration: underline;
+	cursor: pointer;
+	background-color: #FFE2B9;
+} 
+
+#contactArea {
+	margin-left: 30px;
+}
+
+ 

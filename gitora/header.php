@@ -9,7 +9,7 @@
 			<li<?php if($page == 'support'): ?> class="active"<?php endif ?>><a href="support.php">SUPPORT</a></li>
 			<li<?php if($page == 'learn'): ?> class="active" <?php endif ?>><a href="http://blog.gitora.com/tag/documentation">LEARN</a></li>
 			<li<?php if($page == 'qa'): ?> class="active" <?php endif ?>><a href="http://gitora.theformspider.com" target="_blank">Q&A</a></li>
-			<li<?php if($page == 'blog'): ?> class="active" <?php endif ?>><a href="http://blog.gitora.com" target="_blank">BLOG</a></li>
+			<li<?php if($page == 'blog'): ?> class="active" <?php endif ?>><a href="http://blog.gitora.com">BLOG</a></li>
 			<li<?php if($page == 'about-us'): ?> class="active"<?php endif ?>><a href="aboutus.php">ABOUT US</a></li>
 		<ul>
 	</div><!-- /header -->
