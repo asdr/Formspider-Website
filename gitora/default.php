@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Formspider</title>
+	<title>Gitora</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="Keywords" content="Formspider, PL/SQL, web applications with pl/sql, web 2.0 framework, Ajax, javascript, charts">
 	<meta name="Title" content="Formspider - Build Amazing Web Applications with PL/SQL"> 
