@@ -81,7 +81,7 @@
 				</div **>
 				
 			</div -->
-			<a href="https://attendee.gotowebinar.com/register/3126339630563343106" target="_blank"><img src="images/banner_webinar_Dec16.png" /></a> 	
+			<a href="https://attendee.gotowebinar.com/register/3126339630563343106" target="_blank"><img src="images/banner_webinar_Jan13.png" /></a> 	
 		</div>
 		
 		<div id="benefits" class="clearfix">
