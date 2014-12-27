@@ -273,11 +273,11 @@
      
      <div id="content">
           <div class="license">
-                    <p style="text-align:center; font-weight:bold;">GERGER FORMSPIDER TRIAL LICENSE</p>
+                    <p style="text-align:center; font-weight:bold;">GERGER GITORA TRIAL LICENSE</p>
 
                     <p>This document is a legal agreement (the "Agreement") between Gerger Yazilim ve Danismanlik Hizmetleri Ltd. Sti. and you or the organization on whose behalf you are entering into this agreement.
                     </p>
-                    <p>"We," "us,", "our" and "Gerger" refers to Gerger Yazilim ve Danismanlik Hizmetleri Ltd. Sti., for and on behalf of itself and its subsidiaries and affiliates under common control.  "You" and "your" refers to the individual or entity that wishes to use the programs from Gerger.  "Software", "Program" or "Programs" refers to the Gerger's software product trademarked as Formspider, registered as GARP (Generic Application Rules Repository) at ITU ARI Teknokent, you wish to use.  "License" refers to your right to use the programs under the terms of this agreement.  This agreement is governed by the substantive and procedural laws of the Republic of Turkey. You and Gerger agree to submit to the exclusive jurisdiction of, and venue in, the courts of the Republic of Turkey in any dispute arising out of or relating to this agreement.
+                    <p>"We," "us,", "our" and "Gerger" refers to Gerger Yazilim ve Danismanlik Hizmetleri Ltd. Sti., for and on behalf of itself and its subsidiaries and affiliates under common control.  "You" and "your" refers to the individual or entity that wishes to use the programs from Gerger.  "Software", "Program" or "Programs" refers to the Gerger's software product trademarked as Gitora, registered as GARP (Generic Application Rules Repository) at ITU ARI Teknokent, you wish to use.  "License" refers to your right to use the programs under the terms of this agreement.  This agreement is governed by the substantive and procedural laws of the Republic of Turkey. You and Gerger agree to submit to the exclusive jurisdiction of, and venue in, the courts of the Republic of Turkey in any dispute arising out of or relating to this agreement.
                     </p>
                     <p>Rights granted herein apply only to Software for which you've paid the applicable license fee.
                     </p>
@@ -298,7 +298,7 @@
                     </p>
                     <p class="section">2. LICENSE GRANT</p>
                     
-                    <p>Subject to the payment of the fee required, and subject to your compliance with all of the terms and conditions of this Agreement, We grant to You a revocable, non-exclusive, non-transferable and non-sublicensable license (i) for Designated User(s) to use the Software to create Modifications and Applications; (ii) for You to distribute the Software and/or Modifications to End Users solely as integrated into the Applications; and (iii) for End Users to use the Software as integrated into Your Applications in accordance with the terms of this Agreement.
+                    <p>Subject to your compliance with all of the terms and conditions of this Agreement, We grant to You a revocable, non-exclusive, non-transferable and non-sublicensable license (i) for Designated User(s) to use the Software to create Modifications and Applications; (ii) for You to distribute the Software and/or Modifications to End Users solely as integrated into the Applications; and (iii) for End Users to use the Software as integrated into Your Applications in accordance with the terms of this Agreement.
                     </p>
                     <p>The Designated User(s) may create one (1) developer account in one installation of the Software to create Applications and Modifications using the Software.
                     </p>
@@ -324,7 +324,7 @@
                     
                     <p class="section">4. PROHIBITED USES</p>
                     
-                    <p>You may not redistribute the Software or Modifications other than by including the Software or a portion thereof within Your Application. You may not redistribute the Software or Modifications as part of any Application that can be described as a development toolkit or library, an application builder, a website builder or any Application that is intended for use by software, application, or website developers or designers. You may not redistribute any part of the Software documentation. You may not change or remove the copyright notice from any of the files included in the Software or Modifications.
+                    <p>You may not redistribute the Software or Modifications other than by including the Software or a portion thereof within Your Application. You may not redistribute the Software or Modifications as part of any Application that can be described as a version control system, a development toolkit or library, an application builder, a website builder or any Application that is intended for use by software, application, or website developers or designers. You may not redistribute any part of the Software documentation. You may not change or remove the copyright notice from any of the files included in the Software or Modifications.
                     </p>
                     <p>Under no circumstances may you use the Software for an application that is intended for software or application development purposes.
                     </p>
