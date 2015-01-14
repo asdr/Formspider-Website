@@ -37,7 +37,7 @@
   	
       <h2>Professional Support</h2>
       
-      <p style="margin-right: 255px;">Gitora is completely free to use. <a href="http://blog.gitora.com">Free support is provided by the community.</a> If you are interested in our professional support services please <a href="mailto:gitora@theformspider.com">contact us</a>.</p>
+      <p style="margin-right: 255px;">Gitora is completely free to use. <a href="http://gitora.theformspider.com">Free support is provided by the community.</a> If you are interested in our professional support services please <a href="mailto:gitora@theformspider.com">contact us</a>.</p>
 
       <p>Below are some of the things we can help you with:</p>
 
