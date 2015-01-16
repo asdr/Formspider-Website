@@ -429,55 +429,29 @@
 			<div>
 				<div id="downloadDiv" >
 					
-					
+					<p>Please enter your name and email and accept the license agreement to download Formspider trial version with full functionality, expires on March 29th.</p>
 					
 					<form id="downloadForm" class="cmxform" method="post" action="begindownload.php">
 						<input type="hidden" name="choice" id="choice" value="" />
-						
-						<div style="width: 100%; height:450px;">
-						
-							<div class="download-block" style="border:none; box-shadow:none;">
-								<p style="font-size:16px;" >Please enter your name, email and accept the license agreement to download the software.</p>
-								<p>
-									<label for="name" id="nameLabel">Name</label>
-									<input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all" style="width:100%" placeholder="Name"/>
+						<p>
+							<label for="name" id="nameLabel">Name</label>
+							<input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all" style="width:100%" placeholder="Name"/>
 
-									<label for="email" id="emailLabel">Email (Required)</label>
-									<input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all" style="width:100%" placeholder="Email (Required)"/>
-								</p>
-								
-								<p style="height:60px; ">
-									<input type="checkbox" id="termsCheckbox" /><label for="termsCheckbox" id="termsCheckboxLabel">Yes</label>
-									<span>I accept </span><span class="linkSpan" id="termsSpan">the terms and conditions</span><span>.</span>
-								</p>
-							</div>
+							<label for="email" id="emailLabel">Email (Required)</label>
+							<input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all" style="width:100%" placeholder="Email (Required)"/>
+						</p>
 						
-							<div class="download-block">
-								<p class="download-title"> Formspider Desktop 1.8.1</p>
-								<p style="text-align:center;">Trial version with full functionality. Expires on March 29th.</p>
-								<div class="download-desktop-image" style=" ">&nbsp;</div>
-								<p>
-									<button id="downloadWindows" style="width:100%">Download for Windows</button>
-								</p>
-								<p>
-									<button id="downloadLinux" style="width:100%">Download for Linux & MacOSX</button>
-								</p>
-							</div>
-							
-							<div class="download-block" style="height: 440px;">
-								<p class="download-title"> Formspider Mobile Beta 2 </p>
-								<p>&nbsp;</p>
-								<div class="download-mobile-image">&nbsp;</div>
-								<p>
-									<button id="downloadWindowsMobile" style="width:100%">Download for Windows</button>
-								</p>
-								<p>
-									<button id="downloadLinuxMobile" style="width:100%">Download for Linux & MacOSX</button>
-								</p>
-							</div>
+						<p>
+							<input type="checkbox" id="termsCheckbox" /><label for="termsCheckbox" id="termsCheckboxLabel">Yes</label>
+							<span>I accept </span><span class="linkSpan" id="termsSpan">the terms and conditions</span><span>.</span>
+						</p>
 						
-						</div>
-						
+						<p>
+							<button id="downloadWindows" style="width:100%">Download Formspider for Windows</button>
+						</p>
+						<p>
+							<button id="downloadLinux" style="width:100%">Download Formspider for Linux & MacOSX</button>
+						</p>
 						<!--p>
 							<button id="downloadUpgrade" style="width:100%">Download Formspider 1.2.x to 1.3.0 Update Script</button>
 						</p-->
@@ -492,15 +466,13 @@
 						<table style="width: 960px;">
                           <tbody>
 <tr>
-<td width="33%">&nbsp;</td><td><p style="text-align:center;"><a href="changeLog.php" target="_blank">View Change Log</a></p></td>
-<td width="30%" rowspan="3" style="text-align: center;">Download FS Mobile Previewer<br><br><a target="_blank" href="https://itunes.apple.com/us/app/formspider-mobile-previewer/id679575069?ls=1&mt=8"><img style="width: 45px; height: 45px; border-radius: 10px;" src="images/fslogo175x175.jpg"> <img style="height: 45px; border-radius: 10px;" src="images/appstore.png"></a></td>
-<td  width="4%">&nbsp;</td>
+<td><p style="text-align:center;"><a href="changeLog.php" target="_blank">View Change Log</a></p></td>
 </tr>
 <tr>
-<td width="33%">&nbsp;</td><td><p style="text-align:center;"><a href="gettingstarted.php" target="_blank">Installation Guide</a></p></td>
+<td><p style="text-align:center;"><a href="gettingstarted.php" target="_blank">Installation Guide</a></p></td>
 </tr>
 <tr>
-<td width="33%">&nbsp;</td><td><p style="text-align:center;"><span class="linkSpan" id="opener" style="cursor:pointer;">System Requirements</span> </p></td>
+<td><p style="text-align:center;"><span class="linkSpan" id="opener" style="cursor:pointer;">System Requirements</span> </p></td>
 </tr>
 
 </tbody></table>

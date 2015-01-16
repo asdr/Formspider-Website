@@ -51,7 +51,7 @@
       We can get your team up to speed quickly, help you devise a workflow to use Gitora.</p>
 
       <p><span style="font-weight: bold;">Bug fixes, patches, integration issues</span><br />
-      Something not working for you, do you need Gitora to configured differently? No problem.</p>
+      Something not working for you, do you need Gitora to be configured differently? No problem.</p>
 
       <p><span style="font-weight: bold;">Feature development</span><br />
       Do you need additional features in Gitora? Do you want Gitora to talk to another version control system? Get in touch.</p>
