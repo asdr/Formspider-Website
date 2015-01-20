@@ -50,9 +50,11 @@
 			return true;
 		}
 		
+		
+		var downloadForm = document.getElementById("downloadForm");
 		var nameField = document.getElementById("name");
 		var emailField = document.getElementById("email");
-		var downloadURLVar;
+		var choiceField = document.getElementById("choice");
 		
 		if (getParameter("name"))
 			nameField.value = getParameter("name");
@@ -122,9 +124,8 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
-					downloadURL("http://cdn.theformspider.com/cdn/Gitora_1.0.0.zip");
-					logDownload(nameField.value, emailField.value);
-					_gaq.push(['_trackPageview','/download/FormspiderForWindows']);
+					choiceField.value = "win";
+					downloadForm.submit();
 				}
 				return false;
 			});
@@ -135,33 +136,11 @@
 			})
 			.click(function() {
 				if(checkForm(nameField, emailField)) {
-					downloadURL("http://cdn.theformspider.com/cdn/Gitora_1.0.0.jar");
-					logDownload(nameField.value, emailField.value);
-					_gaq.push(['_trackPageview','/download/FormspiderForLinux']);
+					choiceField.value = "other";
+					downloadForm.submit();
 				}
 				return false;
 			});
-		
-		
-		function logDownload(name, email) {
-			
-			var expires = { expires: 3650 };
-			$.cookie("name", name, expires);
-			$.cookie("email", email, expires);
-			
-			$.ajax({
-			  type: "GET",
-			  url: "product.php",
-			  data: "descid=GitoraDownload&name="+ name +"&mail="+ email+"&version=1.0.0",
-			  async: true,
-			  success: function(data) {
-				//alert('success');
-			  },
-			  error: function(jqXHR, textStatus) {
-				//alert('error: ' + textStatus);
-			  }
-			});
-		}
 		
 		if (Modernizr.input.placeholder) {
 			document.getElementById("nameLabel").style.display = "none";
@@ -197,8 +176,9 @@
 			<div>
 				<div id="downloadDiv" >
 
-					<form id="downloadForm" class="cmxform" method="get" action="">
+					<form id="downloadForm" class="cmxform" method="post" action="begindownload.php">
 						
+						<input type="hidden" name="choice" id="choice" value="" />
 						<center>
 						<div style="width: 100%; height:450px;">
 						
