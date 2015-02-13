@@ -46,7 +46,7 @@
 				<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
 			</div>
 
-			<!-- div class="banner_webinar" ><a href="https://attendee.gotowebinar.com/register/3126339630563343106" target="_blank"><img class="banner_webinar" src="images/banner_webinar_Dec16.png" /></a></div -->
+			<div class="banner_webinar" ><a href="https://attendee.gotowebinar.com/register/2679301294183992833" target="_blank"><img class="banner_webinar" src="images/banner_webinar_March3.png" /></a></div>
 			
 			<div class="clearfix">
 			
