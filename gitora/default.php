@@ -80,7 +80,8 @@ helps you manage your PL/SQL code easily.</p>
 			</div>
 			<!** a href="https://attendee.gotowebinar.com/register/381899232945618946" target="_blank"><img src="images/banner_webinar_Oct21.png" /></a **> 	
 		</div -->
-		
+		<div class="banner_webinar" ><a href="https://attendee.gotowebinar.com/register/2679301294183992833" target="_blank"><img class="banner_webinar" src="images/banner_webinar_March3.png" /></a></div>
+			
 		<div id="benefits" class="clearfix">
 		<ul class="clearfix">
 		
