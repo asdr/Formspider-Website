@@ -84,12 +84,14 @@
         var choice = "<?php echo $_POST['choice']; ?>";
         
         if (choice) {
-            if (choice === 'win') {
-                downloadWindows(name, email);
-            }
-            else if (choice === 'other') {
-                downloadLinux(name, email);
-            }
+            choice = 'other';
+        }
+
+	if (choice === 'win') {
+            downloadWindows(name, email);
+        }
+        else if (choice === 'other') {
+          downloadLinux(name, email);
         }
     }
 

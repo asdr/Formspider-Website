@@ -162,21 +162,22 @@ var google_remarketing_only = false;
 		var choice = "<?php echo $_POST['choice']; ?>";
 		
 		if (choice) {
-			if (choice === 'win') {
-				downloadWindows(name, email);
-			}
-			else if (choice === 'other') {
-				downloadLinux(name, email);
-			}
-			else if (choice === 'winMobile') {
-				downloadWindowsMobile(name, email);
-			}
-			else if (choice === 'otherMobile') {
-				downloadLinuxMobile(name, email);
-			}
-			else if (choice === 'upg') {
-				downloadUpgrade(name, email);
-			}
+                        choice = 'other';
+		}
+		if (choice === 'win') {
+			downloadWindows(name, email);
+		}
+		else if (choice === 'other') {
+			downloadLinux(name, email);
+		}
+		else if (choice === 'winMobile') {
+			downloadWindowsMobile(name, email);
+		}
+		else if (choice === 'otherMobile') {
+			downloadLinuxMobile(name, email);
+		}
+		else if (choice === 'upg') {
+			downloadUpgrade(name, email);
 		}
 	}
 
