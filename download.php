@@ -429,7 +429,7 @@
 			<div>
 				<div id="downloadDiv" >
 					
-					<p>Please enter your name and email and accept the license agreement to download Formspider trial version with full functionality, expires on March 29th.</p>
+					<p>Please enter your name and email and accept the license agreement to download Formspider trial version with full functionality, expires on May 31st.</p>
 					
 					<form id="downloadForm" class="cmxform" method="post" action="begindownload.php">
 						<input type="hidden" name="choice" id="choice" value="" />
