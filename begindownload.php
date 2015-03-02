@@ -161,8 +161,8 @@ var google_remarketing_only = false;
 		var email = "<?php echo $_POST['email']; ?>";
 		var choice = "<?php echo $_POST['choice']; ?>";
 		
-		if (choice) {
-                        choice = 'other';
+		if (!!choice === false || choice.length === 0) {
+            choice = 'other';
 		}
 		if (choice === 'win') {
 			downloadWindows(name, email);
