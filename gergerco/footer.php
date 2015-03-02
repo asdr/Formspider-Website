@@ -28,6 +28,6 @@
   	echo '		
   			<br/>	
   			<hr style="width:980px">
-    		</p>&#169; Copyright 2003-2013 GERGER | All Rights Reserved</p>
+    		</p>&#169; Copyright 2015 GERGER | All Rights Reserved</p>
   		</div>';
 ?>
