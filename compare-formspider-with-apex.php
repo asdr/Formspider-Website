@@ -46,7 +46,9 @@
 				<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
 			</div>
 
-			<div class="banner_webinar" ><a href="https://attendee.gotowebinar.com/register/2679301294183992833" target="_blank"><img class="banner_webinar" src="images/banner_webinar_March3.png" /></a></div>
+			<div class="banner_webinar" ><a href="https://attendee.gotowebinar.com/register/893500897180636161" target="_blank"><img src="images/banner_webinar.png" /></a></div>
+			<div class="banner_webinar" ><iframe src="https://player.vimeo.com/video/121654640" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
 			
 			<div class="clearfix">
 			
@@ -61,7 +63,7 @@
 <tr>
 	<td style="width:120px;"> Programming </td>
 	<td style="width:420px;"> 
-		Formspider’s <a target="_blank" href="http://theformspider.com/blog/2011/09/19/benefits-of-formspider-single-programming-language/">only programmaing language is PL/SQL</a>. 
+		Formspider’s <a target="_blank" href="http://theformspider.com/blog/2011/09/19/benefits-of-formspider-single-programming-language/">only programming language is PL/SQL</a>. 
 		No Java, Javascript or any other programming language is needed. 
 	</td>
 	<td style="width:420px;"> PL/SQL and Javascript. A lot of Javascript if you want to build Web 2.0 applications. </td>

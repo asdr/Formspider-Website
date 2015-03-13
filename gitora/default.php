@@ -1,4 +1,18 @@
-<?php $page = 'index'; ?>
+<?php 
+  function startsWith($haystack, $needle) {
+      // search backwards starting from haystack length characters from the end
+      return $needle === "" || strrpos($haystack, $needle, -strlen($haystack)) !== FALSE;
+  }
+
+  if (isset($_SERVER[HTTP_HOST]) && startsWith($_SERVER[HTTP_HOST], "www.gitora.com")) {
+    $page = 'index'; 
+  }
+  else {
+    header("HTTP/1.1 301 Moved Permanently");
+    header("Location: http://www.gitora.com");
+    exit;
+  }
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -80,7 +94,7 @@ helps you manage your PL/SQL code easily.</p>
 			</div>
 			<!** a href="https://attendee.gotowebinar.com/register/381899232945618946" target="_blank"><img src="images/banner_webinar_Oct21.png" /></a **> 	
 		</div -->
-		<div class="banner_webinar" ><a href="https://attendee.gotowebinar.com/register/2679301294183992833" target="_blank"><img class="banner_webinar" src="images/banner_webinar_March3.png" /></a></div>
+		<div class="banner_webinar" ><a href="https://attendee.gotowebinar.com/register/893500897180636161" target="_blank"><img class="banner_webinar" src="images/banner_webinar.png" /></a></div>
 			
 		<div id="benefits" class="clearfix">
 		<ul class="clearfix">

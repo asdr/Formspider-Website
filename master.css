@@ -69,8 +69,8 @@ body.index {/* background: url('images/bg_index.jpg') repeat-x #f8f8f8; */backgr
 /*.index #top h2 span { font-weight: 500; color: #ccc; }*/
 .index #top p { width: 440px; margin-bottom: 80px; margin-top:10px; color:#e0e8f0; color: rgba(255,255,255,.8); font-size: 25px; line-height: 32px; }
 .index #intro { /*float: left; width: 560px;*/ margin-bottom: 50px; position: relative; z-index: 999; }
-.index #screenshot { position: absolute; /*right: 0; top: 20px; width: 500px;*/ right: -121px; top: 50px; width: 740px; height: 327px; z-index: 150; background: url('images/arkaplan1.png'); }
-.index .mobile-teaser {width:600px; position:absolute; display:block; left:590px; top:309px; z-index:1000;}
+.index #screenshot { position: absolute; /*right: 0; top: 20px; width: 500px;*/ right: -315px; top: 50px; width: 740px; height: 327px; z-index: 100000; /*background: url('images/arkaplan1.png');*/ }
+.index .mobile-teaser {width:600px; position:absolute; display:block; left:590px; top:309px; z-index:100000;}
 .index .mobile-teaser .mobile-download-link {position:absolute; left:200px; width:192px; height:105px; background-image: url(images/mobile_mini.png); background-repeat: no-repeat; background-position: center center; background-size: 192px 105px; z-index:1;}
 .index .mobile-teaser .git-integration-download-link {position:absolute; top: 10px; left:220px; width:222px; height:85px; background-image: url(images/GitLogo2.png); background-repeat: no-repeat; background-position: center center; background-size: 222px 85px; z-index:1;}
 

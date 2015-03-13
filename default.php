@@ -55,7 +55,7 @@
 				</div>
 				
 			</div>
-			<div id="screenshot"></div>
+			<div id="screenshot"><iframe src="https://player.vimeo.com/video/121654640" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 			<div class="mobile-teaser" style="">
 				<a class="git-integration-download-link" href="http://theformspider.com/blog/?p=1247" style="">&nbsp;</a>
 				<p style="position:absolute; left:-50px; top:20px; font-family:'Shadows Into Light', cursive">Now with Git Integration &rarr;</p>
@@ -81,7 +81,7 @@
 				</div **>
 				
 			</div -->
-			<a href="https://attendee.gotowebinar.com/register/2679301294183992833" target="_blank"><img src="images/banner_webinar_March3.png" /></a>
+			<a href="https://attendee.gotowebinar.com/register/893500897180636161" target="_blank"><img src="images/banner_webinar.png" /></a>
 		</div>
 		
 		<div id="benefits" class="clearfix">
