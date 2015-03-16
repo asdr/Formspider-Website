@@ -1,8 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
-    if (!empty($_GET['message'])) {
-        $subject = 'Formspider installed to a new machine!!!';
-        $body = $_GET['message'];
+    $the_message = $_GET['message'];
+    if (isset($the_message) && !empty($the_message) && strlen($the_message) > 0) {
+        $the_message = trim($the_message);
+    }
+
+    if (isset($the_message) && !empty($the_message) && strlen($the_message) > 0) {
+        
+        $subject = 'Gitora installed to a new machine!!!';
+        $body = $the_message;
     $to = "autocase3587@theformspider.com";
         $headers = 'From: noreply@theformspider.com' . "\r\n" .
                         'Reply-To: noreply@theformspider.com' . "\r\n" .
@@ -103,7 +109,7 @@ div#content p{
     </head>
     <body>
 <?php
-    if (!empty($_POST['emailaddress'])) {
+    if (isset($_POST['emailaddress']) && !empty($_POST['emailaddress']) && strlen($_POST['emailaddress']) > 0) {
         $uip = "noip";
         if ( isset($_SERVER["REMOTE_ADDR"]) )    { 
             $uip = '' . $_SERVER["REMOTE_ADDR"] . ''; 
