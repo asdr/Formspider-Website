@@ -1,11 +1,40 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<?php
+/* 
+  function startsWith($haystack, $needle) {
+      // search backwards starting from haystack length characters from the end
+      return $needle === "" || strrpos($haystack, $needle, -strlen($haystack)) !== FALSE;
+  }
+
+  if (isset($_SERVER[HTTP_HOST]) && startsWith($_SERVER[HTTP_HOST], "www.gitora.com")) {
+    $page = 'index'; 
+  }
+  else {
+    header("HTTP/1.1 301 Moved Permanently");
+    header("Location: http://www.gitora.com");
+    exit;
+  }
+  */$page = 'index';
+?>
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width = 980" />
-<title>Gerger</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<script src="css/css_browser_selector.js" type="text/javascript"></script>
+  <title>Gerger</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="Keywords" content="Formspider, PL/SQL, web applications with pl/sql, web 2.0 framework, Ajax, javascript, charts">
+  <meta name="Title" content="Formspider - Build Amazing Web Applications with PL/SQL"> 
+  <meta name="Description" content="Formspider is a Web 2.0 framework that lets you build applications with only PL/SQL. Formspider applicaitons run using 100% AJAX, DHTML and JavaScript without the need to know any of them."> 
+  <meta name="robots" content="index, follow">
+  <meta name="Language" content="en"> 
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="master.css?v=1" />
+  <link rel="stylesheet" type="text/css" href="gergerco.css?v=1" />
+  <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="master-ie8.css" />
+  <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  
+  
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -20,47 +49,29 @@
   })();
 
 </script>
+
+
 </head>
+<body class="index">
 
-<body>
-
- 
-
-<div class="container">
-  <div class="header">  	
-  	<?php $link_name= "Home" ?>
-  	<?php include ('mainmenu.php'); ?>
-  	<!--
-  	<ul class="menu">
-    	<li><a class="active" href="#">Home</a></li>
-        <li><a href="product.html">About Us</a></li>
-        <li><a href="download.html">Blog</a></li>
-        <li><a href="#">Me For Dummies</a></li>
-        <li><a href="getstarted.html">Contact</a></li>
-    </ul> 
-    -->
-  <!-- end .header -->
-  </div>
- 
+  <?php include 'header.php'; ?>
   
- 
-  <div class="content">
-    <!--div class="imageDetails"> <br></br>&nbsp;&nbsp;The Art of Software&nbsp;&nbsp;&nbsp;</div-->
-  	
-		<div style="font-size:18px; line-height:20px; padding:50px 5px; color: #555; font-weight:bold;">
-		We build Formspider, World's best framework for enterprise application development.
-	</div>
-	
-   <div class="image" align="center"> <a  style="" href="http://www.theformspider.com"><img style="margin-bottom:50px; box-shadow:0 1px 5px 0 #c0c0c0;" src="images/FormspiderLogo.jpg" HEIGHT=225 width=960 align="left" /></a> </div>
-  	 
+  <div id="bg_clouds"></div>
+  
+  <div id="container">
+  
+  <div id="content">
+    
+    <div id="top" class="clearfix">
+      <div id="intro">
+        <p>Gerger is a software and consulting company in Istanbul, Turkey. We build <a href="http://theformspider.com" target="_blank">Formspider</a>, the application development framework for PL/SQL developers, and <a href="http://www.gitora.com" target="_blank">Gitora</a> the version control tool for the Oracle Database. 
 
-  	
-
-
-   <!--div class="defaultFooter"-->
-       <?php include ('footer.php'); ?>
-    <!--/div-->
-    <!-- end .content --></div>
-  <!-- end .container --></div>
-</body>
-</html>
+          <p> With customers in 25 countries, we help our clients execute better, faster and more flexible. We have <a href="references.php">excellent references</a> in a wide variety of verticals such as insurance, banking and logistics.</p>
+        
+      </div>
+      <div id="screenshot"></div>
+    </div>
+    
+  </div><!-- /content -->
+  
+  <?php include 'footer.php'; ?>

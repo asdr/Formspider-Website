@@ -5,24 +5,25 @@
 	
 	
 	$link_array[0] = 'contact.php';
-	$link_array[1] = 'yalimslodge/' /*'http://www.gergerconsulting.blogspot.com/index.html'*/;
-	$link_array[2] = 'blog/' /*'http://www.gergerconsulting.blogspot.com/index.html'*/;
+	$link_array[1] = 'references.php' /*'http://www.gergerconsulting.blogspot.com/index.html'*/;
+	//$link_array[2] = 'blog/' /*'http://www.gergerconsulting.blogspot.com/index.html'*/;
 	//$link_array[3] = 'aboutus.php' /*'wordpress/index.php'*/;
 	/*$link_array[3] = 'wordpress/index.php'*/;
 	//$link_array[4] = 'services.php';
-	$link_array[3] = 'default.php';
+	$link_array[2] = 'default.php';
 	
 	$name_array[0] = 'Contact';
-	$name_array[1] = 'Yalim&#39;s Lodge';
-	$name_array[2] = 'Blog';
+	//$name_array[1] = 'Yalim&#39;s Lodge';
+	//$name_array[2] = 'Blog';
+	$name_array[1] = 'References';
 	//$name_array[3] = 'About Us';
 	//$name_array[4] = 'Our Services';
-	$name_array[3] = 'Home';
+	$name_array[2] = 'Home';
 	
 	
 	echo '<div style=" float:left;"><a href="default.php"><img height="88" width="250" src="images/gerger_logo.png" /></a></div>';
 	echo '<div style=" float:right; align:right;" ><ul class="menu">';
-		for($i=0; $i<4; $i++)
+		for($i=0; $i<3; $i++)
 		{   echo '<li><a ';
 			if($link_name == $name_array[$i] )
 			{

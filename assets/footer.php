@@ -35,17 +35,6 @@
 		</ul>
 	</div>
 	
-	<?php
-		if ($page == 'references' || $page == 'about-us') {
-			echo 
-			'<div class="line"></div>
-			
-			<div class="oracle-partner">
-				<img id="oracle-partner-img" src="images/O_SilverPartner_clr.gif"/>
-			</div>';
-		}
-	?>
-	
 	<div class="line"></div>
 	
 	<div class="clearfix copyright">
