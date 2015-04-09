@@ -520,8 +520,6 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 
 #list-of-people li a:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
-.contactus #footer { z-index: -100; }
-
 /* --------------------------------------------------------------------- */
 /* Other --------------------------------------------------------------- */
 /* --------------------------------------------------------------------- */

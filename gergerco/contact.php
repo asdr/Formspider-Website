@@ -36,8 +36,8 @@
   <div id="container">
   
     <div class="content"> 
-      <div align="left" style="float: right;" >
-          <iframe width="350" height="280" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/?ie=UTF8&amp;ll=41.105941,29.016175&amp;spn=0.003496,0.006427&amp;t=h&amp;z=18&amp;output=embed"></iframe>
+      <div align="left" style="float: right; margin-right: 40px;" >
+          <a href="https://www.google.com/maps/@41.105941,29.016175,421m/data=!3m1!1e3" target="_blank"><img src="http://maps.googleapis.com/maps/api/staticmap?center=41.105941,29.016175&zoom=13&markers=color:orange%7Clabel:Formspider%7C41.105941,29.016175&size=350x300" /></a>
       </div>
       <table>
         <tr>

@@ -1,19 +1,17 @@
 <?php
-/* 
   function startsWith($haystack, $needle) {
       // search backwards starting from haystack length characters from the end
       return $needle === "" || strrpos($haystack, $needle, -strlen($haystack)) !== FALSE;
   }
 
-  if (isset($_SERVER[HTTP_HOST]) && startsWith($_SERVER[HTTP_HOST], "www.gitora.com")) {
+  if (isset($_SERVER[HTTP_HOST]) && startsWith($_SERVER[HTTP_HOST], "www.gerger.co")) {
     $page = 'index'; 
   }
   else {
     header("HTTP/1.1 301 Moved Permanently");
-    header("Location: http://www.gitora.com");
+    header("Location: http://www.gerger.co");
     exit;
   }
-  */$page = 'index';
 ?>
 <!DOCTYPE html>
 <html>
