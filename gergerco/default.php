@@ -18,9 +18,9 @@
 <head>
   <title>Gerger</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="Keywords" content="Formspider, PL/SQL, web applications with pl/sql, web 2.0 framework, Ajax, javascript, charts">
-  <meta name="Title" content="Formspider - Build Amazing Web Applications with PL/SQL"> 
-  <meta name="Description" content="Formspider is a Web 2.0 framework that lets you build applications with only PL/SQL. Formspider applicaitons run using 100% AJAX, DHTML and JavaScript without the need to know any of them."> 
+  <meta name="Keywords" content="Gerger, gergerco, Formspider, Gitora, PL/SQL, WEB, PFM, consuting, moneymanagement, personalfinancemanagement">
+  <meta name="Title" content="Gerger Software Consulting"> 
+  <meta name="Description" content=""> 
   <meta name="robots" content="index, follow">
   <meta name="Language" content="en"> 
   <link rel="icon" type="image/png" href="images/favicon.ico">
