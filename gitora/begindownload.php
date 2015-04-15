@@ -55,7 +55,7 @@
         $.ajax({
           type: "GET",
           url: "product.php",
-          data: "descid=GitoraDownload&name="+ name +"&mail="+ email+"&version=1.0",
+          data: "descid=GitoraDownload&name="+ name +"&mail="+ email+"&version=1.0.1",
           async: true,
           success: function(data) {
             //alert('success');
@@ -67,13 +67,13 @@
     }
 
     function downloadWindows(name, email) {
-        downloadURL("http://cdn.theformspider.com/cdn/Gitora_1.0.0.zip");
+        downloadURL("http://cdn.theformspider.com/cdn/Gitora_1.0.1.zip");
         logDownload(name, email);
         _gaq.push(['_trackPageview','/download/GitoraForWindows']);     
     }
 
     function downloadLinux(name, email) {
-        downloadURL("http://cdn.theformspider.com/cdn/Gitora_1.0.0.jar");
+        downloadURL("http://cdn.theformspider.com/cdn/Gitora_1.0.1.jar");
         logDownload(name, email);
         _gaq.push(['_trackPageview','/download/GitoraForLinux']);       
     }
@@ -108,8 +108,8 @@
     
         <div id="content">
         
-            <h3>Downloading Gitora 1.0...</h3>
-            <p>Thank you for downloading Gitora Release 1.0. Your download will start now.</p>
+            <h3>Downloading Gitora 1.0.1...</h3>
+            <p>Thank you for downloading Gitora Release 1.0.1. Your download will start now.</p>
             <p class="small">Problems with download? Please use this <a href="javascript: downloadNow();">direct link</a>.</p>
             <br />
             <br />
