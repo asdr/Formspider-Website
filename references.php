@@ -36,72 +36,76 @@
 	<div id="content" class="clearfix">
 		
 		<h2>References</h2>
-		<p>With customers in 24 countries, Formspider is the choice of Oracle Developers worldwide to build the applications of tomorrow.</p>
+		<p>With customers in 25 countries, Formspider is the choice of Oracle Developers worldwide to build the applications of tomorrow.</p>
 		<!--div id="cta-right">Try now for free &rarr; <a href="download.php" id="cloud" class="button silver small">Cloud</a><a href="download.php" id="desktop" class="button silver small">Desktop</a></div-->
 		
 		<ul>
 			<li>
+				<img id="teampb" src="images/references/teampb_logo2.gif" width="400" height="200" alt="TEAM GmbH">
+				<h3>TEAM GmbH</h3>
+				<p>TEAM GmbH, a Formspider customer from Germany, has successfully migrated their product ProStore from Oracle Forms to Formspider. <a class="readmore" href="http://theformspider.com/blog/2015/04/16/team-gmbh-migrated-their-oracle-forms-application-to-formspider/">Read more &rarr;</a></p>
+			</li>
+			<li class="end-of-row">
 				<img id="ing" src="images/references/ing.jpg" width="440" height="200" alt="ING Emeklilik">
 				<h3>ING Emeklilik</h3>
 				<p>ING Emeklilik, the ING company in Turkey that operates in the insurance & personal retirement sector plans the weekly schedules of their agents 
 				with an application built with Formspider. <a class="readmore" href="http://theformspider.com/blog/2012/05/31/ing-uses-formspider/">Read more &rarr;</a></p>
 			</li>
-			<li class="end-of-row">
+
+			<li>
 				<img id="rhenus" src="images/references/rhenus4_1.jpg" width="440" height="200" alt="Rhenus">
 				<h3>Rhenus</h3>
 				<p>Rhenus Netherlands, the Dutch branch of Rhenus International, one the of the leading logistics companies in the world, 
 				chose Formspider over Oracle Apex to modernize its Forms applications.
 				<a class="readmore" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Read more &rarr;</a></p>
 			</li>
-			
-			<li>
+			<li class="end-of-row">
 				<img id="tani" src="images/references/tani.jpg" width="440" alt="TANI" style="padding-top: 35px; padding-bottom: 35px;">
 				<h3>TANI</h3>
 				<p>TANI is a subsidiary of the Koç Holding, providing integrated marketing solutions for offline, digital and mobile platforms. TANI wanted to improve the efficiency of their business unit and as part of this goal TANI decided to upgrade the current campaign management application.
 				<a class="readmore" href="http://theformspider.com/blog/2014/11/04/tani-uses-formspider/">Read more &rarr;</a></p>
 			</li>
-			<li class="end-of-row">
+
+			<li>
 				<img src="images/references/okinternational.jpg" width="440" height="200" alt="OK International">
 				<h3>OK International</h3>
 				<p>OK International, the leading global supplier of soldering tools and equipment for production assembly, chose Formspider to extend its ERP solution.
 				<a class="readmore" href="http://theformspider.com/blog/2012/08/08/ok-international-uses-formspider/">Read more &rarr;</a></p>
 			</li>
-			
-			<li>
+			<li class="end-of-row">
 				<img id="agtransport" src="images/references/agtransport.jpg" width="440" height="200" alt="AG Transport">
 				<h3>AG TRANSPORT</h3>
 				<p>AG TRANSPORT, one of the largest transport and logistics companies in Czech Republic chose Formspider to rebuild their entire software system.
 				<a class="readmore" href="http://theformspider.com/blog/2012/10/31/ag-transport-uses-formspider/">Read more &rarr;</a></p>
 			</li>
-			<li class="end-of-row">
+
+			<li>
 				<img id="elmecsport" src="images/references/elmec_logo2_1.jpg" width="440" height="200" alt="Elmec Sport">
 				<h3>Elmec Sport</h3>
 				<p>Elmec, one of the biggest shoe distributors in Greece, uses Formspider.
 				<a class="readmore" href="http://theformspider.com/blog/2013/03/12/elmec-uses-formspider//">Read more &rarr;</a></p>
 			</li>
-			
-			<li>
+			<li class="end-of-row">
 				<img id="georgianrailways" src="images/references/georgian_railways_logo2.jpg" width="440" height="200" alt="Georgian Railways">
 				<h3>Georgian Railways</h3>
 				<p>Georgian Railways uses an application built with Formspider to manage documents for its railroad construction and maintenance projects.
 				<a class="readmore" href="http://theformspider.com/blog/2013/03/05/georgian-railways-uses-formspider/">Read more &rarr;</a></p>
 			</li>
-			<li class="end-of-row">
+
+			<li>
 				<img id="nystate" src="images/references/newyorkstate.jpg" width="440" height="200" alt="New York State">
 				<h3>New York State</h3>
 				<p>NY State manages a billion dollar budget with a Formspider application to serve over 110,000 New Yorkers with more than 1550 treatment, 
 				prevention and recovery programs for alcohol and drug abuse. 
 				<a class="readmore" href="http://theformspider.com/blog/2011/04/21/who-uses-formspider-part-2-the-journey-from-forms-to-formspider/">Read more &rarr;</a></p>
 			</li>
-			
-			<li>
+			<li class="end-of-row">
 				<img id="maliakoskleidi" src="images/references/tempitunnel.jpg" width="440" height="200" alt="Maliakos-Kleidi">
 				<h3>Maliakos-Kleidi</h3>
 				<p>The Maliakos-Kleidi Construction Company (MKC) is a consortium of several construction companies operating in Greece including Aktor, Hochtief and Vinci.
 				<a class="readmore" href="http://theformspider.com/blog/2013/03/19/maliakos-kleidi-construction-uses-formspider/">Read more &rarr;</a></p>
 			</li>
-			<li class="end-of-row"></li>
-			
+
 			<br/>
 			
 			<h3>Some of our other customers:</h3> <br/><br/>
@@ -120,9 +124,7 @@
 
 				<a href="http://www.follifollie.com" target="_blank"><img id="follifollie" src="images/references/follifollie_logo.png" alt="Folli Follie" title="Folli Follie (Greece)"></a>
 				<a href="http://www.mediametrie.fr" target="_blank"><img id="mediametrie" src="images/references/mediametrie_logo.gif" alt="MediaMetrie" title="MediaMetrie (France)"></a>
-				<a href="http://www.babcockinternational.com/" target="_blank"><img id="babcock" src="images/references/babcock.jpg" alt="Babcock" title="Babcock (United Kingdom)"></a>
-				<a class="end-of-row" href="http://www.team-pb.de" target="_blank"><img id="teampb" src="images/references/teampb_logo.jpg" alt="TeamPB" title="TeamPB (Germany)"></a>
-			</di
+				<a class="end-of-row" href="http://www.babcockinternational.com/" target="_blank"><img id="babcock" src="images/references/babcock.jpg" alt="Babcock" title="Babcock (United Kingdom)"></a>
 			</div>
 			
 		</ul>

@@ -366,7 +366,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .references #content #ispiral{height: 70px; padding: 0;}
 .references #content #follifollie{height: 90px; padding: 10px 0 0 0;}
 .references #content #mediametrie{height: 90px; padding: 0 0 0 0;}
-.references #content #teampb{height:90px; padding: 0 0 0 0;}
+.references #content #teampb{padding: 0 0 0 0;}
 .references #other-references img {/*width: 220px;*/ height:100px; padding: 10px 60px; margin-right:20px; margin-bottom: 30px;}
 .references #other-references a {outline:none; }
 
