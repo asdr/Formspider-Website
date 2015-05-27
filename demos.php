@@ -56,7 +56,7 @@
             
         <ul>
             
-            <li class="large-demo">
+            <li class="large-demo last-in-row">
                 <a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO" target="_blank">
                     <img src="./images/demo/srdemo4.png" width="204px" height="212" alt="1"/>
                 </a>
@@ -65,14 +65,14 @@
                     <a href="http://theformspider.com/learningcenter/formspider-reference-application/">install</a> the reference app for desktop.</p>
             </li>
             
-            <li class="large-demo last-in-row">
+            <!-- <li class="large-demo last-in-row">
                 <a href="http://formspideronline.com/formspider/mobile/main.html?name=SRMobile" target="_blank">
                     <img src="./images/demo/tutorial5pic.png" width="204" height="212" alt="1"/>
                 </a>
                 <h4>Mobile Example</h4>
                 <p><a href="http://formspideronline.com/formspider/mobile/main.html?name=SRMobile">View</a> or 
                     <a href="http://theformspider.com/learningcenter/installing-formspider-mobile-reference-application/">install</a> the reference app for mobile.</p>
-            </li>
+            </li> -->
             
             <li><a href="http://formspideronline.com/formspider/main.html?name=DemoMain#DemoGrid" target="_blank">
                 <img src="images/demo/demoGrid.PNG" width="130" height="90" alt="1">

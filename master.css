@@ -317,7 +317,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .demos #content ul { padding-top: 35px; }
 .demos #content ul li { margin: 0 26px 26px 0; width: 220px; float: left;  min-height: 230px;  display: block; background: #fafafa; -webkit-box-shadow: 0 1px 3px 0px #d4d4d4; box-shadow: 0 1px 3px 0px #d4d4d4; text-align:center;}
 .demos #content ul li:hover { box-shadow: 0 1px 5px 0px #c0c0c0; }
-.demos #content ul li.large-demo {width:466px; min-height:288px; }
+.demos #content ul li.large-demo {width:100%; min-height:288px; }
 .demos #content ul li.large-demo p a {color: #08c; line-height:24px; font-size:18px;}
 .demos #content ul li.large-demo p a:hover {text-decoration: underline;}
 .demos #content ul li > a { display: block; text-align: center;}
