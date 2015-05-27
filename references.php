@@ -36,7 +36,7 @@
 	<div id="content" class="clearfix">
 		
 		<h2>References</h2>
-		<p>With customers in 25 countries, Formspider is the choice of Oracle Developers worldwide to build the applications of tomorrow.</p>
+		<p>With customers in 26 countries, Formspider is the choice of Oracle Developers worldwide to build the applications of tomorrow.</p>
 		<!--div id="cta-right">Try now for free &rarr; <a href="download.php" id="cloud" class="button silver small">Cloud</a><a href="download.php" id="desktop" class="button silver small">Desktop</a></div-->
 		
 		<ul>
