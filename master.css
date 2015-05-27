@@ -324,7 +324,7 @@ background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0,
 .demos #content ul li.last-in-row { margin-right: 0; }
 .demos #content ul li a:hover { /*background: #fafafa; -webkit-box-shadow: 0 1px 3px 0px #d4d4d4; -moz-box-shadow: 0 1px 3px 0px #d4d4d4; box-shadow: 0 1px 3px 0px #d4d4d4; transform: scale(1.1, 1.1); -moz-transform: scale(1.1, 1.1); -ms-transform: scale(1.1, 1.1); -webkit-transform: scale(1.1, 1.1); -o-transform: scale(1.1, 1.1); */}
 .demos #content ul li img { background: #fff; padding: 8px; border-bottom: 1px solid #f2f2f2; }
-.demos #content ul li.large-demo img {padding: 8px 128px;}
+.demos #content ul li.large-demo img {padding: 8px;}
 .demos #content ul li h4 { padding: 10px 20px 5px 20px; color: #595959; font-size: 18px; font-weight: 500; }
 .demos #content ul li p { padding: 0 15px 15px 15px; font-size: 15px; line-height: 18px; }
 .demos #content ul .demoText { width:660px; min-height:260px; float:left; }

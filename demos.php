@@ -58,7 +58,7 @@
             
             <li class="large-demo last-in-row">
                 <a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO" target="_blank">
-                    <img src="./images/demo/srdemo4.png" width="204px" height="212" alt="1"/>
+                    <img src="./images/demo/srdemo5.png" width="758" alt="1"/>
                 </a>
                 <h4>Desktop Example</h4>
                 <p><a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO">View</a> or 
