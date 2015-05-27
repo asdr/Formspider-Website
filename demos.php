@@ -58,11 +58,11 @@
             
             <li class="large-demo last-in-row">
                 <a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO" target="_blank">
-                    <img src="./images/demo/srdemo5.png" width="758" alt="1"/>
+                    <img src="./images/demo/srdemo5.png" width="600" alt="1"/>
                 </a>
-                <h4>Desktop Example</h4>
+                <h4>Reference Application</h4>
                 <p><a href="http://formspideronline.com/formspider/main.jsp?name=SRDEMO">View</a> or 
-                    <a href="http://theformspider.com/learningcenter/formspider-reference-application/">install</a> the reference app for desktop.</p>
+                    <a href="http://theformspider.com/learningcenter/formspider-reference-application/">install</a> the reference application.</p>
             </li>
             
             <!-- <li class="large-demo last-in-row">

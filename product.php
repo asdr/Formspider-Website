@@ -157,7 +157,7 @@ if($showVS == "Download" || $showVS == "MobileDownload" || $showVS == "Upgrade" 
 					<p>Break free from browser lock-in. Easily upgrade to the latest browser versions across your organization. 
 					<a href="http://theformspider.com/blog/2011/03/22/true-cross-browser-web-applications/"> 
 					Applications built with Formspider run perfectly in all major browsers. </a>
-					The Formspider Javascript Library is optimized to work fast and smoothly in IE7+, FireFox 3.6+, Safari 4.0+ and Chrome.</p>
+					The Formspider Javascript Library is optimized to work fast and smoothly in IE9+, FireFox 3.6+, Safari 4.0+ and Chrome.</p>
 				</div>
 			</div><!-- /row -->
 			
