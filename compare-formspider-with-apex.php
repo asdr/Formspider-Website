@@ -46,7 +46,7 @@
 				<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
 			</div>
 
-			<!-- div class="banner_webinar" ><a href="https://attendee.gotowebinar.com/register/893500897180636161" target="_blank"><img src="images/banner_webinar.png" /></a></div -->
+			<div class="banner_webinar" ><a href="https://attendee.gotowebinar.com/register/680496909745950209" target="_blank"><img src="images/banner_webinar.png" /></a></div>
 			<div class="banner_webinar" ><iframe src="https://player.vimeo.com/video/121654640" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 			

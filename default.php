@@ -81,9 +81,12 @@
 				</div -->
 				
 			</div>
-			<!-- a href="https://attendee.gotowebinar.com/register/893500897180636161" target="_blank"><img src="images/banner_webinar.png" /></a -->
 		</div>
 		
+		<div class="bannerContainer" style="padding-top:25px;  padding-left: 5px; width:900px; height:100px;">
+			<a href="https://attendee.gotowebinar.com/register/680496909745950209" target="_blank"><img src="images/banner_webinar.png" /></a>
+		</div>
+
 		<div id="benefits" class="clearfix">
 		<ul class="clearfix">
 		
