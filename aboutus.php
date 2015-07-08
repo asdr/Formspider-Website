@@ -41,20 +41,16 @@
     </div>
 
 	<div id="content" class="clearfix">
-	
+
+    <h2>About Us</h2>
 		<p style="margin-right: 255px;">Formspider is lovingly made in Istanbul, Turkey by Gerger. Gerger is founded in 2005 and specializes in application design and development with the Oracle Database. Our office is in ITU ARI Technopark.</p>
-        <br/>
-        <br/>
-        <h2>Story of Formspider</h2>
 
-        <p style="margin-right: 255px;">Did you know that virtually every development framework commonly used in building business applications (.NET, ADF, Apex) is created more than a decade ago in an era where wired networks, a single OS (Windows), a single browser (IE) and a single computing device (PC) dominated. </p>
-
-        <p>All these frameworks were conceived in a world where Mobile and Cloud did not exist. Chrome and Firefox browsers did not exist, either. Heck even AJAX came about around 2005. Yet, we continue to use these tools to build applications for a world that they were not intended for. We pay the price in lower developer productivity, lower application quality and higher project cost.</p>
-
-        <p>We wanted to use a product that is designed for today’s wireless, multi platform, multi device world. We could not find any. So we asked ourselves: What would a development tool be like if we build it today?...</p>
-
-        <p>The answer to this question is Formspider.</p>
-
+        <p style="margin-right: 255px;">We believe: </p>
+        <ul class="clear">
+          <li style="margin-left: 60px;">Yesterday’s frameworks built for a wired, single OS, single device world can’t <br />solve the problems of the wireless, multi platform, multi device world of today.</li>
+          <li style="margin-left: 60px;">A framework is a product in and of itself that is worth to design.</li>
+          <li style="margin-left: 60px;">Complexity should not be in the tools we use but in the things we build using <br />them.</li>
+        </ul>
         <p>We’d love to hear from you. Send us an <a href="mailto:contact@theformspider.com" target="_blank">email</a>, follow us on <a href="http://www.twitter.com/formspider" target="_blank">Twitter</a>, join the Formspider <a href="http://www.linkedin.com/groups/Formspider-3710847" target="_blank">LinkedIn Group</a> or like our page on <a href="http://www.facebook.com/pages/Formspider/146550118729391" target="_blank">Facebook</a>. </p>
 
         <p style="margin-top:15px;"> Yalim K. Gerger <br> Founder </p>
