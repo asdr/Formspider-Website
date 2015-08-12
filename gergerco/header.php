@@ -1,4 +1,4 @@
-
+    <img style="position: absolute; left: -10000px; top: -10000px; visibility: hidden; width: 0; height: 0;" src="https://www.linkedin.com/profile/view?authToken=zRgB&authType=name&id=AAIAAAVluY8BivYXI2DfTr2IZ85x57BYV_zQiYw" />
 	<div id="header">
 		<a  href="default.php"><img id="gergerlogo" src="images/gerger_logo.png" width="280" /></a>
 		<ul id="nav">
