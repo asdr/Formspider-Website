@@ -77,7 +77,7 @@ var google_remarketing_only = false;
 		$.ajax({
 		  type: "GET",
 		  url: "product.php",
-		  data: "descid=Download&name="+ name +"&mail="+ email+"&version=1.8.1",
+		  data: "descid=Download&name="+ name +"&mail="+ email+"&version=1.9.0",
 		  async: true,
 		  success: function(data) {
 			//alert('success');
