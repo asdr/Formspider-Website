@@ -293,7 +293,7 @@
 	
 	<div id="content">
 	
-		<h2>Download Formspider</h2>
+		<h2>Download Formspider 1.9.0</h2>
 		<!--<p>Thank you for downloading Formspider Release 1.1.1. Please enter your name and email and accept the <a href="#">license agreement</a> to download the software.</p>
 			<form>
 				<div class="clearfix">
@@ -429,7 +429,7 @@
 			<div>
 				<div id="downloadDiv" >
 					
-					<p>Please enter your name and email and accept the license agreement to download Formspider trial version with full functionality, expires on Aug 31st.</p>
+					<p>Please enter your name and email and accept the license agreement to download Formspider trial version with full functionality, expires on Nov 30th.</p>
 					
 					<form id="downloadForm" class="cmxform" method="post" action="begindownload.php">
 						<input type="hidden" name="choice" id="choice" value="" />

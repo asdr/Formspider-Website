@@ -67,12 +67,14 @@
 		<div class="bannerContainer" style="padding-top:25px;  padding-left: 5px; width:900px; height:100px;">
 			<div id="pscroller2" class="rssclass" style="position: relative; overflow: hidden; background-image: url(images/latestnews4_1.png); width:100%; height:100%; padding-top:20px;">
 					
+					<a style="" href="download.php">Formspider 1.9.0 is available for download</a>
+					<br>
 					<a style="" href="http://theformspider.com/blog/2015/04/16/team-gmbh-migrated-their-oracle-forms-application-to-formspider/">TEAM GmbH migrated their Oracle Forms Application to Formspider</a>
 					<br>
 					<a style="" href="http://theformspider.com/blog/2013/08/20/ing-modernized-its-forms-application-with-formspider/">ING modernized its Forms application with Formspider</a>
 					<br>
-					<a style="" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Rhenus Netherlands chose Formspider over Oracle Apex to modernize its Forms applications </a>
-					<br>
+					<!-- a style="" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Rhenus Netherlands chose Formspider over Oracle Apex to modernize its Forms applications </a>
+					<br -->
 				
 				<!-- div class="innerDiv" style="position: absolute; width: 800px; top: 45px;" id="pscroller13" >
 					<span class="rsstitle" style="font-size: 14px;"></span>

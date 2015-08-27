@@ -58,11 +58,40 @@
   	<br/>
   	<br/>
 	
-	<h2>Change Log for Formspider 1.8.1<br/>26 September 2014</h2>
+	<h2>Change Log for Formspider 1.9.0<br/>27 August 2015</h2>
+	<h3>New Features</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+		<li><a style="color: blue;" href="http://theformspider.com/learningcenter/?p=3394" target="_blank">Stateful database connections.</a> This makes migrating Oracle Forms applications to Formspider much easier.</li>
+		<li><a style="color: blue;" href="http://theformspider.com/learningcenter/?p=3570" target="_blank">Six beautiful new themes</a> with modern, flat design.</li>
+		<li><a style="color: blue;" href="http://theformspider.com/learningcenter/?p=3401" target="_blank">Oracle ROWID support for DML.</a> This feature makes it much easier to use datasource definitions with multi column primary keys in Formspider.</li>
+		<li><a style="color: blue;" href="http://theformspider.com/learningcenter/?p=3409" target="_blank">Dynamic Where Clauses</a> to create more efficient queries.</li>
+		<li><a style="color: blue;" href="http://theformspider.com/learningcenter/?p=3455" target="_blank">Search Panel Wizard</a> to create search screens faster.</li>
+	</ul>
+	<h3>Developer APIs</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+		<li>api_datasource.setWhereClause</li>
+		<li>New API’s in api_panel:addStyleClass,getStyleClass, hasStyleClass, setStyleClass</li>
+		<li>New API in api_component: setStyleClass</li>
+		<li>New BDF_SEARCH API to create customized search screens automatically. (Tutorial coming soon)</li>
+		<li>New APIs for stateful database connections in api_application: setStateful and isStateful</li>
+		<li>New API’s for Oracle ROWID support in the api_datasource package: getRowIDByOraRowID, getRowNumberInPageByOraRowID, getColumnValueBLByOraRowID, getColumnValueCLByOraRowID, getColumnValueDTByOraRowID, getColumnValueNRByOraRowID, getColumnValueTXByOraRowID, getRowByOraRowID, getOraRowID, getRowStatusByOraRowID, getRowNumberByOraRowID, setColumnValueByOraRowID, setRowNumberByOraRowID, setCurrentRowByOraRowID, refreshRowByOraRowID, deleteRowByOraRowID</li>
+	</ul>
 	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
 	<ul style="margin-left:10px;margin-bottom:10px;">
-	  <li>Improved license management.</li>
-	  <li>Minor bug fixes.</li>
+		<li>Version Control My Objects Dialog has a new diff viewer which shows the difference between the current modified object XML and the last committed XML version of the object in Git.</li>
+		<li>Redesigned the way the grid columns auto-expand. The behavior is much more sensible and predictable now.</li>
+		<li>Added Lithuanian translations to Calendar, Date and Grid component labels.</li>
+		<li>Fixed master-detail synchronization bugs.</li>
+		<li>Implemented new faster application export. The export XML is now human readable.</li>
+		<li>Discontinued partial export. Simply, export the full application and edit its content to create a partial export file. This is very easy now because the Formspider Export XML is human readable.</li>
+		<li>Fixed a bug where the middle tier inadvertently changes the NLS language setting of the database</li>
+		<li>Fixed a bug where deleting a key from the security repo did not work properly.</li>
+		<li>Fixed. Reference to a non-existing timer object in api_timer.startTimer raised an unhandled  user defined exception.</li>
+		<li>Fixed. List component did not work properly if too many items are selected.</li>
+		<li>Minor improvements in the API documentation</li>
+		<li>Fixed the issue of checking window.ActiveXObject in IE11</li>
+		<li>Fixed several minor IE bugs</li>
+		<li>Fixed Invalid Event Data error</li>
 	</ul>
 	
 	
@@ -73,6 +102,18 @@
 		<a href="http://formspideronline.com" class="button blue mid-height" id="cloud"><span></span> Cloud </a-->
 		<a href="download.php" class="button green mid-height" id="desktop"><span></span> Download </a>
 	</div>
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+	<h2>Change Log for Formspider 1.8.1<br/>26 September 2014</h2>
+	<h3>Bug Fixes, Minor Enhancements and Changes</h3>
+	<ul style="margin-left:10px;margin-bottom:10px;">
+	  <li>Improved license management.</li>
+	  <li>Minor bug fixes.</li>
+	</ul>
 	
 	<br/>
 	<br/>

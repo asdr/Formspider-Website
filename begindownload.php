@@ -127,15 +127,15 @@ var google_remarketing_only = false;
 	}
 
 	function downloadWindows(name, email) {
-		downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.8.1.zip");
+		downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.9.0.zip");
 		logDownload(name, email);
 		_gaq.push(['_trackPageview','/download/FormspiderForWindows']);		
 	}
 
 	function downloadLinux(name, email) {
-		downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.8.1.jar");
+		downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.9.0.jar");
 		logDownload(name, email);
-		_gaq.push(['_trackPageview','/download/FormspiderForLinux']);		
+		_gaq.push(['_trackPageview','/download/FormspiderForLinux']);
 	}
 
 	function downloadWindowsMobile(name, email) {
@@ -194,8 +194,8 @@ var google_remarketing_only = false;
 	
 		<div id="content">
 		
-			<h3>Downloading Formspider 1.8.1...</h3>
-			<p>Thank you for downloading Formspider Release 1.8.1. Your download will start now.</p>
+			<h3>Downloading Formspider 1.9.0...</h3>
+			<p>Thank you for downloading Formspider Release 1.9.0. Your download will start now.</p>
 			<p class="small">Problems with download? Please use this <a href="javascript: downloadNow();">direct link</a>.</p>
 			<br />
 			<br />
