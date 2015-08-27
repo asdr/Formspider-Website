@@ -58,7 +58,7 @@
   	<br/>
   	<br/>
 	
-	<h2>Change Log for Formspider 1.9.0<br/>27 August 2015</h2>
+	<h2>Change Log for Formspider 1.9<br/>27 August 2015</h2>
 	<h3>New Features</h3>
 	<ul style="margin-left:10px;margin-bottom:10px;">
 		<li><a style="color: blue;" href="http://theformspider.com/learningcenter/?p=3394" target="_blank">Stateful database connections.</a> This makes migrating Oracle Forms applications to Formspider much easier.</li>

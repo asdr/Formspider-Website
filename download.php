@@ -293,7 +293,7 @@
 	
 	<div id="content">
 	
-		<h2>Download Formspider 1.9.0</h2>
+		<h2>Download Formspider 1.9</h2>
 		<!--<p>Thank you for downloading Formspider Release 1.1.1. Please enter your name and email and accept the <a href="#">license agreement</a> to download the software.</p>
 			<form>
 				<div class="clearfix">

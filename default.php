@@ -67,7 +67,7 @@
 		<div class="bannerContainer" style="padding-top:25px;  padding-left: 5px; width:900px; height:100px;">
 			<div id="pscroller2" class="rssclass" style="position: relative; overflow: hidden; background-image: url(images/latestnews4_1.png); width:100%; height:100%; padding-top:20px;">
 					
-					<a style="" href="download.php">Formspider 1.9.0 is available for download</a>
+					<a style="" href="download.php">Formspider 1.9 is available for download</a>
 					<br>
 					<a style="" href="http://theformspider.com/blog/2015/04/16/team-gmbh-migrated-their-oracle-forms-application-to-formspider/">TEAM GmbH migrated their Oracle Forms Application to Formspider</a>
 					<br>
