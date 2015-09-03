@@ -294,18 +294,6 @@
 	<div id="content">
 	
 		<h2>Download Formspider 1.9</h2>
-
-		<p><pre style="text-align: center;">We'll be back soon...</pre></p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
 		<!--<p>Thank you for downloading Formspider Release 1.1.1. Please enter your name and email and accept the <a href="#">license agreement</a> to download the software.</p>
 			<form>
 				<div class="clearfix">
@@ -324,7 +312,7 @@
 			</form>
 			-->
 			
-		<!-- div class="steps2">
+		<div class="steps2">
 			<div style="display:none;">
 			<div id="license">
 				<div class="licenseNew">
@@ -466,7 +454,7 @@
 						</p>
 						<!--p>
 							<button id="downloadUpgrade" style="width:100%">Download Formspider 1.2.x to 1.3.0 Update Script</button>
-						</p-- />
+						</p-->
 						<input type="submit" value="Submit" class="submit" id="downloadFormSubmit" style="display:none" />
 					</form>
 				  
@@ -490,7 +478,7 @@
 </tbody></table>
 			
 			
-		</div-->
+		</div>
 				
 	</div><!-- /content -->
 	
