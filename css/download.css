@@ -64,7 +64,7 @@
 	vertical-align: middle;
 }
 
-#emailLabel, #nameLabel {
+#emailLabel, #nameLabel, #organizationLabel {
 	margin: 10px 0 0 0;
 }
 

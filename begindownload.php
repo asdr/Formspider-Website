@@ -58,26 +58,16 @@ var google_remarketing_only = false;
 
 <script type="text/javascript" >
 
-	function checkForm(nameElement, emailElement) {
-		
-		var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-		
-		if ( !filter.test(emailElement.value)) {
-			alert('Please provide a valid email address.');
-			emailElement.focus
-			return false;
-		}
-	}
-
-	function logDownload(name, email) {
+	function logDownload(name, email, organization) {
 		var expires = { expires: 3650 };
 		$.cookie("name", name, expires);
 		$.cookie("email", email, expires);
+		$.cookie("organization", organization, expires);
 		
 		$.ajax({
 		  type: "GET",
 		  url: "product.php",
-		  data: "descid=Download&name="+ name +"&mail="+ email+"&version=1.9.0",
+		  data: "descid=Download&name="+ name +"&mail="+ email+"&version=1.9.0&organization=" + organization,
 		  async: true,
 		  success: function(data) {
 			//alert('success');
@@ -88,15 +78,16 @@ var google_remarketing_only = false;
 		});
 	}
 	
-	function logMobileDownload(name, email) {
+	function logMobileDownload(name, email, organization) {
 		var expires = { expires: 3650 };
 		$.cookie("name", name, expires);
 		$.cookie("email", email, expires);
+		$.cookie("organization", organization, expires);
 		
 		$.ajax({
 		  type: "GET",
 		  url: "product.php",
-		  data: "descid=MobileDownload&name="+ name +"&mail="+ email+"&version=beta2",
+		  data: "descid=MobileDownload&name="+ name +"&mail="+ email+"&version=beta2&organization="+ organization,
 		  async: true,
 		  success: function(data) {
 			//alert('success');
@@ -107,15 +98,16 @@ var google_remarketing_only = false;
 		});
 	}
 		
-	function logUpgrade(name, email, version) {
+	function logUpgrade(name, email, version, organization) {
 		var expires = { expires: 3650 };
 		$.cookie("name", name, expires);
 		$.cookie("email", email, expires);
+		$.cookie("organization", organization, expires);
 		
 		$.ajax({
 		  type: "GET",
 		  url: "product.php",
-		  data: "descid=Upgrade&name="+ name +"&mail="+ email+"&version="+version,
+		  data: "descid=Upgrade&name="+ name +"&mail="+ email+"&version="+version+"&organization="+ organization,
 		  async: true,
 		  success: function(data) {
 			//alert('success');
@@ -126,38 +118,39 @@ var google_remarketing_only = false;
 		});
 	}
 
-	function downloadWindows(name, email) {
+	function downloadWindows(name, email, organization) {
 		downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.9.zip");
-		logDownload(name, email);
+		logDownload(name, email, organization);
 		_gaq.push(['_trackPageview','/download/FormspiderForWindows']);		
 	}
 
-	function downloadLinux(name, email) {
+	function downloadLinux(name, email, organization) {
 		downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.9.jar");
-		logDownload(name, email);
+		logDownload(name, email, organization);
 		_gaq.push(['_trackPageview','/download/FormspiderForLinux']);
 	}
 
-	function downloadWindowsMobile(name, email) {
+	function downloadWindowsMobile(name, email, organization) {
 		downloadURL("http://cdn.theformspider.com/cdn/FSMobile_Beta2.zip");
-		logMobileDownload(name, email);
+		logMobileDownload(name, email, organization);
 		_gaq.push(['_trackPageview','/download/FormspiderMobileForWindows']);		
 	}
 
-	function downloadLinuxMobile(name, email) {
+	function downloadLinuxMobile(name, email, organization) {
 		downloadURL("http://cdn.theformspider.com/cdn/FSMobile_Beta2.jar");
-		logMobileDownload(name, email);
+		logMobileDownload(name, email, organization);
 		_gaq.push(['_trackPageview','/download/FormspiderMobileForLinux']);		
 	}
 	
-	function downloadUpgrade(name, email) {
+	function downloadUpgrade(name, email, organization) {
 		downloadURL("/download/Formspider 1.2.x to 1.3.0 update patch.zip");
-		logUpgrade(name, email, '1.2.x_to_1.3.0');
+		logUpgrade(name, email, '1.2.x_to_1.3.0', organization);
 		_gaq.push(['_trackPageview','/download/FormspiderUpgrade']);
 	}
 	
 	function downloadNow() {
 		var name = "<?php echo $_POST['name']; ?>";
+		var organization = "<?php echo $_POST['organization']; ?>";
 		var email = "<?php echo $_POST['email']; ?>";
 		var choice = "<?php echo $_POST['choice']; ?>";
 		
@@ -165,19 +158,19 @@ var google_remarketing_only = false;
             choice = 'other';
 		}
 		if (choice === 'win') {
-			downloadWindows(name, email);
+			downloadWindows(name, email, organization);
 		}
 		else if (choice === 'other') {
-			downloadLinux(name, email);
+			downloadLinux(name, email, organization);
 		}
 		else if (choice === 'winMobile') {
-			downloadWindowsMobile(name, email);
+			downloadWindowsMobile(name, email, organization);
 		}
 		else if (choice === 'otherMobile') {
-			downloadLinuxMobile(name, email);
+			downloadLinuxMobile(name, email, organization);
 		}
 		else if (choice === 'upg') {
-			downloadUpgrade(name, email);
+			downloadUpgrade(name, email, organization);
 		}
 	}
 

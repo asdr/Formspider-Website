@@ -40,13 +40,13 @@
 <script type="text/javascript" >
 	$(document).ready(function() {
 		
-		function checkForm(nameElement, emailElement) {
+		function checkForm(nameElement, emailElement, organizationElement) {
 		
 			var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 			
 			if ( !filter.test(emailElement.value)) {
 				alert('Please provide a valid email address.');
-				emailElement.focus
+				emailElement.focus();
 				return false;
 			}
 			
@@ -55,12 +55,16 @@
 		
 		var downloadForm = document.getElementById("downloadForm");
 		var nameField = document.getElementById("name");
+		var organizationField = document.getElementById("organization");
 		var emailField = document.getElementById("email");
 		var choiceField = document.getElementById("choice");
 		var downloadURLVar;
 		
 		if (getParameter("name"))
 			nameField.value = getParameter("name");
+		
+		if (getParameter("organization"))
+			organizationField.value = getParameter("organization");
 		
 		if (getParameter("email"))
 			emailField.value = getParameter("email");
@@ -69,7 +73,7 @@
 			.html('<br><h3>Oracle Database Requirements</h3><p>Formspider supports Oracle Database Release 10.2.0.1 or higher (Standard Edition One, Standard Edition and Enterprise Edition) and Oracle Database XE 10g as well as 11g.</p><br><h3>Browser Requirements</h3><p>Formspider supports following browsers:</p><ul style="margin-left:35px;margin-bottom:10px;"><li>Microsoft Internet Explorer 7.0 or higher</li><li>Mozilla Firefox 3.6 or higher</li><li>Google Chrome</li><li>Safari</li></ul><h3>Java Requirements</h3><p>The application server must have Java 1.5 or higher installed.<p><em>P.S. Currently, we only support Oracle Java on Linux machines (GNU Java will be supported in following releases.)</em></p> </p><h3>HTTP Server Requirements</h3><p>Formspider requires a Servlet Container, like Apache Tomcat, in order to operate. You can install Formspider to an existing Apache Tomcat (version 5 or higher) or let Formspider install its own Tomcat (version 6.0.29).</p><p>Formspider also supports OC4J, Oracle WebLogic 10g and above and Oracle GlassFish 3 and above.</p><br><h3>Disk Space Requirements</h3><p>Formspider Installer file is ~180 MB. Its free disk space requirements are as follows:</p><ul style="margin-left:35px;margin-bottom:10px;"><li>52 MB free space to install new Apache Tomcat. (You may use an existing Tomcat installation)</li><li>128 MB free space in specified tablespace. </li><li>250 MB free space for Version Control Components. </li></ul>')
 			.dialog({
 				autoOpen: false,
-				title: 'Formspider 1.8.1 Installation Requirements',
+				title: 'Formspider 1.9.0 Installation Requirements',
 				width:600
 			});
  
@@ -126,7 +130,7 @@
 				disabled: true 
 			})
 			.click(function() {
-				if(checkForm(nameField, emailField)) {
+				if(checkForm(nameField, emailField, organizationField)) {
 					/*
 					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.8.1.zip");
 					logDownload(nameField.value, emailField.value);
@@ -143,7 +147,7 @@
 				disabled: true 
 			})
 			.click(function() {
-				if(checkForm(nameField, emailField)) {
+				if(checkForm(nameField, emailField, organizationField)) {
 					/*
 					downloadURL("http://cdn.theformspider.com/cdn/Formspider_1.8.1.jar");
 					logDownload(nameField.value, emailField.value);
@@ -160,7 +164,7 @@
 				disabled: true 
 			})
 			.click(function() {
-				if(checkForm(nameField, emailField)) {
+				if(checkForm(nameField, emailField, organizationField)) {
 					/*
 					downloadURL("http://cdn.theformspider.com/cdn/FSMobile_Beta2.zip");
 					logMobileDownload(nameField.value, emailField.value);
@@ -177,7 +181,7 @@
 				disabled: true 
 			})
 			.click(function() {
-				if(checkForm(nameField, emailField)) {
+				if(checkForm(nameField, emailField, organizationField)) {
 					/*
 					downloadURL("http://cdn.theformspider.com/cdn/FSMobile_Beta2.jar");
 					logMobileDownload(nameField.value, emailField.value);
@@ -269,10 +273,14 @@
 		if (Modernizr.input.placeholder) {
 			document.getElementById("nameLabel").style.display = "none";
 			document.getElementById("emailLabel").style.display = "none";
+			document.getElementById("organizationLabel").style.display = "none";
 		}
 		
 		if ((nameField.value == null || nameField.value == "") && ($.cookie("name")))
 			nameField.value = $.cookie("name");
+		
+		if ((organizationField.value == null || organizationField.value == "") && ($.cookie("organization")))
+			organizationField.value = $.cookie("organization");
 		
 		if ((emailField.value == null || emailField.value == "")  && ($.cookie("email")))
 			emailField.value = $.cookie("email");
@@ -436,6 +444,9 @@
 						<p>
 							<label for="name" id="nameLabel">Name</label>
 							<input type="text" name="name" id="name" class="text ui-widget-content ui-corner-all" style="width:100%" placeholder="Name"/>
+
+							<label for="organization" id="organizationLabel">Organization</label>
+							<input type="text" name="organization" id="organization" class="text ui-widget-content ui-corner-all" style="width:100%" placeholder="Organization"/>
 
 							<label for="email" id="emailLabel">Email (Required)</label>
 							<input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all" style="width:100%" placeholder="Email (Required)"/>
