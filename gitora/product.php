@@ -71,6 +71,7 @@ if($showVS == "Download" || $showVS == "GitoraDownload" || $showVS == "MobileDow
 	$url = "http://formspideronline.com/fs-logging/logger.jsp?";
 	$url = $url . "type=" . $showVS;
 	$url = $url . "&name=" . str_replace(" ", '', $_GET['name']); 
+	$url = $url . "&organization=" . str_replace(" ", '', $_GET['organization']); 
 	$url = $url . "&mail=" . str_replace(" ", '', $_GET['mail']); 
 	$url = $url . "&ip=" . $uip; 
 	$url = $url . "&duration=" . date('Y-m-d/h-i-s');

@@ -36,26 +36,16 @@
 
 <script type="text/javascript" >
 
-    function checkForm(nameElement, emailElement) {
-        
-        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-        
-        if ( !filter.test(emailElement.value)) {
-            alert('Please provide a valid email address.');
-            emailElement.focus
-            return false;
-        }
-    }
-
-    function logDownload(name, email) {
+    function logDownload(name, email, organization) {
         var expires = { expires: 3650 };
         $.cookie("name", name, expires);
+        $.cookie("organization", organization, expires);
         $.cookie("email", email, expires);
         
         $.ajax({
           type: "GET",
           url: "product.php",
-          data: "descid=GitoraDownload&name="+ name +"&mail="+ email+"&version=1.0.1",
+          data: "descid=GitoraDownload&name="+ name +"&mail="+ email+"&version=1.0.1&organization=" + organization,
           async: true,
           success: function(data) {
             //alert('success');
@@ -66,20 +56,21 @@
         });
     }
 
-    function downloadWindows(name, email) {
+    function downloadWindows(name, email, organization) {
         downloadURL("http://cdn.theformspider.com/cdn/Gitora_1.0.1.zip");
-        logDownload(name, email);
+        logDownload(name, email, organization);
         _gaq.push(['_trackPageview','/download/GitoraForWindows']);     
     }
 
-    function downloadLinux(name, email) {
+    function downloadLinux(name, email, organization) {
         downloadURL("http://cdn.theformspider.com/cdn/Gitora_1.0.1.jar");
-        logDownload(name, email);
+        logDownload(name, email, organization);
         _gaq.push(['_trackPageview','/download/GitoraForLinux']);       
     }
     
     function downloadNow() {
         var name = "<?php echo $_POST['name']; ?>";
+        var organization = "<?php echo $_POST['organization']; ?>";
         var email = "<?php echo $_POST['email']; ?>";
         var choice = "<?php echo $_POST['choice']; ?>";
         
@@ -88,10 +79,10 @@
         }
 
     	if (choice === 'win') {
-            downloadWindows(name, email);
+            downloadWindows(name, email, organization);
         }
         else if (choice === 'other') {
-          downloadLinux(name, email);
+          downloadLinux(name, email, organization);
         }
     }
 
