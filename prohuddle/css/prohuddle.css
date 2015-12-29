@@ -1,0 +1,320 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px|Open+Sans:400,400italic,700,700italic|Roboto:400,400italic,700,700italic|Oswald:400,700|Montserrat:400,700|Raleway:400,700|Ubuntu:400,700|Merriweather:400,700,400italic,700italic|PT+Sans+Narrow:400,700|Titillium+Web:400,700,700italic,400italic|Poiret+One|Indie+Flower);
+/*
+
+font-family: 'Slabo 27px', serif;
+
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Oswald', sans-serif;
+
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Raleway', sans-serif;
+
+font-family: 'Ubuntu', sans-serif;
+
+font-family: 'Merriweather', serif;
+
+font-family: 'PT Sans Narrow', sans-serif;
+
+font-family: 'Titillium Web', sans-serif;
+
+font-family: 'Poiret One', cursive;
+
+font-family: 'Indie Flower', cursive;
+
+*/
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="submit"]:focus,
+select:focus,
+select:active {
+    outline: 0
+}
+
+a, a:active, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .6;
+}
+
+
+/* ************************************************************ */
+/* **************************HEADER**************************** */
+/* ************************************************************ */
+.header {
+
+}
+.header .headerContent {
+    padding: 3em  240px;
+}
+.header .logo {
+    display: inline-block;
+    float: left;
+}
+.header .logo a {
+    font-size: 18px;
+    font-weight: bold;
+}
+.header .menubar {
+    font-size: 18px;
+    display: inline-block;
+    float: right;
+}
+.header .menubar > ul {
+    list-style: none;
+    text-align: right;
+
+    margin: 0;
+    max-width: 1280px;
+}
+.header .menubar > ul > li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ************************************************************ */
+/* **************************FOOTER**************************** */
+/* ************************************************************ */
+.footer {
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 100px;
+}
+.footer a, .footer a:active, .footer a:visited {
+    color: #aaa;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer ul {
+    list-style: none;
+    width: 165px;
+    display: inline-block;
+}
+.footer ul li {
+    padding: 9px 0;
+}
+.footer ul.social {
+    width: 200px;
+    vertical-align: top;
+}
+.footer ul.social li {
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+}
+.footer ul.social a {
+    background: url('../images/homepage/social_icons.jpg') no-repeat;
+    -webkit-transition: opacity .3s;
+}
+.footer ul.social .twitter a {
+    background-position: -80 0;
+    white-space: nowrap;
+    text-indent: 100%;
+    overflow: hidden;
+}
+.footer ul.social .email a {
+    background-position: -160 0; 
+    white-space: nowrap;
+    text-indent: 100%;
+    overflow: hidden;
+}
+.footer .copyright {
+    color: #aaa;
+    margin-bottom: 50px;
+}
+.footer .copyright .inlineblock {
+    padding-right: 100px;
+}
+
+/* ************************************************************ */
+/* **************************default.php*********************** */
+/* ************************************************************ */
+
+body.default_page {
+    color: #fff;
+}
+
+.default_page a, .default_page a:active, .default_page a:visited {
+    color: #fff;
+}
+
+.default_page .content {
+    width: 100%;
+    height: 730px;
+}
+.default_page .content:before {
+    width: 100%;
+    height: 760px;
+
+    content: "";
+    background-image: url('../images/homepage/ProHuddleBack.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    opacity: 0.6;
+    
+    position: absolute;
+    top: -30px;
+    left: 0;
+    z-index: -2; 
+}
+.default_page .content:after {
+    width: 100%;
+    height: 730px;
+    content: "";
+    background-color: #04001D;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
+.default_page .content .message {
+    letter-spacing: 2px;
+}
+.default_page .content .message .main {
+    font-size: 44px;
+    padding-top: 100px;
+}
+.default_page .content .message .sub {
+    font-size: 20px;
+    padding-top: 10px; 
+}
+
+.default_page .signmeup {
+    padding-top: 150px;
+}
+.default_page .signmeup .signupform {
+
+}
+.default_page .signupform .field {
+    margin-top: 7px;
+}
+.default_page .field .text-input {
+    width: 400px;
+    height: 45px;
+
+    color: #fff;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid #2E79B9;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 14px;
+}
+.default_page .field .text-input::-webkit-input-placeholder {
+    color: #fff;
+    font-weight: normal;
+    opacity: .9;
+}
+.default_page .field .text-input:-moz-placeholder {
+    color: #fff;
+    font-weight: normal;
+    opacity: .9;
+}
+.default_page .field .text-input::-moz-placeholder {
+    color: #fff;
+    font-weight: normal;
+    opacity: .9;
+}
+.default_page .field .text-input:-ms-input-placeholder {
+    color: #fff;
+    font-weight: normal;
+    opacity: .9;
+}
+.default_page .field .text-input:active
+,.default_page .field .text-input:focus {
+    border-color: #23c4eb;
+}
+.default_page .field .email-input {
+
+}
+.default_page .field.liketobeapresenter {
+
+}
+
+.default_page .signupform input[type="submit"] {
+    width: 400px;
+    height: 45px;
+
+    background-color: #46BB4F;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px;
+}
+
+.default_page .signupform input[type="submit"]:focus
+,.default_page .signupform input[type="submit"]:active
+,.default_page .signupform input[type="submit"]:hover {
+    opacity: .9;
+}
+
+.default_page .wontspam {
+    font-size: 12px;
+}
+
+.default_page .line {
+    height: 0px;
+    /* width: 100%; */
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #fff;
+}
+
+.default_page .inlineblock {
+    display: inline-block;
+}
+
+.default_page .assets {
+    display: inline-flex;
+    color: #000;
+    text-align: left;
+}
+.default_page .asset {
+    width: 380px;
+    display: inline-block;
+}
+.default_page .asset .title {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+.default_page .asset .title img {
+    width: 20px;
+    padding-right: 5px;
+}
+.default_page .asset p {
+    color: #7d7d7d;
+    font-size: 16px;
+    padding-right: 40px;
+}
+
+.default_page .footer {
+    color: #aaa;
+}
+.default_page .footer a, .default_page .footer a:active, .default_page .footer a:visited {
+    color: #aaa;
+}
+
