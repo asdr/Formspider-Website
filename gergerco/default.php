@@ -64,7 +64,7 @@
       <div id="intro">
         <p>Gerger is a software and consulting company in Istanbul, Turkey. We build <a href="http://theformspider.com" target="_blank">Formspider</a>, the application development framework for PL/SQL developers, and <a href="http://www.gitora.com" target="_blank">Gitora</a> the version control tool for the Oracle Database. 
 
-          <p> With customers in 26 countries, we help our clients execute better, faster and more flexible. We have <a href="references.php">excellent references</a> in a wide variety of verticals such as insurance, banking and logistics.</p>
+          <p> With customers in 28 countries, we help our clients execute better, faster and more flexible. We have <a href="references.php">excellent references</a> in a wide variety of verticals such as insurance, banking and logistics.</p>
         
       </div>
       <div id="screenshot"></div>

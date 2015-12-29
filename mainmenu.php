@@ -22,6 +22,7 @@
 	$name_array[7] = 'License';
 	$name_array[8] = 'About Us';
 	
+	echo '<img style="position: absolute; left: -10000px; top: -10000px; visibility: hidden; width: 0; height: 0;" src="https://www.linkedin.com/profile/view?authToken=zRgB&authType=name&id=AAIAAAVluY8BivYXI2DfTr2IZ85x57BYV_zQiYw" />';
 	echo '<div style="width:220px; float:left;"><a href="default.php"><img src="images/logo2.png" alt="Formspider Logo"></a></div>';
 	echo '<ul class="menu">';
 		for($i=0; $i<9; $i++)

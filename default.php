@@ -71,7 +71,7 @@
 					<br>
 					<a style="" href="http://theformspider.com/blog/2015/04/16/team-gmbh-migrated-their-oracle-forms-application-to-formspider/">TEAM GmbH migrated their Oracle Forms Application to Formspider</a>
 					<br>
-					<a style="" href="http://theformspider.com/blog/2013/08/20/ing-modernized-its-forms-application-with-formspider/">ING modernized its Forms application with Formspider</a>
+					<a style="" href="http://theformspider.com/blog/2015/10/19/ridex-succeeds-with-formspider/">Ridex from Russia succeeds with Formspider</a>
 					<br>
 					<!-- a style="" href="http://theformspider.com/blog/2013/01/17/rhenus-uses-formspider/">Rhenus Netherlands chose Formspider over Oracle Apex to modernize its Forms applications </a>
 					<br -->
@@ -85,9 +85,9 @@
 			</div>
 		</div>
 		
-		<div class="bannerContainer" style="padding-top:25px;  padding-left: 5px; width:900px; height:100px;">
-			<a href="https://attendee.gotowebinar.com/register/2951502994315590914" target="_blank"><img src="images/banner_webinar.png" /></a>
-		</div>
+		<!-- div class="bannerContainer" style="padding-top:25px;  padding-left: 5px; width:900px; height:100px;">
+			<a href="https://attendee.gotowebinar.com/register/8230929022197967874" target="_blank"><img src="images/banner_webinar.png" /></a>
+		</div -->
 
 		<div id="benefits" class="clearfix">
 		<ul class="clearfix">

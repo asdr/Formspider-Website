@@ -39,7 +39,7 @@
 	
 	<div class="clearfix copyright">
 		<div class="left">&copy; Copyright Gerger 2015</div>
-		<div class="right">Designed and developed by <a href="http://www.gerger.co" target="_blank">Gerger</a> at Istanbul Technical University <a href="http://www.ariteknokent.com.tr" target="_blank">ARI Technopark</a>.</div>
+		<div class="right"><?php if ($page!='about-us') { ?>Designed and developed by <a href="http://www.gerger.co" target="_blank">Gerger</a> at Istanbul Technical University <a href="http://www.ariteknokent.com.tr" target="_blank">ARI Technopark</a>.</div><?php  } else { ?>Gerger Ltd. ITU ARI Teknokent ARI-1 No:15 Maslak Istanbul 34494 Turkey / +90 212 328 27 76<?php } ?>
 	</div>
 </div>
 </div><!-- /container -->
